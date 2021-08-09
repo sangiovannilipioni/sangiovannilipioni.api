@@ -1,4215 +1,1610 @@
 [
-  [
-    {
-      "column": 0,
-      "text": "01_id_edificio"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 1,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "1.0"
-    },
-    {
-      "column": 1,
-      "text": "IDENTIFICAZIONE EDIFICIO"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "DATA"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "ID. SCHEDA"
-    },
-    {
-      "column": 2,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "CODICE EDIFICIO"
-    },
-    {
-      "column": 2,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "CODICE AGGREGATO"
-    },
-    {
-      "column": 2,
-      "text": "O"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "1.1"
-    },
-    {
-      "column": 1,
-      "text": "LOCALIZZAZIONE GEOGRAFICA"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "REGIONE"
-    },
-    {
-      "column": 2,
-      "text": "Abruzzo"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "PROVINCIA"
-    },
-    {
-      "column": 2,
-      "text": "Chieti"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "COMUNE"
-    },
-    {
-      "column": 2,
-      "text": "San Giovanni Lipioni"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "INDIRIZZO"
-    },
-    {
-      "column": 2,
-      "text": "Via Roma, 37"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "COORDINATE GEOGRAFICHE"
-    },
-    {
-      "column": 2,
-      "text": "41.84247, 14.56213"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "1.2"
-    },
-    {
-      "column": 1,
-      "text": "DATI CATASTALI"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "FOGLIO"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "MAPPALE"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "SUBALTERNI"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "02_descriz_edificio"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 2,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "2.0"
-    },
-    {
-      "column": 2,
-      "text": "CARATTERISTICHE EDIFICIO"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "EDIFICIO IN AGGREGATO"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "estremità"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "MONOFAMILIARE"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "2.0"
-    },
-    {
-      "column": 2,
-      "text": "Nr. piani fuori terra"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "1.0"
-    },
-    {
-      "column": 2,
-      "text": "Nr. piani interrati/seminterrati"
-    },
-    {
-      "column": 3,
-      "text": "Piano seminterrato sul lato Nord diventa piano terra sul lato Sud"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "1.0"
-    },
-    {
-      "column": 2,
-      "text": "Nr. unità abitative"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "H media di piano"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "< 2.50 m"
-    },
-    {
-      "column": 3,
-      "text": "Altezza variabile, dai 215 ai 280 cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "Sup. media di piano (mq)"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "< 50 mq"
-    },
-    {
-      "column": 3,
-      "text": "Circa 43 mq per piano terra e 23 mq per piano primo e seminterrato"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "6.1"
-    },
-    {
-      "column": 2,
-      "text": "H gronda"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "2.1"
-    },
-    {
-      "column": 2,
-      "text": "EPOCA DI COSTRUZIONE"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "1900-1952"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "2.2"
-    },
-    {
-      "column": 2,
-      "text": "UTILIZZAZIONE"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "non utilizzato/in stato d'abbandono (scadente)"
-    },
-    {
-      "column": 3,
-      "text": "Evidenti segni di degrado"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "2.3"
-    },
-    {
-      "column": 2,
-      "text": "DESTINAZIONE D'USO"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "abitazione"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "2.4"
-    },
-    {
-      "column": 2,
-      "text": "TIPO EDILIZIO"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "A blocco"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "03_dati_metrici_AB"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 1,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.0"
-    },
-    {
-      "column": 1,
-      "text": "CARATTERISTICHE GEOMETRICHE DEL FABBRICATO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.1"
-    },
-    {
-      "column": 1,
-      "text": "ABITAZIONE"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Abitazione su 3 livelli, piano terra con accesso su via Roma sul prospetto principale. Locali ad uso abitativo non arredati, riconoscibile solo cucina a piano terra. Corpo principale che si estende per 3 piani e locale aggiuntivo a piano terra sul retro."
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.1.1"
-    },
-    {
-      "column": 1,
-      "text": "Vani principali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Cucina, soggiorno (presunto), camere da letto (presunto)"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "nr. vani"
-    },
-    {
-      "column": 2,
-      "text": "4.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Cucina"
-    },
-    {
-      "column": 2,
-      "text": "SU"
-    },
-    {
-      "column": 3,
-      "text": "20.32"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Soggiorno"
-    },
-    {
-      "column": 2,
-      "text": "SU"
-    },
-    {
-      "column": 3,
-      "text": "22.85"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Camera Doppia"
-    },
-    {
-      "column": 2,
-      "text": "SU"
-    },
-    {
-      "column": 3,
-      "text": "16.12"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Camera Singola"
-    },
-    {
-      "column": 2,
-      "text": "SU"
-    },
-    {
-      "column": 3,
-      "text": "5.62"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "SU Superficie Utile"
-    },
-    {
-      "column": 2,
-      "text": "64.91000000000001"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.1.2"
-    },
-    {
-      "column": 1,
-      "text": "Vani accessori diretti"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Due bagni"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "nr. vani"
-    },
-    {
-      "column": 2,
-      "text": "2.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Bagno PT"
-    },
-    {
-      "column": 2,
-      "text": "SU"
-    },
-    {
-      "column": 3,
-      "text": "0.78"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Bagno P1"
-    },
-    {
-      "column": 1,
-      "text": "SU"
-    },
-    {
-      "column": 2,
-      "text": "1.08"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "SU Superficie Utile"
-    },
-    {
-      "column": 2,
-      "text": "1.86"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.1.3"
-    },
-    {
-      "column": 1,
-      "text": "Vani accessori indiretti"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "locale seminterrato ad uso cantina/deposito"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "comunicanti"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "nr. vani"
-    },
-    {
-      "column": 2,
-      "text": "1.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Cantina/ingresso"
-    },
-    {
-      "column": 2,
-      "text": "SA"
-    },
-    {
-      "column": 3,
-      "text": "23.2"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "SU Superficie Utile"
-    },
-    {
-      "column": 3,
-      "text": "0.0"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "SA Superficie Accessoria"
-    },
-    {
-      "column": 3,
-      "text": "23.2"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.1.4"
-    },
-    {
-      "column": 1,
-      "text": "Dipendenze"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Balcone al piano 1"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "comunicanti"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Balcone P1"
-    },
-    {
-      "column": 2,
-      "text": "SA"
-    },
-    {
-      "column": 3,
-      "text": "3.29"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "SA Superficie Accessoria"
-    },
-    {
-      "column": 3,
-      "text": "3.29"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.1.5"
-    },
-    {
-      "column": 1,
-      "text": "Collegamenti"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Vano scala"
-    },
-    {
-      "column": 2,
-      "text": "SA"
-    },
-    {
-      "column": 3,
-      "text": "2.29"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "SA Superficie"
-    },
-    {
-      "column": 3,
-      "text": "2.29"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "3.2"
-    },
-    {
-      "column": 1,
-      "text": "VALORI DI SINTESI ABITAZIONE"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Superficie utile totale"
-    },
-    {
-      "column": 2,
-      "text": "SU"
-    },
-    {
-      "column": 3,
-      "text": "66.77000000000001"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Superficie accessoria totale"
-    },
-    {
-      "column": 2,
-      "text": "SA"
-    },
-    {
-      "column": 3,
-      "text": "28.78"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Superficie calpestabile totale"
-    },
-    {
-      "column": 2,
-      "text": "SCa"
-    },
-    {
-      "column": 3,
-      "text": "95.55000000000001"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Superficie complessiva"
-    },
-    {
-      "column": 2,
-      "text": "SCO"
-    },
-    {
-      "column": 3,
-      "text": "84.03800000000001"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Superficie lorda"
-    },
-    {
-      "column": 2,
-      "text": "SL"
-    },
-    {
-      "column": 3,
-      "text": "117.23"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Superficie totale"
-    },
-    {
-      "column": 2,
-      "text": "ST"
-    },
-    {
-      "column": 3,
-      "text": "146.01"
-    },
-    {
-      "column": 4,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Nr.piani"
-    },
-    {
-      "column": 1,
-      "text": "3.0"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "piano"
-    },
-    {
-      "column": 1,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie utile totale"
-    },
-    {
-      "column": 1,
-      "text": "SU"
-    },
-    {
-      "column": 2,
-      "text": "43.95"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie accessoria totale"
-    },
-    {
-      "column": 1,
-      "text": "SA"
-    },
-    {
-      "column": 2,
-      "text": "2.29"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie calpestabile totale"
-    },
-    {
-      "column": 1,
-      "text": "SCa"
-    },
-    {
-      "column": 2,
-      "text": "46.24"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie complessiva"
-    },
-    {
-      "column": 1,
-      "text": "SCO"
-    },
-    {
-      "column": 2,
-      "text": "45.324000000000005"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie lorda"
-    },
-    {
-      "column": 1,
-      "text": "SL"
-    },
-    {
-      "column": 2,
-      "text": "66.22"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie totale di piano"
-    },
-    {
-      "column": 1,
-      "text": "ST"
-    },
-    {
-      "column": 2,
-      "text": "68.51"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie né utile né access."
-    },
-    {
-      "column": 1,
-      "text": "S"
-    },
-    {
-      "column": 2,
-      "text": "0.0"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "piano"
-    },
-    {
-      "column": 1,
-      "text": "1.0"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie utile totale"
-    },
-    {
-      "column": 1,
-      "text": "SU"
-    },
-    {
-      "column": 2,
-      "text": "22.82"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie accessoria totale"
-    },
-    {
-      "column": 1,
-      "text": "SA"
-    },
-    {
-      "column": 2,
-      "text": "3.29"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie calpestabile totale"
-    },
-    {
-      "column": 1,
-      "text": "SCa"
-    },
-    {
-      "column": 2,
-      "text": "26.11"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie complessiva"
-    },
-    {
-      "column": 1,
-      "text": "SCO"
-    },
-    {
-      "column": 2,
-      "text": "24.794"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie lorda"
-    },
-    {
-      "column": 1,
-      "text": "SL"
-    },
-    {
-      "column": 2,
-      "text": "35.46"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie totale"
-    },
-    {
-      "column": 1,
-      "text": "ST"
-    },
-    {
-      "column": 2,
-      "text": "38.75"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie né utile né access."
-    },
-    {
-      "column": 1,
-      "text": "S"
-    },
-    {
-      "column": 2,
-      "text": "0.0"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "piano"
-    },
-    {
-      "column": 1,
-      "text": "S"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie utile totale"
-    },
-    {
-      "column": 1,
-      "text": "SU"
-    },
-    {
-      "column": 2,
-      "text": "0.0"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie accessoria totale"
-    },
-    {
-      "column": 1,
-      "text": "SA"
-    },
-    {
-      "column": 2,
-      "text": "23.2"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie calpestabile totale"
-    },
-    {
-      "column": 1,
-      "text": "SCa"
-    },
-    {
-      "column": 2,
-      "text": "23.2"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie complessiva"
-    },
-    {
-      "column": 1,
-      "text": "SCO"
-    },
-    {
-      "column": 2,
-      "text": "13.92"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie lorda"
-    },
-    {
-      "column": 1,
-      "text": "SL"
-    },
-    {
-      "column": 2,
-      "text": "15.55"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie totale di piano"
-    },
-    {
-      "column": 1,
-      "text": "ST"
-    },
-    {
-      "column": 2,
-      "text": "38.75"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "Superficie né utile né access."
-    },
-    {
-      "column": 1,
-      "text": "S"
-    },
-    {
-      "column": 2,
-      "text": "0.0"
-    },
-    {
-      "column": 3,
-      "text": "mq"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "04_dati_costrutt_VERT"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 1,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.0"
-    },
-    {
-      "column": 1,
-      "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.1"
-    },
-    {
-      "column": 1,
-      "text": "STRUTTURE PORTANTI VERTICALI"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Edificio intonacato quasi completamente all'interno (fatta eccezione per il piano seminterrato) e parzialmente all'esterno (solo due pareti del corpo principale). Le parti non intonacate rivelano una muratura in pietra disordinata, per cui si ipotizza la stessa struttura per il piano terra e il piano seminterrato. Al secondo piano è presente una parete non intonacata in pietra disordinata, le restanti 3 pareti si ipotizzano in laterizio dato lo spessore notevolmente ridotto."
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "diverse"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.1.1"
-    },
-    {
-      "column": 1,
-      "text": "piano"
-    },
-    {
-      "column": 2,
-      "text": "-1.0"
-    },
-    {
-      "column": 3,
-      "text": "0.0"
-    },
-    {
-      "column": 4,
-      "text": "1.0"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "codice id. elementi costruttivi strutturali"
-    },
-    {
-      "column": 1,
-      "text": "A1"
-    },
-    {
-      "column": 2,
-      "text": "A1"
-    },
-    {
-      "column": 3,
-      "text": "A1"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "codice id. elementi costruttivi finiture - INTERNO"
-    },
-    {
-      "column": 1,
-      "text": "-"
-    },
-    {
-      "column": 2,
-      "text": "L1"
-    },
-    {
-      "column": 3,
-      "text": "L1"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "codice id. elementi costruttivi finiture - ESTERNO"
-    },
-    {
-      "column": 1,
-      "text": "L3"
-    },
-    {
-      "column": 2,
-      "text": "L3"
-    },
-    {
-      "column": 3,
-      "text": "L3"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "pareti esterne"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "pareti interne"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "massiva"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "muratura in pietra disordinata"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. minimo [cm]"
-    },
-    {
-      "column": 2,
-      "text": "55.0"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. massimo [cm]"
-    },
-    {
-      "column": 2,
-      "text": "75.0"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "presenza di strati non strutturali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "intonaci interni"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 2,
-      "text": "1.5"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    },
-    {
-      "column": 6,
-      "text": "spessore ipotizzato"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "intonaci esterni"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 2,
-      "text": "1.5"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    },
-    {
-      "column": 6,
-      "text": "spessore ipotizzato"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.1.2"
-    },
-    {
-      "column": 1,
-      "text": "piano"
-    },
-    {
-      "column": 2,
-      "text": "1.0"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "codice id. elementi costruttivi strutturali"
-    },
-    {
-      "column": 1,
-      "text": "A2"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "codice id. elementi costruttivi finiture - INTERNO"
-    },
-    {
-      "column": 1,
-      "text": "L1"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "codice id. elementi costruttivi finiture - ESTERNO"
-    },
-    {
-      "column": 2,
-      "text": "L3"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "pareti interne"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "massiva"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "muratura in laterizio forato"
-    },
-    {
-      "column": 6,
-      "text": "Ipotizzato in base allo spessore della muratura"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. minimo [cm]"
-    },
-    {
-      "column": 2,
-      "text": "20.0"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. massimo [cm]"
-    },
-    {
-      "column": 2,
-      "text": "30.0"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "presenza di strati non strutturali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "intonaci interni"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 2,
-      "text": "1.5"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    },
-    {
-      "column": 5,
-      "text": "spessore ipotizzato"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "intonaci esterni"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 2,
-      "text": "1.5"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    },
-    {
-      "column": 6,
-      "text": "spessore ipotizzato"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "04_dati_costrutt_VERT_IQM"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 2,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.0"
-    },
-    {
-      "column": 2,
-      "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.2"
-    },
-    {
-      "column": 2,
-      "text": "Indice di Qualità Muraria"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.2.1"
-    },
-    {
-      "column": 2,
-      "text": "piano"
-    },
-    {
-      "column": 3,
-      "text": "-1.0"
-    },
-    {
-      "column": 4,
-      "text": "0.0"
-    },
-    {
-      "column": 5,
-      "text": "1.0"
-    },
-    {
-      "column": 6,
-      "text": "1.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "codice id. elementi costruttivi strutturali"
-    },
-    {
-      "column": 3,
-      "text": "A1"
-    },
-    {
-      "column": 4,
-      "text": "A1"
-    },
-    {
-      "column": 5,
-      "text": "A1"
-    },
-    {
-      "column": 6,
-      "text": "A1"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "codice id. elementi costruttivi finiture - INTERNO"
-    },
-    {
-      "column": 3,
-      "text": "-"
-    },
-    {
-      "column": 4,
-      "text": "L1"
-    },
-    {
-      "column": 5,
-      "text": "L1"
-    },
-    {
-      "column": 6,
-      "text": "L1"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "codice id. elementi costruttivi finiture - ESTERNO"
-    },
-    {
-      "column": 3,
-      "text": "L3"
-    },
-    {
-      "column": 4,
-      "text": "L3"
-    },
-    {
-      "column": 5,
-      "text": "L3"
-    },
-    {
-      "column": 6,
-      "text": "L3"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "pareti esterne"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "pareti interne"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "CATEGORIA"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQMv"
-    },
-    {
-      "column": 1,
-      "text": "1.5"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "-"
-    },
-    {
-      "column": 4,
-      "text": "C"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQMo,fp"
-    },
-    {
-      "column": 1,
-      "text": "1.5"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "-"
-    },
-    {
-      "column": 4,
-      "text": "C"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQMo,np"
-    },
-    {
-      "column": 1,
-      "text": "2.5"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "-"
-    },
-    {
-      "column": 4,
-      "text": "C"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "A1"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "materiali"
-    },
-    {
-      "column": 1,
-      "text": "Pietra sbozzata"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "geometria"
-    },
-    {
-      "column": 1,
-      "text": "Conci di diverse dimensioni e forma irregolare"
-    },
-    {
-      "column": 2,
-      "text": "IQMv"
-    },
-    {
-      "column": 3,
-      "text": "IQMo,fp"
-    },
-    {
-      "column": 4,
-      "text": "IQMo,np"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQM"
-    },
-    {
-      "column": 1,
-      "text": "Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano."
-    },
-    {
-      "column": 2,
-      "text": "C"
-    },
-    {
-      "column": 3,
-      "text": "C"
-    },
-    {
-      "column": 4,
-      "text": "C"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "stato di conservaz"
-    },
-    {
-      "column": 1,
-      "text": "Stato di conservazione complessivamente discreto. Presenza di lievi lesioni verticali al primo e al secondo piano sulle pareti longitudinali e lesioni derivate dalla insufficiente resistenza degli architravi nelle aperture. Parte di muratura del secondo piano molto degradata nella parte interna."
-    },
-    {
-      "column": 2,
-      "text": "2.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.2.2"
-    },
-    {
-      "column": 2,
-      "text": "piano"
-    },
-    {
-      "column": 3,
-      "text": "1.0"
-    },
-    {
-      "column": 4,
-      "text": "0.0"
-    },
-    {
-      "column": 5,
-      "text": "0.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "codice id. elementi costruttivi strutturali"
-    },
-    {
-      "column": 3,
-      "text": "A2"
-    },
-    {
-      "column": 4,
-      "text": "0.0"
-    },
-    {
-      "column": 5,
-      "text": "0.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "codice id. elementi costruttivi finiture - INTERNO"
-    },
-    {
-      "column": 3,
-      "text": "L1"
-    },
-    {
-      "column": 4,
-      "text": "0.0"
-    },
-    {
-      "column": 5,
-      "text": "0.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "codice id. elementi costruttivi finiture - ESTERNO"
-    },
-    {
-      "column": 3,
-      "text": "L3"
-    },
-    {
-      "column": 4,
-      "text": "0.0"
-    },
-    {
-      "column": 5,
-      "text": "0.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "pareti interne"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "CATEGORIA"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQMv"
-    },
-    {
-      "column": 1,
-      "text": "8.5"
-    },
-    {
-      "column": 2,
-      "text": "A"
-    },
-    {
-      "column": 3,
-      "text": "-"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQMo,fp"
-    },
-    {
-      "column": 1,
-      "text": "6.5"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "B"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQMo,np"
-    },
-    {
-      "column": 1,
-      "text": "7.5"
-    },
-    {
-      "column": 2,
-      "text": "A"
-    },
-    {
-      "column": 3,
-      "text": "-"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "A2"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "materiali"
-    },
-    {
-      "column": 1,
-      "text": "Mattone forato"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "geometria"
-    },
-    {
-      "column": 1,
-      "text": "25x12x5,5 cm"
-    },
-    {
-      "column": 2,
-      "text": "IQMv"
-    },
-    {
-      "column": 3,
-      "text": "IQMo,fp"
-    },
-    {
-      "column": 4,
-      "text": "IQMo,np"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "IQM"
-    },
-    {
-      "column": 1,
-      "text": "Buona qualità della muratura, probabile assenza di diatoni."
-    },
-    {
-      "column": 2,
-      "text": "A"
-    },
-    {
-      "column": 3,
-      "text": "B"
-    },
-    {
-      "column": 4,
-      "text": "A"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "stato di conservaz"
-    },
-    {
-      "column": 1,
-      "text": "Stato di conservazione discreto, presenza di lievi lesioni verticali."
-    },
-    {
-      "column": 2,
-      "text": "2.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "04_dati_costrutt_ORIZZ"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 2,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.0"
-    },
-    {
-      "column": 2,
-      "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.3"
-    },
-    {
-      "column": 2,
-      "text": "STRUTTURE PORTANTI ORIZZONTALI"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.3.1"
-    },
-    {
-      "column": 2,
-      "text": "solaio controterra"
-    },
-    {
-      "column": 3,
-      "text": "ct"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "assenza di solaio strutturale"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.3.2"
-    },
-    {
-      "column": 2,
-      "text": "solaio di piano"
-    },
-    {
-      "column": 3,
-      "text": "-1.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "travi in legno orditura doppia"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "I ord."
-    },
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "20.0"
-    },
-    {
-      "column": 5,
-      "text": "28.0"
-    },
-    {
-      "column": 6,
-      "text": "230.0"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non rilevato"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "II ord."
-    },
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "18.0"
-    },
-    {
-      "column": 5,
-      "text": "18.0"
-    },
-    {
-      "column": 6,
-      "text": "87.0"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non rilevato"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "impalcato in legno"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 2,
-      "text": "3.0"
-    },
-    {
-      "column": 3,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di strati non strutturali"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "massetti"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non visibile"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "4.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "pavimentazioni"
-    },
-    {
-      "column": 8,
-      "text": "pianelle in laterizio"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "3.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.3.3"
-    },
-    {
-      "column": 2,
-      "text": "solaio di piano"
-    },
-    {
-      "column": 3,
-      "text": "-1.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "travi in legno orditura singola"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "18.0"
-    },
-    {
-      "column": 5,
-      "text": "18.0"
-    },
-    {
-      "column": 6,
-      "text": "60.0"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "impalcato in legno"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "3.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di strati non strutturali"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "pavimentazioni"
-    },
-    {
-      "column": 8,
-      "text": "mattonelle 20x20"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "2.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "altro"
-    },
-    {
-      "column": 8,
-      "text": "strato di riempimento non visibile"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "35.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di divisorie interne"
-    },
-    {
-      "column": 8,
-      "text": "divisioria vano scala"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "12.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.3.4"
-    },
-    {
-      "column": 2,
-      "text": "solaio di piano"
-    },
-    {
-      "column": 3,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "travi in acciaio"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "6.6"
-    },
-    {
-      "column": 5,
-      "text": "14.0"
-    },
-    {
-      "column": 6,
-      "text": "85.0"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    },
-    {
-      "column": 8,
-      "text": "INP 140"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "voltine in laterizio"
-    },
-    {
-      "column": 8,
-      "text": "pianelle in laterizio"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "3.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di strati non strutturali"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "massetti"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "7.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "pavimentazioni"
-    },
-    {
-      "column": 8,
-      "text": "pianelle in laterizio"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "3.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di vani accessori/funzionali"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "terrazzi"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di divisorie interne"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "8.0"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.3.5"
-    },
-    {
-      "column": 2,
-      "text": "solaio di copertura"
-    },
-    {
-      "column": 3,
-      "text": "c"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "travi in legno orditura doppia"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non visibile"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "I ord."
-    },
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "-"
-    },
-    {
-      "column": 6,
-      "text": "-"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "II ord."
-    },
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "-"
-    },
-    {
-      "column": 6,
-      "text": "-"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "impalcato in legno"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non visibile"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non visibile"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di strati non strutturali"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "manto di copertura"
-    },
-    {
-      "column": 8,
-      "text": "coppi"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "false volte/controsoffitto"
-    },
-    {
-      "column": 8,
-      "text": "controsoffitto INP e tavelloni"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "copertura non spingente"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "non spingente leggera"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.3.6"
-    },
-    {
-      "column": 2,
-      "text": "solaio di copertura"
-    },
-    {
-      "column": 3,
-      "text": "c"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "travi in legno orditura doppia"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non visibile"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "I ord."
-    },
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "-"
-    },
-    {
-      "column": 6,
-      "text": "-"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "II ord."
-    },
-    {
-      "column": 2,
-      "text": "sezione b x h, i interasse [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "-"
-    },
-    {
-      "column": 6,
-      "text": "-"
-    },
-    {
-      "column": 7,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "impalcato in legno"
-    },
-    {
-      "column": 8,
-      "text": "ipotizzato/non visibile"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "presenza di strati non strutturali"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "manto di copertura"
-    },
-    {
-      "column": 8,
-      "text": "coppi"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "sp. [cm]"
-    },
-    {
-      "column": 4,
-      "text": "-"
-    },
-    {
-      "column": 5,
-      "text": "cm"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "false volte/controsoffitto"
-    },
-    {
-      "column": 8,
-      "text": "voltine INP e pianelle"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "copertura non spingente"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "non spingente leggera"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "04_dati_costrutt_CARENZE"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 2,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.0"
-    },
-    {
-      "column": 2,
-      "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.4"
-    },
-    {
-      "column": 2,
-      "text": "CARENZE COSTRUTTIVE ORIZZONTAMENTI"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.4.1"
-    },
-    {
-      "column": 2,
-      "text": "solaio controterra"
-    },
-    {
-      "column": 3,
-      "text": "ct"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "solaio strutturale assente"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "CODICE NON ASSEGNATO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "materiali"
-    },
-    {
-      "column": 1,
-      "text": "solaio privo di impalcato strutturale, probabile presenza di massetto cementizio contro terra"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "geometria"
-    },
-    {
-      "column": 1,
-      "text": "non rilevante"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "carenzestrutturali"
-    },
-    {
-      "column": 1,
-      "text": "assenza di solaio strutturale"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "stato di conservaz"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.4.2"
-    },
-    {
-      "column": 2,
-      "text": "solaio di piano"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "legno"
-    },
-    {
-      "column": 3,
-      "text": "piano"
-    },
-    {
-      "column": 4,
-      "text": "-1.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "assenza di soletta semirigida di ripartizione dei carichi"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "carenze manutentive gravi e diffuse su elementi strutturali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "B3"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "materiali"
-    },
-    {
-      "column": 1,
-      "text": "Doppia orditura e assito in legno"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "geometria"
-    },
-    {
-      "column": 1,
-      "text": "Orditura principale 20cm x 28cm; orditura secondaria 18cm x 18cm"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "carenzestrutturali"
-    },
-    {
-      "column": 1,
-      "text": "Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida."
-    },
-    {
-      "column": 2,
-      "text": "3.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "stato di conservaz"
-    },
-    {
-      "column": 1,
-      "text": "Leggeri segni di degrado"
-    },
-    {
-      "column": 2,
-      "text": "2.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.4.3"
-    },
-    {
-      "column": 2,
-      "text": "solaio di piano"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "legno"
-    },
-    {
-      "column": 3,
-      "text": "piano"
-    },
-    {
-      "column": 4,
-      "text": "-1.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "dimensione insufficiente degli elementi strutturali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "assenza di soletta semirigida di ripartizione dei carichi"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "carenze manutentive gravi e diffuse su elementi strutturali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "B3"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "materiali"
-    },
-    {
-      "column": 1,
-      "text": "Ordito e assito in legno"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "geometria"
-    },
-    {
-      "column": 1,
-      "text": "Orditura 18cm x 18cm"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "carenzestrutturali"
-    },
-    {
-      "column": 1,
-      "text": "Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida."
-    },
-    {
-      "column": 2,
-      "text": "3.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "stato di conservaz"
-    },
-    {
-      "column": 1,
-      "text": "Scarso, evidenti segni di degrado del materiale"
-    },
-    {
-      "column": 2,
-      "text": "3.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.4.4"
-    },
-    {
-      "column": 2,
-      "text": "solaio di piano"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "acciaio"
-    },
-    {
-      "column": 3,
-      "text": "piano"
-    },
-    {
-      "column": 4,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "dimensione insufficiente degli elementi strutturali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "assenza di soletta semirigida di ripartizione dei carichi"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "B1"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "materiali"
-    },
-    {
-      "column": 1,
-      "text": "Volte in laterizio su travetti di acciaio"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "geometria"
-    },
-    {
-      "column": 1,
-      "text": "Travetti INP 140; L=4,70m  i=0,85m"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "carenzestrutturali"
-    },
-    {
-      "column": 1,
-      "text": "Assenza di cordolatura. Assenza di collegamento travi alle murature. Assenza di soletta rigida."
-    },
-    {
-      "column": 2,
-      "text": "3.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "stato di conservaz"
-    },
-    {
-      "column": 1,
-      "text": "Lesioni nell'intonaco all'intradosso del solaio"
-    },
-    {
-      "column": 2,
-      "text": "2.0"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "4.4.5"
-    },
-    {
-      "column": 2,
-      "text": "solaio di copertura"
-    },
-    {
-      "column": 3,
-      "text": "c"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "legno"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "assenza di soletta semirigida di ripartizione dei carichi"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "carenze manutentive gravi e diffuse su elementi strutturali"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "note:"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "ipotizzato poiché non visibile"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "C2"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "materiali"
-    },
-    {
-      "column": 1,
-      "text": "Ordito in legno e assito (ipotizzato)"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "geometria"
-    },
-    {
-      "column": 1,
-      "text": "Non rilevata"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "carenzestrutturali"
-    },
-    {
-      "column": 1,
-      "text": "Non rilevate"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "stato di conservaz"
-    },
-    {
-      "column": 1,
-      "text": "Non rilevato"
-    },
-    {
-      "column": 2,
-      "text": "-"
-    },
-    {
-      "column": 3,
-      "text": "1:ottimo"
-    },
-    {
-      "column": 4,
-      "text": "2:medio"
-    },
-    {
-      "column": 5,
-      "text": "3:scarso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "05_valutazione rischio_M"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 1,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "5.0"
-    },
-    {
-      "column": 1,
-      "text": "VALUTAZIONE DEL RISCHIO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "5.1"
-    },
-    {
-      "column": 1,
-      "text": "CARENZE edifici a destinazione prevalente abitativa con struttura in muratura"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Presenza di muri portanti a doppio paramento (senza efficaci collegamenti – diatoni tra i due paramenti), ciascuno a 1 testa (o comunque con spessore ≤ 15 cm) per più del 40% dello sviluppo di una parete perimetrale"
-    },
-    {
-      "column": 3,
-      "text": "b"
-    },
-    {
-      "column": 5,
-      "text": "0.0"
-    },
-    {
-      "column": 6,
-      "text": "1.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Cattiva qualità della tessitura muraria (caotica, sbozzata senza ricorsi e orizzontalità, assenza di diatoni, ...), per uno sviluppo ≥ 40 % della superficie totale resistente"
-    },
-    {
-      "column": 2,
-      "text": "a"
-    },
-    {
-      "column": 5,
-      "text": "1.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Assenza diffusa o irregolarità di connessioni della muratura alle angolate ed ai martelli"
-    },
-    {
-      "column": 2,
-      "text": "a"
-    },
-    {
-      "column": 5,
-      "text": "1.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Collegamenti  degli  orizzontamenti  alle  strutture  verticali  portanti  inesistenti  o inefficaci in modo diffuso"
-    },
-    {
-      "column": 2,
-      "text": "a"
-    },
-    {
-      "column": 5,
-      "text": "1.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "Solai impostati su piani sfalsati con dislivello > 1/3 altezza di interpiano, all’interno della u.s. o di u.s. contigue"
-    },
-    {
-      "column": 3,
-      "text": "b"
-    },
-    {
-      "column": 5,
-      "text": "0.0"
-    },
-    {
-      "column": 6,
-      "text": "1.0"
-    }
-  ],
-  [
-    {
-      "column": 5,
-      "text": "a"
-    },
-    {
-      "column": 6,
-      "text": "b"
-    }
-  ],
-  [
-    {
-      "column": 5,
-      "text": "3.0"
-    },
-    {
-      "column": 6,
-      "text": "2.0"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "grado di vulnerabilità BASSOse a= 0 ose b < 5"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "DANNI AD ELEMENTI STRUTTURALI"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "estensione del danno"
-    },
-    {
-      "column": 2,
-      "text": "D4-D5"
-    },
-    {
-      "column": 5,
-      "text": "D2-D3"
-    },
-    {
-      "column": 8,
-      "text": "D1"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "componente strutturale"
-    },
-    {
-      "column": 2,
-      "text": "> 60%"
-    },
-    {
-      "column": 3,
-      "text": "30-60%"
-    },
-    {
-      "column": 4,
-      "text": "< 30%"
-    },
-    {
-      "column": 5,
-      "text": "> 60%"
-    },
-    {
-      "column": 6,
-      "text": "30-60%"
-    },
-    {
-      "column": 7,
-      "text": "< 30%"
-    },
-    {
-      "column": 8,
-      "text": "> 60%"
-    },
-    {
-      "column": 9,
-      "text": "30-60%"
-    },
-    {
-      "column": 10,
-      "text": "< 30%"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "strutture verticali"
-    },
-    {
-      "column": 7,
-      "text": "x"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "solaio di piano"
-    },
-    {
-      "column": 10,
-      "text": "x"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "DANNI AD ELEMENTI NON STRUTTURALI"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "distacco intonaci, rivestimenti, controsoffitti, …"
-    },
-    {
-      "column": 2,
-      "text": "x"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "PERICOLO ESTERNO INDOTTO DA ALTRO"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "TERRENO E FONDAZIONI"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "morfologia del sito"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "pendio"
-    },
-    {
-      "column": 2,
-      "text": "x"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "dissesti alle fondazioni"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "assenti"
-    },
-    {
-      "column": 2,
-      "text": "x"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'"
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali."
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali."
-    }
-  ],
-  [
-    {
-      "column": 1,
-      "text": "D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "05_valutazione rischio_CA"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "edificio"
-    },
-    {
-      "column": 3,
-      "text": "O02"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "5.0"
-    },
-    {
-      "column": 3,
-      "text": "VALUTAZIONE DEL RISCHIO"
-    }
-  ],
-  [
-    {
-      "column": 0,
-      "text": "5.1"
-    },
-    {
-      "column": 3,
-      "text": "CARENZE edifici a destinazione prevalente abitativa con struttura in muratura"
-    }
-  ],
-  [
-    {
-      "column": 5,
-      "text": "a"
-    },
-    {
-      "column": 6,
-      "text": "b"
-    }
-  ],
-  [
-    {
-      "column": 5,
-      "text": "0.0"
-    },
-    {
-      "column": 6,
-      "text": "0.0"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "grado di vulnerabilità BASSOse a= 0 ose b < 5"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "DANNI AD ELEMENTI STRUTTURALI"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "estensione del danno"
-    },
-    {
-      "column": 3,
-      "text": "D4-D5"
-    },
-    {
-      "column": 6,
-      "text": "D2-D3"
-    },
-    {
-      "column": 8,
-      "text": "D1"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "componente strutturale"
-    },
-    {
-      "column": 3,
-      "text": "> 60%"
-    },
-    {
-      "column": 4,
-      "text": "30-60%"
-    },
-    {
-      "column": 5,
-      "text": "< 30%"
-    },
-    {
-      "column": 6,
-      "text": "> 60%"
-    },
-    {
-      "column": 7,
-      "text": "30-60%"
-    },
-    {
-      "column": 8,
-      "text": "< 30%"
-    },
-    {
-      "column": 9,
-      "text": "> 60%"
-    },
-    {
-      "column": 10,
-      "text": "30-60%"
-    },
-    {
-      "column": 11,
-      "text": "< 30%"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "DANNI AD ELEMENTI NON STRUTTURALI"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "PERICOLO ESTERNO INDOTTO DA ALTRO"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "TERRENO E FONDAZIONI"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "morfologia del sito"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "dissesti alle fondazioni"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'"
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali."
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali."
-    }
-  ],
-  [
-    {
-      "column": 2,
-      "text": "D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso"
-    }
-  ],
-  { "max": 11 }
+	{
+		"sheet": "01_id_edificio", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 1, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "1.0" }
+				,{"col": 1, "text": "IDENTIFICAZIONE EDIFICIO" }
+			]
+			,[
+				{"col": 1, "text": "DATA" }
+			]
+			,[
+				{"col": 1, "text": "ID. SCHEDA" }
+				,{"col": 2, "text": "O02" }
+			]
+			,[
+				{"col": 1, "text": "CODICE EDIFICIO" }
+				,{"col": 2, "text": "O02" }
+			]
+			,[
+				{"col": 1, "text": "CODICE AGGREGATO" }
+				,{"col": 2, "text": "O" }
+			]
+			,[
+				{"col": 0, "text": "1.1" }
+				,{"col": 1, "text": "LOCALIZZAZIONE GEOGRAFICA" }
+			]
+			,[
+				{"col": 1, "text": "REGIONE" }
+				,{"col": 2, "text": "Abruzzo" }
+			]
+			,[
+				{"col": 1, "text": "PROVINCIA" }
+				,{"col": 2, "text": "Chieti" }
+			]
+			,[
+				{"col": 1, "text": "COMUNE" }
+				,{"col": 2, "text": "San Giovanni Lipioni" }
+			]
+			,[
+				{"col": 1, "text": "INDIRIZZO" }
+				,{"col": 2, "text": "Via Roma, 37" }
+			]
+			,[
+				{"col": 1, "text": "COORDINATE GEOGRAFICHE" }
+				,{"col": 2, "text": "41.84247, 14.56213" }
+			]
+			,[
+				{"col": 0, "text": "1.2" }
+				,{"col": 1, "text": "DATI CATASTALI" }
+			]
+			,[
+				{"col": 1, "text": "FOGLIO" }
+			]
+			,[
+				{"col": 1, "text": "MAPPALE" }
+			]
+			,[
+				{"col": 1, "text": "SUBALTERNI" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "02_descriz_edificio", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 2, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "2.0" }
+				,{"col": 2, "text": "CARATTERISTICHE EDIFICIO" }
+			]
+			,[
+				{"col": 2, "text": "EDIFICIO IN AGGREGATO" }
+			]
+			,[
+				{"col": 2, "text": "estremità" }
+			]
+			,[
+				{"col": 2, "text": "MONOFAMILIARE" }
+			]
+			,[
+				{"col": 1, "text": "2.0" }
+				,{"col": 2, "text": "Nr. piani fuori terra" }
+			]
+			,[
+				{"col": 1, "text": "1.0" }
+				,{"col": 2, "text": "Nr. piani interrati/seminterrati" }
+				,{"col": 3, "text": "Piano seminterrato sul lato Nord diventa piano terra sul lato Sud" }
+			]
+			,[
+				{"col": 1, "text": "1.0" }
+				,{"col": 2, "text": "Nr. unità abitative" }
+			]
+			,[
+				{"col": 2, "text": "H media di piano" }
+			]
+			,[
+				{"col": 2, "text": "< 2.50 m" }
+				,{"col": 3, "text": "Altezza variabile, dai 215 ai 280 cm" }
+			]
+			,[
+				{"col": 2, "text": "Sup. media di piano (mq)" }
+			]
+			,[
+				{"col": 2, "text": "< 50 mq" }
+				,{"col": 3, "text": "Circa 43 mq per piano terra e 23 mq per piano primo e seminterrato" }
+			]
+			,[
+				{"col": 1, "text": "6.1" }
+				,{"col": 2, "text": "H gronda" }
+			]
+			,[
+				{"col": 0, "text": "2.1" }
+				,{"col": 2, "text": "EPOCA DI COSTRUZIONE" }
+			]
+			,[
+				{"col": 2, "text": "1900-1952" }
+			]
+			,[
+				{"col": 0, "text": "2.2" }
+				,{"col": 2, "text": "UTILIZZAZIONE" }
+			]
+			,[
+				{"col": 2, "text": "non utilizzato/in stato d'abbandono (scadente)" }
+				,{"col": 3, "text": "Evidenti segni di degrado" }
+			]
+			,[
+				{"col": 0, "text": "2.3" }
+				,{"col": 2, "text": "DESTINAZIONE D'USO" }
+			]
+			,[
+				{"col": 2, "text": "abitazione" }
+			]
+			,[
+				{"col": 0, "text": "2.4" }
+				,{"col": 2, "text": "TIPO EDILIZIO" }
+			]
+			,[
+				{"col": 2, "text": "A blocco" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "03_dati_metrici_AB", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 1, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "3.0" }
+				,{"col": 1, "text": "CARATTERISTICHE GEOMETRICHE DEL FABBRICATO" }
+			]
+			,[
+				{"col": 0, "text": "3.1" }
+				,{"col": 1, "text": "ABITAZIONE" }
+			]
+			,[
+				{"col": 1, "text": "Abitazione su 3 livelli, piano terra con accesso su via Roma sul prospetto principale. Locali ad uso abitativo non arredati, riconoscibile solo cucina a piano terra. Corpo principale che si estende per 3 piani e locale aggiuntivo a piano terra sul retro." }
+			]
+			,[
+				{"col": 0, "text": "3.1.1" }
+				,{"col": 1, "text": "Vani principali" }
+			]
+			,[
+				{"col": 1, "text": "Cucina, soggiorno (presunto), camere da letto (presunto)" }
+			]
+			,[
+				{"col": 1, "text": "nr. vani" }
+				,{"col": 2, "text": "4.0" }
+			]
+			,[
+				{"col": 1, "text": "Cucina" }
+				,{"col": 2, "text": "SU" }
+				,{"col": 3, "text": "20.32" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Soggiorno" }
+				,{"col": 2, "text": "SU" }
+				,{"col": 3, "text": "22.85" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Camera Doppia" }
+				,{"col": 2, "text": "SU" }
+				,{"col": 3, "text": "16.12" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Camera Singola" }
+				,{"col": 2, "text": "SU" }
+				,{"col": 3, "text": "5.62" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "SU Superficie Utile" }
+				,{"col": 2, "text": "64.91000000000001" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "3.1.2" }
+				,{"col": 1, "text": "Vani accessori diretti" }
+			]
+			,[
+				{"col": 1, "text": "Due bagni" }
+			]
+			,[
+				{"col": 1, "text": "nr. vani" }
+				,{"col": 2, "text": "2.0" }
+			]
+			,[
+				{"col": 1, "text": "Bagno PT" }
+				,{"col": 2, "text": "SU" }
+				,{"col": 3, "text": "0.78" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Bagno P1" }
+				,{"col": 1, "text": "SU" }
+				,{"col": 2, "text": "1.08" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "SU Superficie Utile" }
+				,{"col": 2, "text": "1.86" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "3.1.3" }
+				,{"col": 1, "text": "Vani accessori indiretti" }
+			]
+			,[
+				{"col": 1, "text": "locale seminterrato ad uso cantina/deposito" }
+			]
+			,[
+				{"col": 1, "text": "comunicanti" }
+			]
+			,[
+				{"col": 1, "text": "nr. vani" }
+				,{"col": 2, "text": "1.0" }
+			]
+			,[
+				{"col": 1, "text": "Cantina/ingresso" }
+				,{"col": 2, "text": "SA" }
+				,{"col": 3, "text": "23.2" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "SU Superficie Utile" }
+				,{"col": 3, "text": "0.0" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "SA Superficie Accessoria" }
+				,{"col": 3, "text": "23.2" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "3.1.4" }
+				,{"col": 1, "text": "Dipendenze" }
+			]
+			,[
+				{"col": 1, "text": "Balcone al piano 1" }
+			]
+			,[
+				{"col": 1, "text": "comunicanti" }
+			]
+			,[
+				{"col": 1, "text": "Balcone P1" }
+				,{"col": 2, "text": "SA" }
+				,{"col": 3, "text": "3.29" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "SA Superficie Accessoria" }
+				,{"col": 3, "text": "3.29" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "3.1.5" }
+				,{"col": 1, "text": "Collegamenti" }
+			]
+			,[
+				{"col": 1, "text": "Vano scala" }
+				,{"col": 2, "text": "SA" }
+				,{"col": 3, "text": "2.29" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "SA Superficie" }
+				,{"col": 3, "text": "2.29" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "3.2" }
+				,{"col": 1, "text": "VALORI DI SINTESI ABITAZIONE" }
+			]
+			,[
+				{"col": 1, "text": "Superficie utile totale" }
+				,{"col": 2, "text": "SU" }
+				,{"col": 3, "text": "66.77000000000001" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Superficie accessoria totale" }
+				,{"col": 2, "text": "SA" }
+				,{"col": 3, "text": "28.78" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Superficie calpestabile totale" }
+				,{"col": 2, "text": "SCa" }
+				,{"col": 3, "text": "95.55000000000001" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Superficie complessiva" }
+				,{"col": 2, "text": "SCO" }
+				,{"col": 3, "text": "84.03800000000001" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Superficie lorda" }
+				,{"col": 2, "text": "SL" }
+				,{"col": 3, "text": "117.23" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 1, "text": "Superficie totale" }
+				,{"col": 2, "text": "ST" }
+				,{"col": 3, "text": "146.01" }
+				,{"col": 4, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Nr.piani" }
+				,{"col": 1, "text": "3.0" }
+			]
+			,[
+				{"col": 0, "text": "piano" }
+				,{"col": 1, "text": "0.0" }
+			]
+			,[
+				{"col": 0, "text": "Superficie utile totale" }
+				,{"col": 1, "text": "SU" }
+				,{"col": 2, "text": "43.95" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie accessoria totale" }
+				,{"col": 1, "text": "SA" }
+				,{"col": 2, "text": "2.29" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie calpestabile totale" }
+				,{"col": 1, "text": "SCa" }
+				,{"col": 2, "text": "46.24" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie complessiva" }
+				,{"col": 1, "text": "SCO" }
+				,{"col": 2, "text": "45.324000000000005" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie lorda" }
+				,{"col": 1, "text": "SL" }
+				,{"col": 2, "text": "66.22" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie totale di piano" }
+				,{"col": 1, "text": "ST" }
+				,{"col": 2, "text": "68.51" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie né utile né access." }
+				,{"col": 1, "text": "S" }
+				,{"col": 2, "text": "0.0" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "piano" }
+				,{"col": 1, "text": "1.0" }
+			]
+			,[
+				{"col": 0, "text": "Superficie utile totale" }
+				,{"col": 1, "text": "SU" }
+				,{"col": 2, "text": "22.82" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie accessoria totale" }
+				,{"col": 1, "text": "SA" }
+				,{"col": 2, "text": "3.29" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie calpestabile totale" }
+				,{"col": 1, "text": "SCa" }
+				,{"col": 2, "text": "26.11" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie complessiva" }
+				,{"col": 1, "text": "SCO" }
+				,{"col": 2, "text": "24.794" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie lorda" }
+				,{"col": 1, "text": "SL" }
+				,{"col": 2, "text": "35.46" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie totale" }
+				,{"col": 1, "text": "ST" }
+				,{"col": 2, "text": "38.75" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie né utile né access." }
+				,{"col": 1, "text": "S" }
+				,{"col": 2, "text": "0.0" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "piano" }
+				,{"col": 1, "text": "S" }
+			]
+			,[
+				{"col": 0, "text": "Superficie utile totale" }
+				,{"col": 1, "text": "SU" }
+				,{"col": 2, "text": "0.0" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie accessoria totale" }
+				,{"col": 1, "text": "SA" }
+				,{"col": 2, "text": "23.2" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie calpestabile totale" }
+				,{"col": 1, "text": "SCa" }
+				,{"col": 2, "text": "23.2" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie complessiva" }
+				,{"col": 1, "text": "SCO" }
+				,{"col": 2, "text": "13.92" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie lorda" }
+				,{"col": 1, "text": "SL" }
+				,{"col": 2, "text": "15.55" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie totale di piano" }
+				,{"col": 1, "text": "ST" }
+				,{"col": 2, "text": "38.75" }
+				,{"col": 3, "text": "mq" }
+			]
+			,[
+				{"col": 0, "text": "Superficie né utile né access." }
+				,{"col": 1, "text": "S" }
+				,{"col": 2, "text": "0.0" }
+				,{"col": 3, "text": "mq" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "04_dati_costrutt_VERT", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 1, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "4.0" }
+				,{"col": 1, "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO" }
+			]
+			,[
+				{"col": 0, "text": "4.1" }
+				,{"col": 1, "text": "STRUTTURE PORTANTI VERTICALI" }
+			]
+			,[
+				{"col": 1, "text": "Edificio intonacato quasi completamente all'interno (fatta eccezione per il piano seminterrato) e parzialmente all'esterno (solo due pareti del corpo principale). Le parti non intonacate rivelano una muratura in pietra disordinata, per cui si ipotizza la stessa struttura per il piano terra e il piano seminterrato. Al secondo piano è presente una parete non intonacata in pietra disordinata, le restanti 3 pareti si ipotizzano in laterizio dato lo spessore notevolmente ridotto." }
+			]
+			,[
+				{"col": 1, "text": "diverse" }
+			]
+			,[
+				{"col": 0, "text": "4.1.1" }
+				,{"col": 1, "text": "piano" }
+				,{"col": 2, "text": "-1.0" }
+				,{"col": 3, "text": "0.0" }
+				,{"col": 4, "text": "1.0" }
+			]
+			,[
+				{"col": 0, "text": "codice id. elementi costruttivi strutturali" }
+				,{"col": 1, "text": "A1" }
+				,{"col": 2, "text": "A1" }
+				,{"col": 3, "text": "A1" }
+			]
+			,[
+				{"col": 0, "text": "codice id. elementi costruttivi finiture - INTERNO" }
+				,{"col": 1, "text": "-" }
+				,{"col": 2, "text": "L1" }
+				,{"col": 3, "text": "L1" }
+			]
+			,[
+				{"col": 0, "text": "codice id. elementi costruttivi finiture - ESTERNO" }
+				,{"col": 1, "text": "L3" }
+				,{"col": 2, "text": "L3" }
+				,{"col": 3, "text": "L3" }
+			]
+			,[
+				{"col": 1, "text": "pareti esterne" }
+			]
+			,[
+				{"col": 1, "text": "pareti interne" }
+			]
+			,[
+				{"col": 1, "text": "massiva" }
+			]
+			,[
+				{"col": 1, "text": "muratura in pietra disordinata" }
+			]
+			,[
+				{"col": 1, "text": "sp. minimo [cm]" }
+				,{"col": 2, "text": "55.0" }
+				,{"col": 3, "text": "cm" }
+			]
+			,[
+				{"col": 1, "text": "sp. massimo [cm]" }
+				,{"col": 2, "text": "75.0" }
+				,{"col": 3, "text": "cm" }
+			]
+			,[
+				{"col": 1, "text": "presenza di strati non strutturali" }
+			]
+			,[
+				{"col": 1, "text": "intonaci interni" }
+			]
+			,[
+				{"col": 1, "text": "sp. [cm]" }
+				,{"col": 2, "text": "1.5" }
+				,{"col": 3, "text": "cm" }
+				,{"col": 6, "text": "spessore ipotizzato" }
+			]
+			,[
+				{"col": 1, "text": "intonaci esterni" }
+			]
+			,[
+				{"col": 1, "text": "sp. [cm]" }
+				,{"col": 2, "text": "1.5" }
+				,{"col": 3, "text": "cm" }
+				,{"col": 6, "text": "spessore ipotizzato" }
+			]
+			,[
+				{"col": 0, "text": "4.1.2" }
+				,{"col": 1, "text": "piano" }
+				,{"col": 2, "text": "1.0" }
+			]
+			,[
+				{"col": 0, "text": "codice id. elementi costruttivi strutturali" }
+				,{"col": 1, "text": "A2" }
+			]
+			,[
+				{"col": 0, "text": "codice id. elementi costruttivi finiture - INTERNO" }
+				,{"col": 1, "text": "L1" }
+			]
+			,[
+				{"col": 1, "text": "codice id. elementi costruttivi finiture - ESTERNO" }
+				,{"col": 2, "text": "L3" }
+			]
+			,[
+				{"col": 1, "text": "pareti interne" }
+			]
+			,[
+				{"col": 1, "text": "massiva" }
+			]
+			,[
+				{"col": 1, "text": "muratura in laterizio forato" }
+				,{"col": 6, "text": "Ipotizzato in base allo spessore della muratura" }
+			]
+			,[
+				{"col": 1, "text": "sp. minimo [cm]" }
+				,{"col": 2, "text": "20.0" }
+				,{"col": 3, "text": "cm" }
+			]
+			,[
+				{"col": 1, "text": "sp. massimo [cm]" }
+				,{"col": 2, "text": "30.0" }
+				,{"col": 3, "text": "cm" }
+			]
+			,[
+				{"col": 1, "text": "presenza di strati non strutturali" }
+			]
+			,[
+				{"col": 1, "text": "intonaci interni" }
+			]
+			,[
+				{"col": 1, "text": "sp. [cm]" }
+				,{"col": 2, "text": "1.5" }
+				,{"col": 3, "text": "cm" }
+				,{"col": 5, "text": "spessore ipotizzato" }
+			]
+			,[
+				{"col": 1, "text": "intonaci esterni" }
+			]
+			,[
+				{"col": 1, "text": "sp. [cm]" }
+				,{"col": 2, "text": "1.5" }
+				,{"col": 3, "text": "cm" }
+				,{"col": 6, "text": "spessore ipotizzato" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "04_dati_costrutt_VERT_IQM", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 2, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "4.0" }
+				,{"col": 2, "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO" }
+			]
+			,[
+				{"col": 0, "text": "4.2" }
+				,{"col": 2, "text": "Indice di Qualità Muraria" }
+			]
+			,[
+				{"col": 0, "text": "4.2.1" }
+				,{"col": 2, "text": "piano" }
+				,{"col": 3, "text": "-1.0" }
+				,{"col": 4, "text": "0.0" }
+				,{"col": 5, "text": "1.0" }
+				,{"col": 6, "text": "1.0" }
+			]
+			,[
+				{"col": 2, "text": "codice id. elementi costruttivi strutturali" }
+				,{"col": 3, "text": "A1" }
+				,{"col": 4, "text": "A1" }
+				,{"col": 5, "text": "A1" }
+				,{"col": 6, "text": "A1" }
+			]
+			,[
+				{"col": 2, "text": "codice id. elementi costruttivi finiture - INTERNO" }
+				,{"col": 3, "text": "-" }
+				,{"col": 4, "text": "L1" }
+				,{"col": 5, "text": "L1" }
+				,{"col": 6, "text": "L1" }
+			]
+			,[
+				{"col": 2, "text": "codice id. elementi costruttivi finiture - ESTERNO" }
+				,{"col": 3, "text": "L3" }
+				,{"col": 4, "text": "L3" }
+				,{"col": 5, "text": "L3" }
+				,{"col": 6, "text": "L3" }
+			]
+			,[
+				{"col": 2, "text": "pareti esterne" }
+			]
+			,[
+				{"col": 1, "text": "pareti interne" }
+			]
+			,[
+				{"col": 2, "text": "CATEGORIA" }
+			]
+			,[
+				{"col": 0, "text": "IQMv" }
+				,{"col": 1, "text": "1.5" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "-" }
+				,{"col": 4, "text": "C" }
+			]
+			,[
+				{"col": 0, "text": "IQMo,fp" }
+				,{"col": 1, "text": "1.5" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "-" }
+				,{"col": 4, "text": "C" }
+			]
+			,[
+				{"col": 0, "text": "IQMo,np" }
+				,{"col": 1, "text": "2.5" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "-" }
+				,{"col": 4, "text": "C" }
+			]
+			,[
+				{"col": 1, "text": "A1" }
+			]
+			,[
+				{"col": 0, "text": "materiali" }
+				,{"col": 1, "text": "Pietra sbozzata" }
+			]
+			,[
+				{"col": 0, "text": "geometria" }
+				,{"col": 1, "text": "Conci di diverse dimensioni e forma irregolare" }
+				,{"col": 2, "text": "IQMv" }
+				,{"col": 3, "text": "IQMo,fp" }
+				,{"col": 4, "text": "IQMo,np" }
+			]
+			,[
+				{"col": 0, "text": "IQM" }
+				,{"col": 1, "text": "Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano." }
+				,{"col": 2, "text": "C" }
+				,{"col": 3, "text": "C" }
+				,{"col": 4, "text": "C" }
+			]
+			,[
+				{"col": 0, "text": "stato di conservaz" }
+				,{"col": 1, "text": "Stato di conservazione complessivamente discreto. Presenza di lievi lesioni verticali al primo e al secondo piano sulle pareti longitudinali e lesioni derivate dalla insufficiente resistenza degli architravi nelle aperture. Parte di muratura del secondo piano molto degradata nella parte interna." }
+				,{"col": 2, "text": "2.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "4.2.2" }
+				,{"col": 2, "text": "piano" }
+				,{"col": 3, "text": "1.0" }
+				,{"col": 4, "text": "0.0" }
+				,{"col": 5, "text": "0.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 2, "text": "codice id. elementi costruttivi strutturali" }
+				,{"col": 3, "text": "A2" }
+				,{"col": 4, "text": "0.0" }
+				,{"col": 5, "text": "0.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 2, "text": "codice id. elementi costruttivi finiture - INTERNO" }
+				,{"col": 3, "text": "L1" }
+				,{"col": 4, "text": "0.0" }
+				,{"col": 5, "text": "0.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 2, "text": "codice id. elementi costruttivi finiture - ESTERNO" }
+				,{"col": 3, "text": "L3" }
+				,{"col": 4, "text": "0.0" }
+				,{"col": 5, "text": "0.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 2, "text": "pareti interne" }
+			]
+			,[
+				{"col": 2, "text": "CATEGORIA" }
+			]
+			,[
+				{"col": 0, "text": "IQMv" }
+				,{"col": 1, "text": "8.5" }
+				,{"col": 2, "text": "A" }
+				,{"col": 3, "text": "-" }
+				,{"col": 4, "text": "-" }
+			]
+			,[
+				{"col": 0, "text": "IQMo,fp" }
+				,{"col": 1, "text": "6.5" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "B" }
+				,{"col": 4, "text": "-" }
+			]
+			,[
+				{"col": 0, "text": "IQMo,np" }
+				,{"col": 1, "text": "7.5" }
+				,{"col": 2, "text": "A" }
+				,{"col": 3, "text": "-" }
+				,{"col": 4, "text": "-" }
+			]
+			,[
+				{"col": 1, "text": "A2" }
+			]
+			,[
+				{"col": 0, "text": "materiali" }
+				,{"col": 1, "text": "Mattone forato" }
+			]
+			,[
+				{"col": 0, "text": "geometria" }
+				,{"col": 1, "text": "25x12x5,5 cm" }
+				,{"col": 2, "text": "IQMv" }
+				,{"col": 3, "text": "IQMo,fp" }
+				,{"col": 4, "text": "IQMo,np" }
+			]
+			,[
+				{"col": 0, "text": "IQM" }
+				,{"col": 1, "text": "Buona qualità della muratura, probabile assenza di diatoni." }
+				,{"col": 2, "text": "A" }
+				,{"col": 3, "text": "B" }
+				,{"col": 4, "text": "A" }
+			]
+			,[
+				{"col": 0, "text": "stato di conservaz" }
+				,{"col": 1, "text": "Stato di conservazione discreto, presenza di lievi lesioni verticali." }
+				,{"col": 2, "text": "2.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "04_dati_costrutt_ORIZZ", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 2, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "4.0" }
+				,{"col": 2, "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO" }
+			]
+			,[
+				{"col": 0, "text": "4.3" }
+				,{"col": 2, "text": "STRUTTURE PORTANTI ORIZZONTALI" }
+			]
+			,[
+				{"col": 0, "text": "4.3.1" }
+				,{"col": 2, "text": "solaio controterra" }
+				,{"col": 3, "text": "ct" }
+			]
+			,[
+				{"col": 2, "text": "assenza di solaio strutturale" }
+				,{"col": 8, "text": "ipotizzato" }
+			]
+			,[
+				{"col": 0, "text": "4.3.2" }
+				,{"col": 2, "text": "solaio di piano" }
+				,{"col": 3, "text": "-1.0" }
+			]
+			,[
+				{"col": 2, "text": "travi in legno orditura doppia" }
+			]
+			,[
+				{"col": 1, "text": "I ord." }
+				,{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "20.0" }
+				,{"col": 5, "text": "28.0" }
+				,{"col": 6, "text": "230.0" }
+				,{"col": 7, "text": "cm" }
+				,{"col": 8, "text": "ipotizzato/non rilevato" }
+			]
+			,[
+				{"col": 1, "text": "II ord." }
+				,{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "18.0" }
+				,{"col": 5, "text": "18.0" }
+				,{"col": 6, "text": "87.0" }
+				,{"col": 7, "text": "cm" }
+				,{"col": 8, "text": "ipotizzato/non rilevato" }
+			]
+			,[
+				{"col": 2, "text": "impalcato in legno" }
+			]
+			,[
+				{"col": 0, "text": "sp. [cm]" }
+				,{"col": 2, "text": "3.0" }
+				,{"col": 3, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "presenza di strati non strutturali" }
+			]
+			,[
+				{"col": 2, "text": "massetti" }
+				,{"col": 8, "text": "ipotizzato/non visibile" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "4.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "pavimentazioni" }
+				,{"col": 8, "text": "pianelle in laterizio" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "3.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 0, "text": "4.3.3" }
+				,{"col": 2, "text": "solaio di piano" }
+				,{"col": 3, "text": "-1.0" }
+			]
+			,[
+				{"col": 2, "text": "travi in legno orditura singola" }
+			]
+			,[
+				{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "18.0" }
+				,{"col": 5, "text": "18.0" }
+				,{"col": 6, "text": "60.0" }
+				,{"col": 7, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "impalcato in legno" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "3.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "presenza di strati non strutturali" }
+			]
+			,[
+				{"col": 2, "text": "pavimentazioni" }
+				,{"col": 8, "text": "mattonelle 20x20" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "2.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "altro" }
+				,{"col": 8, "text": "strato di riempimento non visibile" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "35.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "presenza di divisorie interne" }
+				,{"col": 8, "text": "divisioria vano scala" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "12.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 0, "text": "4.3.4" }
+				,{"col": 2, "text": "solaio di piano" }
+				,{"col": 3, "text": "0.0" }
+			]
+			,[
+				{"col": 2, "text": "travi in acciaio" }
+			]
+			,[
+				{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "6.6" }
+				,{"col": 5, "text": "14.0" }
+				,{"col": 6, "text": "85.0" }
+				,{"col": 7, "text": "cm" }
+				,{"col": 8, "text": "INP 140" }
+			]
+			,[
+				{"col": 2, "text": "voltine in laterizio" }
+				,{"col": 8, "text": "pianelle in laterizio" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "3.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "presenza di strati non strutturali" }
+			]
+			,[
+				{"col": 2, "text": "massetti" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "7.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "pavimentazioni" }
+				,{"col": 8, "text": "pianelle in laterizio" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "3.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "presenza di vani accessori/funzionali" }
+			]
+			,[
+				{"col": 2, "text": "terrazzi" }
+			]
+			,[
+				{"col": 2, "text": "presenza di divisorie interne" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "8.0" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 0, "text": "4.3.5" }
+				,{"col": 2, "text": "solaio di copertura" }
+				,{"col": 3, "text": "c" }
+			]
+			,[
+				{"col": 2, "text": "travi in legno orditura doppia" }
+				,{"col": 8, "text": "ipotizzato/non visibile" }
+			]
+			,[
+				{"col": 1, "text": "I ord." }
+				,{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "-" }
+				,{"col": 6, "text": "-" }
+				,{"col": 7, "text": "cm" }
+			]
+			,[
+				{"col": 1, "text": "II ord." }
+				,{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "-" }
+				,{"col": 6, "text": "-" }
+				,{"col": 7, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "impalcato in legno" }
+				,{"col": 8, "text": "ipotizzato/non visibile" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "cm" }
+				,{"col": 8, "text": "ipotizzato/non visibile" }
+			]
+			,[
+				{"col": 2, "text": "presenza di strati non strutturali" }
+			]
+			,[
+				{"col": 2, "text": "manto di copertura" }
+				,{"col": 8, "text": "coppi" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "false volte/controsoffitto" }
+				,{"col": 8, "text": "controsoffitto INP e tavelloni" }
+			]
+			,[
+				{"col": 2, "text": "copertura non spingente" }
+			]
+			,[
+				{"col": 2, "text": "non spingente leggera" }
+			]
+			,[
+				{"col": 0, "text": "4.3.6" }
+				,{"col": 2, "text": "solaio di copertura" }
+				,{"col": 3, "text": "c" }
+			]
+			,[
+				{"col": 2, "text": "travi in legno orditura doppia" }
+				,{"col": 8, "text": "ipotizzato/non visibile" }
+			]
+			,[
+				{"col": 1, "text": "I ord." }
+				,{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "-" }
+				,{"col": 6, "text": "-" }
+				,{"col": 7, "text": "cm" }
+			]
+			,[
+				{"col": 1, "text": "II ord." }
+				,{"col": 2, "text": "sezione b x h, i interasse [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "-" }
+				,{"col": 6, "text": "-" }
+				,{"col": 7, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "impalcato in legno" }
+				,{"col": 8, "text": "ipotizzato/non visibile" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "presenza di strati non strutturali" }
+			]
+			,[
+				{"col": 2, "text": "manto di copertura" }
+				,{"col": 8, "text": "coppi" }
+			]
+			,[
+				{"col": 2, "text": "sp. [cm]" }
+				,{"col": 4, "text": "-" }
+				,{"col": 5, "text": "cm" }
+			]
+			,[
+				{"col": 2, "text": "false volte/controsoffitto" }
+				,{"col": 8, "text": "voltine INP e pianelle" }
+			]
+			,[
+				{"col": 2, "text": "copertura non spingente" }
+			]
+			,[
+				{"col": 2, "text": "non spingente leggera" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "04_dati_costrutt_CARENZE", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 2, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "4.0" }
+				,{"col": 2, "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO" }
+			]
+			,[
+				{"col": 0, "text": "4.4" }
+				,{"col": 2, "text": "CARENZE COSTRUTTIVE ORIZZONTAMENTI" }
+			]
+			,[
+				{"col": 0, "text": "4.4.1" }
+				,{"col": 2, "text": "solaio controterra" }
+				,{"col": 3, "text": "ct" }
+			]
+			,[
+				{"col": 1, "text": "solaio strutturale assente" }
+			]
+			,[
+				{"col": 1, "text": "CODICE NON ASSEGNATO" }
+			]
+			,[
+				{"col": 0, "text": "materiali" }
+				,{"col": 1, "text": "solaio privo di impalcato strutturale, probabile presenza di massetto cementizio contro terra" }
+			]
+			,[
+				{"col": 0, "text": "geometria" }
+				,{"col": 1, "text": "non rilevante" }
+			]
+			,[
+				{"col": 0, "text": "carenzestrutturali" }
+				,{"col": 1, "text": "assenza di solaio strutturale" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "stato di conservaz" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "4.4.2" }
+				,{"col": 2, "text": "solaio di piano" }
+			]
+			,[
+				{"col": 2, "text": "legno" }
+				,{"col": 3, "text": "piano" }
+				,{"col": 4, "text": "-1.0" }
+			]
+			,[
+				{"col": 1, "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)" }
+			]
+			,[
+				{"col": 1, "text": "assenza di soletta semirigida di ripartizione dei carichi" }
+			]
+			,[
+				{"col": 1, "text": "carenze manutentive gravi e diffuse su elementi strutturali" }
+			]
+			,[
+				{"col": 1, "text": "B3" }
+			]
+			,[
+				{"col": 0, "text": "materiali" }
+				,{"col": 1, "text": "Doppia orditura e assito in legno" }
+			]
+			,[
+				{"col": 0, "text": "geometria" }
+				,{"col": 1, "text": "Orditura principale 20cm x 28cm; orditura secondaria 18cm x 18cm" }
+			]
+			,[
+				{"col": 0, "text": "carenzestrutturali" }
+				,{"col": 1, "text": "Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida." }
+				,{"col": 2, "text": "3.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "stato di conservaz" }
+				,{"col": 1, "text": "Leggeri segni di degrado" }
+				,{"col": 2, "text": "2.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "4.4.3" }
+				,{"col": 2, "text": "solaio di piano" }
+			]
+			,[
+				{"col": 2, "text": "legno" }
+				,{"col": 3, "text": "piano" }
+				,{"col": 4, "text": "-1.0" }
+			]
+			,[
+				{"col": 1, "text": "dimensione insufficiente degli elementi strutturali" }
+			]
+			,[
+				{"col": 1, "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)" }
+			]
+			,[
+				{"col": 1, "text": "assenza di soletta semirigida di ripartizione dei carichi" }
+			]
+			,[
+				{"col": 1, "text": "carenze manutentive gravi e diffuse su elementi strutturali" }
+			]
+			,[
+				{"col": 1, "text": "B3" }
+			]
+			,[
+				{"col": 0, "text": "materiali" }
+				,{"col": 1, "text": "Ordito e assito in legno" }
+			]
+			,[
+				{"col": 0, "text": "geometria" }
+				,{"col": 1, "text": "Orditura 18cm x 18cm" }
+			]
+			,[
+				{"col": 0, "text": "carenzestrutturali" }
+				,{"col": 1, "text": "Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida." }
+				,{"col": 2, "text": "3.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "stato di conservaz" }
+				,{"col": 1, "text": "Scarso, evidenti segni di degrado del materiale" }
+				,{"col": 2, "text": "3.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "4.4.4" }
+				,{"col": 2, "text": "solaio di piano" }
+			]
+			,[
+				{"col": 2, "text": "acciaio" }
+				,{"col": 3, "text": "piano" }
+				,{"col": 4, "text": "0.0" }
+			]
+			,[
+				{"col": 1, "text": "dimensione insufficiente degli elementi strutturali" }
+			]
+			,[
+				{"col": 1, "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)" }
+			]
+			,[
+				{"col": 1, "text": "assenza di soletta semirigida di ripartizione dei carichi" }
+			]
+			,[
+				{"col": 1, "text": "B1" }
+			]
+			,[
+				{"col": 0, "text": "materiali" }
+				,{"col": 1, "text": "Volte in laterizio su travetti di acciaio" }
+			]
+			,[
+				{"col": 0, "text": "geometria" }
+				,{"col": 1, "text": "Travetti INP 140; L=4,70m  i=0,85m" }
+			]
+			,[
+				{"col": 0, "text": "carenzestrutturali" }
+				,{"col": 1, "text": "Assenza di cordolatura. Assenza di collegamento travi alle murature. Assenza di soletta rigida." }
+				,{"col": 2, "text": "3.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "stato di conservaz" }
+				,{"col": 1, "text": "Lesioni nell'intonaco all'intradosso del solaio" }
+				,{"col": 2, "text": "2.0" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "4.4.5" }
+				,{"col": 2, "text": "solaio di copertura" }
+				,{"col": 3, "text": "c" }
+			]
+			,[
+				{"col": 2, "text": "legno" }
+			]
+			,[
+				{"col": 1, "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)" }
+			]
+			,[
+				{"col": 1, "text": "assenza di soletta semirigida di ripartizione dei carichi" }
+			]
+			,[
+				{"col": 1, "text": "carenze manutentive gravi e diffuse su elementi strutturali" }
+			]
+			,[
+				{"col": 1, "text": "note:" }
+			]
+			,[
+				{"col": 1, "text": "ipotizzato poiché non visibile" }
+			]
+			,[
+				{"col": 1, "text": "C2" }
+			]
+			,[
+				{"col": 0, "text": "materiali" }
+				,{"col": 1, "text": "Ordito in legno e assito (ipotizzato)" }
+			]
+			,[
+				{"col": 0, "text": "geometria" }
+				,{"col": 1, "text": "Non rilevata" }
+			]
+			,[
+				{"col": 0, "text": "carenzestrutturali" }
+				,{"col": 1, "text": "Non rilevate" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+			,[
+				{"col": 0, "text": "stato di conservaz" }
+				,{"col": 1, "text": "Non rilevato" }
+				,{"col": 2, "text": "-" }
+				,{"col": 3, "text": "1:ottimo" }
+				,{"col": 4, "text": "2:medio" }
+				,{"col": 5, "text": "3:scarso" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "05_valutazione rischio_M", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 1, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "5.0" }
+				,{"col": 1, "text": "VALUTAZIONE DEL RISCHIO" }
+			]
+			,[
+				{"col": 0, "text": "5.1" }
+				,{"col": 1, "text": "CARENZE edifici a destinazione prevalente abitativa con struttura in muratura" }
+			]
+			,[
+				{"col": 1, "text": "Presenza di muri portanti a doppio paramento (senza efficaci collegamenti – diatoni tra i due paramenti), ciascuno a 1 testa (o comunque con spessore ≤ 15 cm) per più del 40% dello sviluppo di una parete perimetrale" }
+				,{"col": 3, "text": "b" }
+				,{"col": 5, "text": "0.0" }
+				,{"col": 6, "text": "1.0" }
+			]
+			,[
+				{"col": 1, "text": "Cattiva qualità della tessitura muraria (caotica, sbozzata senza ricorsi e orizzontalità, assenza di diatoni, ...), per uno sviluppo ≥ 40 % della superficie totale resistente" }
+				,{"col": 2, "text": "a" }
+				,{"col": 5, "text": "1.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 1, "text": "Assenza diffusa o irregolarità di connessioni della muratura alle angolate ed ai martelli" }
+				,{"col": 2, "text": "a" }
+				,{"col": 5, "text": "1.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 1, "text": "Collegamenti  degli  orizzontamenti  alle  strutture  verticali  portanti  inesistenti  o inefficaci in modo diffuso" }
+				,{"col": 2, "text": "a" }
+				,{"col": 5, "text": "1.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 1, "text": "Solai impostati su piani sfalsati con dislivello > 1/3 altezza di interpiano, all’interno della u.s. o di u.s. contigue" }
+				,{"col": 3, "text": "b" }
+				,{"col": 5, "text": "0.0" }
+				,{"col": 6, "text": "1.0" }
+			]
+			,[
+				{"col": 5, "text": "a" }
+				,{"col": 6, "text": "b" }
+			]
+			,[
+				{"col": 5, "text": "3.0" }
+				,{"col": 6, "text": "2.0" }
+			]
+			,[
+				{"col": 1, "text": "grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6" }
+			]
+			,[
+				{"col": 1, "text": "grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5" }
+			]
+			,[
+				{"col": 1, "text": "grado di vulnerabilità BASSOse a= 0 ose b < 5" }
+			]
+			,[
+				{"col": 1, "text": "DANNI AD ELEMENTI STRUTTURALI" }
+			]
+			,[
+				{"col": 1, "text": "estensione del danno" }
+				,{"col": 2, "text": "D4-D5" }
+				,{"col": 5, "text": "D2-D3" }
+				,{"col": 8, "text": "D1" }
+			]
+			,[
+				{"col": 1, "text": "componente strutturale" }
+				,{"col": 2, "text": "> 60%" }
+				,{"col": 3, "text": "30-60%" }
+				,{"col": 4, "text": "< 30%" }
+				,{"col": 5, "text": "> 60%" }
+				,{"col": 6, "text": "30-60%" }
+				,{"col": 7, "text": "< 30%" }
+				,{"col": 8, "text": "> 60%" }
+				,{"col": 9, "text": "30-60%" }
+				,{"col": 10, "text": "< 30%" }
+			]
+			,[
+				{"col": 1, "text": "strutture verticali" }
+				,{"col": 7, "text": "x" }
+			]
+			,[
+				{"col": 1, "text": "solaio di piano" }
+				,{"col": 10, "text": "x" }
+			]
+			,[
+				{"col": 1, "text": "DANNI AD ELEMENTI NON STRUTTURALI" }
+			]
+			,[
+				{"col": 1, "text": "distacco intonaci, rivestimenti, controsoffitti, …" }
+				,{"col": 2, "text": "x" }
+			]
+			,[
+				{"col": 1, "text": "PERICOLO ESTERNO INDOTTO DA ALTRO" }
+			]
+			,[
+				{"col": 1, "text": "TERRENO E FONDAZIONI" }
+			]
+			,[
+				{"col": 1, "text": "morfologia del sito" }
+			]
+			,[
+				{"col": 1, "text": "pendio" }
+				,{"col": 2, "text": "x" }
+			]
+			,[
+				{"col": 1, "text": "dissesti alle fondazioni" }
+			]
+			,[
+				{"col": 1, "text": "assenti" }
+				,{"col": 2, "text": "x" }
+			]
+			,[
+				{"col": 1, "text": "STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)" }
+			]
+			,[
+				{"col": 1, "text": "STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'" }
+			]
+			,[
+				{"col": 1, "text": "STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'" }
+			]
+			,[
+				{"col": 1, "text": "STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'" }
+			]
+			,[
+				{"col": 1, "text": "D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali." }
+			]
+			,[
+				{"col": 1, "text": "D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali." }
+			]
+			,[
+				{"col": 1, "text": "D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso" }
+			]
+
+		]
+	}
+	,{
+		"sheet": "05_valutazione rischio_CA", 
+		"rows": [
+			[
+				{"col": 0, "text": "edificio" }
+				,{"col": 3, "text": "O02" }
+			]
+			,[
+				{"col": 0, "text": "5.0" }
+				,{"col": 3, "text": "VALUTAZIONE DEL RISCHIO" }
+			]
+			,[
+				{"col": 0, "text": "5.1" }
+				,{"col": 3, "text": "CARENZE edifici a destinazione prevalente abitativa con struttura in muratura" }
+			]
+			,[
+				{"col": 5, "text": "a" }
+				,{"col": 6, "text": "b" }
+			]
+			,[
+				{"col": 5, "text": "0.0" }
+				,{"col": 6, "text": "0.0" }
+			]
+			,[
+				{"col": 2, "text": "grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6" }
+			]
+			,[
+				{"col": 2, "text": "grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5" }
+			]
+			,[
+				{"col": 2, "text": "grado di vulnerabilità BASSOse a= 0 ose b < 5" }
+			]
+			,[
+				{"col": 2, "text": "DANNI AD ELEMENTI STRUTTURALI" }
+			]
+			,[
+				{"col": 2, "text": "estensione del danno" }
+				,{"col": 3, "text": "D4-D5" }
+				,{"col": 6, "text": "D2-D3" }
+				,{"col": 8, "text": "D1" }
+			]
+			,[
+				{"col": 2, "text": "componente strutturale" }
+				,{"col": 3, "text": "> 60%" }
+				,{"col": 4, "text": "30-60%" }
+				,{"col": 5, "text": "< 30%" }
+				,{"col": 6, "text": "> 60%" }
+				,{"col": 7, "text": "30-60%" }
+				,{"col": 8, "text": "< 30%" }
+				,{"col": 9, "text": "> 60%" }
+				,{"col": 10, "text": "30-60%" }
+				,{"col": 11, "text": "< 30%" }
+			]
+			,[
+				{"col": 2, "text": "DANNI AD ELEMENTI NON STRUTTURALI" }
+			]
+			,[
+				{"col": 2, "text": "PERICOLO ESTERNO INDOTTO DA ALTRO" }
+			]
+			,[
+				{"col": 2, "text": "TERRENO E FONDAZIONI" }
+			]
+			,[
+				{"col": 2, "text": "morfologia del sito" }
+			]
+			,[
+				{"col": 2, "text": "dissesti alle fondazioni" }
+			]
+			,[
+				{"col": 2, "text": "STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)" }
+			]
+			,[
+				{"col": 2, "text": "STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'" }
+			]
+			,[
+				{"col": 2, "text": "STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'" }
+			]
+			,[
+				{"col": 2, "text": "STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'" }
+			]
+			,[
+				{"col": 2, "text": "D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali." }
+			]
+			,[
+				{"col": 2, "text": "D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali." }
+			]
+			,[
+				{"col": 2, "text": "D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso" }
+			]
+
+		]
+	}
 ]

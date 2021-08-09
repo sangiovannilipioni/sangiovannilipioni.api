@@ -1,4 +1,4 @@
-0|01_id_edificio|
+-1|01_id_edificio|
 0|edificio|1|O02|
 0|1.0|1|IDENTIFICAZIONE EDIFICIO|
 1|DATA|
@@ -15,7 +15,7 @@
 1|FOGLIO|
 1|MAPPALE|
 1|SUBALTERNI|
-0|02_descriz_edificio|
+-1|02_descriz_edificio|
 0|edificio|2|O02|
 0|2.0|2|CARATTERISTICHE EDIFICIO|
 2|EDIFICIO IN AGGREGATO|
@@ -37,7 +37,7 @@
 2|abitazione|
 0|2.4|2|TIPO EDILIZIO|
 2|A blocco|
-0|03_dati_metrici_AB|
+-1|03_dati_metrici_AB|
 0|edificio|1|O02|
 0|3.0|1|CARATTERISTICHE GEOMETRICHE DEL FABBRICATO|
 0|3.1|1|ABITAZIONE|
@@ -103,7 +103,7 @@
 0|Superficie lorda|1|SL|2|15.55|3|mq|
 0|Superficie totale di piano|1|ST|2|38.75|3|mq|
 0|Superficie né utile né access.|1|S|2|0.0|3|mq|
-0|04_dati_costrutt_VERT|
+-1|04_dati_costrutt_VERT|
 0|edificio|1|O02|
 0|4.0|1|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.1|1|STRUTTURE PORTANTI VERTICALI|
@@ -138,7 +138,7 @@
 1|sp. [cm]|2|1.5|3|cm|5|spessore ipotizzato|
 1|intonaci esterni|
 1|sp. [cm]|2|1.5|3|cm|6|spessore ipotizzato|
-0|04_dati_costrutt_VERT_IQM|
+-1|04_dati_costrutt_VERT_IQM|
 0|edificio|2|O02|
 0|4.0|2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.2|2|Indice di Qualità Muraria|
@@ -171,7 +171,7 @@
 0|geometria|1|25x12x5,5 cm|2|IQMv|3|IQMo,fp|4|IQMo,np|
 0|IQM|1|Buona qualità della muratura, probabile assenza di diatoni.|2|A|3|B|4|A|
 0|stato di conservaz|1|Stato di conservazione discreto, presenza di lievi lesioni verticali.|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
-0|04_dati_costrutt_ORIZZ|
+-1|04_dati_costrutt_ORIZZ|
 0|edificio|2|O02|
 0|4.0|2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.3|2|STRUTTURE PORTANTI ORIZZONTALI|
@@ -238,7 +238,7 @@
 2|false volte/controsoffitto|8|voltine INP e pianelle|
 2|copertura non spingente|
 2|non spingente leggera|
-0|04_dati_costrutt_CARENZE|
+-1|04_dati_costrutt_CARENZE|
 0|edificio|2|O02|
 0|4.0|2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.4|2|CARENZE COSTRUTTIVE ORIZZONTAMENTI|
@@ -292,7 +292,7 @@
 0|geometria|1|Non rilevata|
 0|carenzestrutturali|1|Non rilevate|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
 0|stato di conservaz|1|Non rilevato|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
-0|05_valutazione rischio_M|
+-1|05_valutazione rischio_M|
 0|edificio|1|O02|
 0|5.0|1|VALUTAZIONE DEL RISCHIO|
 0|5.1|1|CARENZE edifici a destinazione prevalente abitativa con struttura in muratura|
@@ -326,7 +326,7 @@
 1|D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali.|
 1|D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali.|
 1|D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso|
-0|05_valutazione rischio_CA|
+-1|05_valutazione rischio_CA|
 0|edificio|3|O02|
 0|5.0|3|VALUTAZIONE DEL RISCHIO|
 0|5.1|3|CARENZE edifici a destinazione prevalente abitativa con struttura in muratura|

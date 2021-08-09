@@ -1,4 +1,4 @@
-grammar SGL;
+grammar SGL2;
 
 total   : sheet+;
 sheet   : sheetid row+;

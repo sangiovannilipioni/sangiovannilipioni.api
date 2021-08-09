@@ -38,7 +38,7 @@ public class App {
 
                 while (sheetIterator.hasNext()) {
                     Sheet currentSheet = sheetIterator.next();
-                    writer.print("0|");
+                    writer.print("-1|");
                     writer.print(currentSheet.getSheetName());
                     writer.println("|");
                     Iterator<Row> rowIterator = currentSheet.iterator();
