@@ -18,10 +18,10 @@ public class SGLParser extends Parser {
 	public static final int
 		NEWLINE=1, DIGITS=2, CONTENT=3;
 	public static final int
-		RULE_sheet = 0, RULE_cell = 1;
+		RULE_sheet = 0, RULE_row = 1, RULE_cell = 2;
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"sheet", "cell"
+			"sheet", "row", "cell"
 		};
 	}
 	public static final String[] ruleNames = makeRuleNames();
@@ -88,11 +88,11 @@ public class SGLParser extends Parser {
 	}
 
 	public static class SheetContext extends ParserRuleContext {
-		public List<CellContext> cell() {
-			return getRuleContexts(CellContext.class);
+		public List<RowContext> row() {
+			return getRuleContexts(RowContext.class);
 		}
-		public CellContext cell(int i) {
-			return getRuleContext(CellContext.class,i);
+		public RowContext row(int i) {
+			return getRuleContext(RowContext.class,i);
 		}
 		public SheetContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
@@ -107,20 +107,70 @@ public class SGLParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(5); 
+			setState(7); 
 			_errHandler.sync(this);
 			_la = _input.LA(1);
 			do {
 				{
 				{
-				setState(4);
-				cell();
+				setState(6);
+				row();
 				}
 				}
-				setState(7); 
+				setState(9); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 			} while ( _la==DIGITS );
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.reportError(this, re);
+			_errHandler.recover(this, re);
+		}
+		finally {
+			exitRule();
+		}
+		return _localctx;
+	}
+
+	public static class RowContext extends ParserRuleContext {
+		public TerminalNode NEWLINE() { return getToken(SGLParser.NEWLINE, 0); }
+		public List<CellContext> cell() {
+			return getRuleContexts(CellContext.class);
+		}
+		public CellContext cell(int i) {
+			return getRuleContext(CellContext.class,i);
+		}
+		public RowContext(ParserRuleContext parent, int invokingState) {
+			super(parent, invokingState);
+		}
+		@Override public int getRuleIndex() { return RULE_row; }
+	}
+
+	public final RowContext row() throws RecognitionException {
+		RowContext _localctx = new RowContext(_ctx, getState());
+		enterRule(_localctx, 2, RULE_row);
+		int _la;
+		try {
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(12); 
+			_errHandler.sync(this);
+			_la = _input.LA(1);
+			do {
+				{
+				{
+				setState(11);
+				cell();
+				}
+				}
+				setState(14); 
+				_errHandler.sync(this);
+				_la = _input.LA(1);
+			} while ( _la==DIGITS );
+			setState(16);
+			match(NEWLINE);
 			}
 		}
 		catch (RecognitionException re) {
@@ -145,13 +195,13 @@ public class SGLParser extends Parser {
 
 	public final CellContext cell() throws RecognitionException {
 		CellContext _localctx = new CellContext(_ctx, getState());
-		enterRule(_localctx, 2, RULE_cell);
+		enterRule(_localctx, 4, RULE_cell);
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(9);
+			setState(18);
 			match(DIGITS);
-			setState(10);
+			setState(19);
 			match(CONTENT);
 			}
 		}
@@ -167,10 +217,13 @@ public class SGLParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\5\17\4\2\t\2\4\3"+
-		"\t\3\3\2\6\2\b\n\2\r\2\16\2\t\3\3\3\3\3\3\3\3\2\2\4\2\4\2\2\2\r\2\7\3"+
-		"\2\2\2\4\13\3\2\2\2\6\b\5\4\3\2\7\6\3\2\2\2\b\t\3\2\2\2\t\7\3\2\2\2\t"+
-		"\n\3\2\2\2\n\3\3\2\2\2\13\f\7\4\2\2\f\r\7\5\2\2\r\5\3\2\2\2\3\t";
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\5\30\4\2\t\2\4\3"+
+		"\t\3\4\4\t\4\3\2\6\2\n\n\2\r\2\16\2\13\3\3\6\3\17\n\3\r\3\16\3\20\3\3"+
+		"\3\3\3\4\3\4\3\4\3\4\2\2\5\2\4\6\2\2\2\26\2\t\3\2\2\2\4\16\3\2\2\2\6\24"+
+		"\3\2\2\2\b\n\5\4\3\2\t\b\3\2\2\2\n\13\3\2\2\2\13\t\3\2\2\2\13\f\3\2\2"+
+		"\2\f\3\3\2\2\2\r\17\5\6\4\2\16\r\3\2\2\2\17\20\3\2\2\2\20\16\3\2\2\2\20"+
+		"\21\3\2\2\2\21\22\3\2\2\2\22\23\7\3\2\2\23\5\3\2\2\2\24\25\7\4\2\2\25"+
+		"\26\7\5\2\2\26\7\3\2\2\2\4\13\20";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {

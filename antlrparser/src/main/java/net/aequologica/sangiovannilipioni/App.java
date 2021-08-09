@@ -22,7 +22,7 @@ class Main {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Antlr4 Example");
-        ParseTree t = parse(dir + filename + ".txt", "SGL.g4", "cell");
+        ParseTree t = parse(dir + filename + ".txt", "SGL.g4", "sheet");
         try (PrintWriter w = new PrintWriter(dir + filename + ".json", "UTF-8")) {
             ParseTreeWalker walker = new ParseTreeWalker();
             walker.walk(new Main.PrintEverything(w), t);
@@ -42,6 +42,9 @@ class Main {
     static class PrintEverything implements ParseTreeListener {
 
         PrintWriter w;
+        int inRule = 0;
+        int lastRule = -1;
+        int max = -1;
 
         PrintEverything(PrintWriter writer) {
             this.w = writer;
@@ -52,9 +55,10 @@ class Main {
             String qwe = node.getText();
             if (qwe.startsWith("|") && qwe.endsWith("|")) {
                 qwe = qwe.substring(1, qwe.length() - 1);
-                qwe = ": \"" + qwe + "\"";
-            } else {
-                qwe = "\"" + qwe + "\"";
+                qwe = ", \"text\": \"" + qwe + "\"";
+            } else if (qwe.length() > 0 && qwe.charAt(0) != '\n'){
+                max = Math.max(max, Integer.parseInt(qwe));
+                qwe = "\"column\": " + qwe;
             }
             w.println(qwe);
         }
@@ -66,20 +70,29 @@ class Main {
 
         @Override
         public void enterEveryRule(ParserRuleContext ctx) {
-            if (ctx.getParent() != null) {
-                w.println("{");
-            } else {
+            inRule = ctx.getRuleIndex();
+            if (lastRule == inRule) {
+                w.println(",");
+            }
+            if (ctx.getRuleIndex() == 0) {
                 w.println("[");
+            } else if (ctx.getRuleIndex() == 1){
+                w.println("[");
+            } else if (ctx.getRuleIndex() == 2){
+                w.println("{");
             }
         }
 
         @Override
         public void exitEveryRule(ParserRuleContext ctx) {
-            if (ctx.getParent() != null) {
-                w.println("} ,");
-            } else {
+            if (ctx.getRuleIndex() == 0) {
+                w.println(", {\"max\": "+max+"}]");
+            } else if (ctx.getRuleIndex() == 1){
                 w.println("]");
+            } else if (ctx.getRuleIndex() == 2){
+                w.println("}");
             }
+            lastRule = ctx.getRuleIndex();
         }
 
     }
