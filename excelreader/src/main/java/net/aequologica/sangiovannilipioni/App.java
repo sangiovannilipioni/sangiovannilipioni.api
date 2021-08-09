@@ -38,9 +38,9 @@ public class App {
 
                 while (sheetIterator.hasNext()) {
                     Sheet currentSheet = sheetIterator.next();
-                    writer.print("0æ");
+                    writer.print("0|");
                     writer.print(currentSheet.getSheetName());
-                    writer.println("œ");
+                    writer.println("|");
                     Iterator<Row> rowIterator = currentSheet.iterator();
 
                     while (rowIterator.hasNext()) {
@@ -61,11 +61,11 @@ public class App {
                                 if (currentCell.getCellType() == STRING) {
                                     String str = nolfnodoublequotetrim(currentCell.getStringCellValue());
                                     if (str.length() > 0) {
-                                        writer.print(col.toString() + "æ" + str + "œ");
+                                        writer.print(col.toString() + "|" + str + "|");
                                         printLine = true;
                                     }
                                 } else if (currentCell.getCellType() == NUMERIC) {
-                                    writer.print(col.toString() + "æ" + currentCell.getNumericCellValue() + "œ");
+                                    writer.print(col.toString() + "|" + currentCell.getNumericCellValue() + "|");
                                     printLine = true;
                                 }
                             }

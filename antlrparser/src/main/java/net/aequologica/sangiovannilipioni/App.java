@@ -50,7 +50,7 @@ class Main {
         @Override
         public void visitTerminal(TerminalNode node) {
             String qwe = node.getText();
-            if (qwe.startsWith("æ") && qwe.endsWith("œ")) {
+            if (qwe.startsWith("|") && qwe.endsWith("|")) {
                 qwe = qwe.substring(1, qwe.length() - 1);
                 qwe = ": \"" + qwe + "\"";
             } else {

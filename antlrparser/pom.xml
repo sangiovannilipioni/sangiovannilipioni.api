@@ -94,6 +94,8 @@
         <version>${antlr.version}</version>
         <executions>
             <execution>
+                <id>antlr-generate</id>
+                <phase>generate-sources</phase>
                 <goals>
                     <goal>antlr4</goal>
                 </goals>

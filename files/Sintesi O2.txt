@@ -1,352 +1,352 @@
-0æ01_id_edificioœ
-0æedificioœ1æO02œ
-0æ1.0œ1æIDENTIFICAZIONE EDIFICIOœ
-1æDATAœ
-1æID. SCHEDAœ2æO02œ
-1æCODICE EDIFICIOœ2æO02œ
-1æCODICE AGGREGATOœ2æOœ
-0æ1.1œ1æLOCALIZZAZIONE GEOGRAFICAœ
-1æREGIONEœ2æAbruzzoœ
-1æPROVINCIAœ2æChietiœ
-1æCOMUNEœ2æSan Giovanni Lipioniœ
-1æINDIRIZZOœ2æVia Roma, 37œ
-1æCOORDINATE GEOGRAFICHEœ2æ41.84247, 14.56213œ
-0æ1.2œ1æDATI CATASTALIœ
-1æFOGLIOœ
-1æMAPPALEœ
-1æSUBALTERNIœ
-0æ02_descriz_edificioœ
-0æedificioœ2æO02œ
-0æ2.0œ2æCARATTERISTICHE EDIFICIOœ
-2æEDIFICIO IN AGGREGATOœ
-2æestremitàœ
-2æMONOFAMILIAREœ
-1æ2.0œ2æNr. piani fuori terraœ
-1æ1.0œ2æNr. piani interrati/seminterratiœ3æPiano seminterrato sul lato Nord diventa piano terra sul lato Sudœ
-1æ1.0œ2æNr. unità abitativeœ
-2æH media di pianoœ
-2æ< 2.50 mœ3æAltezza variabile, dai 215 ai 280 cmœ
-2æSup. media di piano (mq)œ
-2æ< 50 mqœ3æCirca 43 mq per piano terra e 23 mq per piano primo e seminterratoœ
-1æ6.1œ2æH grondaœ
-0æ2.1œ2æEPOCA DI COSTRUZIONEœ
-2æ1900-1952œ
-0æ2.2œ2æUTILIZZAZIONEœ
-2ænon utilizzato/in stato d'abbandono (scadente)œ3æEvidenti segni di degradoœ
-0æ2.3œ2æDESTINAZIONE D'USOœ
-2æabitazioneœ
-0æ2.4œ2æTIPO EDILIZIOœ
-2æA bloccoœ
-0æ03_dati_metrici_ABœ
-0æedificioœ1æO02œ
-0æ3.0œ1æCARATTERISTICHE GEOMETRICHE DEL FABBRICATOœ
-0æ3.1œ1æABITAZIONEœ
-1æAbitazione su 3 livelli, piano terra con accesso su via Roma sul prospetto principale. Locali ad uso abitativo non arredati, riconoscibile solo cucina a piano terra. Corpo principale che si estende per 3 piani e locale aggiuntivo a piano terra sul retro.œ
-0æ3.1.1œ1æVani principaliœ
-1æCucina, soggiorno (presunto), camere da letto (presunto)œ
-1ænr. vaniœ2æ4.0œ
-1æCucinaœ2æSUœ3æ20.32œ4æmqœ
-1æSoggiornoœ2æSUœ3æ22.85œ4æmqœ
-1æCamera Doppiaœ2æSUœ3æ16.12œ4æmqœ
-1æCamera Singolaœ2æSUœ3æ5.62œ4æmqœ
-0æSU Superficie Utileœ2æ64.91000000000001œ3æmqœ
-0æ3.1.2œ1æVani accessori direttiœ
-1æDue bagniœ
-1ænr. vaniœ2æ2.0œ
-1æBagno PTœ2æSUœ3æ0.78œ4æmqœ
-0æBagno P1œ1æSUœ2æ1.08œ3æmqœ
-0æSU Superficie Utileœ2æ1.86œ3æmqœ
-0æ3.1.3œ1æVani accessori indirettiœ
-1ælocale seminterrato ad uso cantina/depositoœ
-1æcomunicantiœ
-1ænr. vaniœ2æ1.0œ
-1æCantina/ingressoœ2æSAœ3æ23.2œ4æmqœ
-1æSU Superficie Utileœ3æ0.0œ4æmqœ
-1æSA Superficie Accessoriaœ3æ23.2œ4æmqœ
-0æ3.1.4œ1æDipendenzeœ
-1æBalcone al piano 1œ
-1æcomunicantiœ
-1æBalcone P1œ2æSAœ3æ3.29œ4æmqœ
-1æSA Superficie Accessoriaœ3æ3.29œ4æmqœ
-0æ3.1.5œ1æCollegamentiœ
-1æVano scalaœ2æSAœ3æ2.29œ4æmqœ
-1æSA Superficieœ3æ2.29œ4æmqœ
-0æ3.2œ1æVALORI DI SINTESI ABITAZIONEœ
-1æSuperficie utile totaleœ2æSUœ3æ66.77000000000001œ4æmqœ
-1æSuperficie accessoria totaleœ2æSAœ3æ28.78œ4æmqœ
-1æSuperficie calpestabile totaleœ2æSCaœ3æ95.55000000000001œ4æmqœ
-1æSuperficie complessivaœ2æSCOœ3æ84.03800000000001œ4æmqœ
-1æSuperficie lordaœ2æSLœ3æ117.23œ4æmqœ
-1æSuperficie totaleœ2æSTœ3æ146.01œ4æmqœ
-0æNr.pianiœ1æ3.0œ
-0æpianoœ1æ0.0œ
-0æSuperficie utile totaleœ1æSUœ2æ43.95œ3æmqœ
-0æSuperficie accessoria totaleœ1æSAœ2æ2.29œ3æmqœ
-0æSuperficie calpestabile totaleœ1æSCaœ2æ46.24œ3æmqœ
-0æSuperficie complessivaœ1æSCOœ2æ45.324000000000005œ3æmqœ
-0æSuperficie lordaœ1æSLœ2æ66.22œ3æmqœ
-0æSuperficie totale di pianoœ1æSTœ2æ68.51œ3æmqœ
-0æSuperficie né utile né access.œ1æSœ2æ0.0œ3æmqœ
-0æpianoœ1æ1.0œ
-0æSuperficie utile totaleœ1æSUœ2æ22.82œ3æmqœ
-0æSuperficie accessoria totaleœ1æSAœ2æ3.29œ3æmqœ
-0æSuperficie calpestabile totaleœ1æSCaœ2æ26.11œ3æmqœ
-0æSuperficie complessivaœ1æSCOœ2æ24.794œ3æmqœ
-0æSuperficie lordaœ1æSLœ2æ35.46œ3æmqœ
-0æSuperficie totaleœ1æSTœ2æ38.75œ3æmqœ
-0æSuperficie né utile né access.œ1æSœ2æ0.0œ3æmqœ
-0æpianoœ1æSœ
-0æSuperficie utile totaleœ1æSUœ2æ0.0œ3æmqœ
-0æSuperficie accessoria totaleœ1æSAœ2æ23.2œ3æmqœ
-0æSuperficie calpestabile totaleœ1æSCaœ2æ23.2œ3æmqœ
-0æSuperficie complessivaœ1æSCOœ2æ13.92œ3æmqœ
-0æSuperficie lordaœ1æSLœ2æ15.55œ3æmqœ
-0æSuperficie totale di pianoœ1æSTœ2æ38.75œ3æmqœ
-0æSuperficie né utile né access.œ1æSœ2æ0.0œ3æmqœ
-0æ04_dati_costrutt_VERTœ
-0æedificioœ1æO02œ
-0æ4.0œ1æCARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATOœ
-0æ4.1œ1æSTRUTTURE PORTANTI VERTICALIœ
-1æEdificio intonacato quasi completamente all'interno (fatta eccezione per il piano seminterrato) e parzialmente all'esterno (solo due pareti del corpo principale). Le parti non intonacate rivelano una muratura in pietra disordinata, per cui si ipotizza la stessa struttura per il piano terra e il piano seminterrato. Al secondo piano è presente una parete non intonacata in pietra disordinata, le restanti 3 pareti si ipotizzano in laterizio dato lo spessore notevolmente ridotto.œ
-1ædiverseœ
-0æ4.1.1œ1æpianoœ2æ-1.0œ3æ0.0œ4æ1.0œ
-0æcodice id. elementi costruttivi strutturaliœ1æA1œ2æA1œ3æA1œ
-0æcodice id. elementi costruttivi finiture - INTERNOœ1æ-œ2æL1œ3æL1œ
-0æcodice id. elementi costruttivi finiture - ESTERNOœ1æL3œ2æL3œ3æL3œ
-1æpareti esterneœ
-1æpareti interneœ
-1æmassivaœ
-1æmuratura in pietra disordinataœ
-1æsp. minimo [cm]œ2æ55.0œ3æcmœ
-1æsp. massimo [cm]œ2æ75.0œ3æcmœ
-1æpresenza di strati non strutturaliœ
-1æintonaci interniœ
-1æsp. [cm]œ2æ1.5œ3æcmœ6æspessore ipotizzatoœ
-1æintonaci esterniœ
-1æsp. [cm]œ2æ1.5œ3æcmœ6æspessore ipotizzatoœ
-0æ4.1.2œ1æpianoœ2æ1.0œ
-0æcodice id. elementi costruttivi strutturaliœ1æA2œ
-0æcodice id. elementi costruttivi finiture - INTERNOœ1æL1œ
-1æcodice id. elementi costruttivi finiture - ESTERNOœ2æL3œ
-1æpareti interneœ
-1æmassivaœ
-1æmuratura in laterizio foratoœ6æIpotizzato in base allo spessore della muraturaœ
-1æsp. minimo [cm]œ2æ20.0œ3æcmœ
-1æsp. massimo [cm]œ2æ30.0œ3æcmœ
-1æpresenza di strati non strutturaliœ
-1æintonaci interniœ
-1æsp. [cm]œ2æ1.5œ3æcmœ5æspessore ipotizzatoœ
-1æintonaci esterniœ
-1æsp. [cm]œ2æ1.5œ3æcmœ6æspessore ipotizzatoœ
-0æ04_dati_costrutt_VERT_IQMœ
-0æedificioœ2æO02œ
-0æ4.0œ2æCARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATOœ
-0æ4.2œ2æIndice di Qualità Murariaœ
-0æ4.2.1œ2æpianoœ3æ-1.0œ4æ0.0œ5æ1.0œ6æ1.0œ
-2æcodice id. elementi costruttivi strutturaliœ3æA1œ4æA1œ5æA1œ6æA1œ
-2æcodice id. elementi costruttivi finiture - INTERNOœ3æ-œ4æL1œ5æL1œ6æL1œ
-2æcodice id. elementi costruttivi finiture - ESTERNOœ3æL3œ4æL3œ5æL3œ6æL3œ
-2æpareti esterneœ
-1æpareti interneœ
-2æCATEGORIAœ
-0æIQMvœ1æ1.5œ2æ-œ3æ-œ4æCœ
-0æIQMo,fpœ1æ1.5œ2æ-œ3æ-œ4æCœ
-0æIQMo,npœ1æ2.5œ2æ-œ3æ-œ4æCœ
-1æA1œ
-0æmaterialiœ1æPietra sbozzataœ
-0ægeometriaœ1æConci di diverse dimensioni e forma irregolareœ2æIQMvœ3æIQMo,fpœ4æIQMo,npœ
-0æIQMœ1æMuratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano.œ2æCœ3æCœ4æCœ
-0æstato di conservazœ1æStato di conservazione complessivamente discreto. Presenza di lievi lesioni verticali al primo e al secondo piano sulle pareti longitudinali e lesioni derivate dalla insufficiente resistenza degli architravi nelle aperture. Parte di muratura del secondo piano molto degradata nella parte interna.œ2æ2.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æ4.2.2œ2æpianoœ3æ1.0œ4æ0.0œ5æ0.0œ6æ0.0œ
-2æcodice id. elementi costruttivi strutturaliœ3æA2œ4æ0.0œ5æ0.0œ6æ0.0œ
-2æcodice id. elementi costruttivi finiture - INTERNOœ3æL1œ4æ0.0œ5æ0.0œ6æ0.0œ
-2æcodice id. elementi costruttivi finiture - ESTERNOœ3æL3œ4æ0.0œ5æ0.0œ6æ0.0œ
-2æpareti interneœ
-2æCATEGORIAœ
-0æIQMvœ1æ8.5œ2æAœ3æ-œ4æ-œ
-0æIQMo,fpœ1æ6.5œ2æ-œ3æBœ4æ-œ
-0æIQMo,npœ1æ7.5œ2æAœ3æ-œ4æ-œ
-1æA2œ
-0æmaterialiœ1æMattone foratoœ
-0ægeometriaœ1æ25x12x5,5 cmœ2æIQMvœ3æIQMo,fpœ4æIQMo,npœ
-0æIQMœ1æBuona qualità della muratura, probabile assenza di diatoni.œ2æAœ3æBœ4æAœ
-0æstato di conservazœ1æStato di conservazione discreto, presenza di lievi lesioni verticali.œ2æ2.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æ04_dati_costrutt_ORIZZœ
-0æedificioœ2æO02œ
-0æ4.0œ2æCARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATOœ
-0æ4.3œ2æSTRUTTURE PORTANTI ORIZZONTALIœ
-0æ4.3.1œ2æsolaio controterraœ3æctœ
-2æassenza di solaio strutturaleœ8æipotizzatoœ
-0æ4.3.2œ2æsolaio di pianoœ3æ-1.0œ
-2ætravi in legno orditura doppiaœ
-1æI ord.œ2æsezione b x h, i interasse [cm]œ4æ20.0œ5æ28.0œ6æ230.0œ7æcmœ8æipotizzato/non rilevatoœ
-1æII ord.œ2æsezione b x h, i interasse [cm]œ4æ18.0œ5æ18.0œ6æ87.0œ7æcmœ8æipotizzato/non rilevatoœ
-2æimpalcato in legnoœ
-0æsp. [cm]œ2æ3.0œ3æcmœ
-2æpresenza di strati non strutturaliœ
-2æmassettiœ8æipotizzato/non visibileœ
-2æsp. [cm]œ4æ4.0œ5æcmœ
-2æpavimentazioniœ8æpianelle in laterizioœ
-2æsp. [cm]œ4æ3.0œ5æcmœ
-0æ4.3.3œ2æsolaio di pianoœ3æ-1.0œ
-2ætravi in legno orditura singolaœ
-2æsezione b x h, i interasse [cm]œ4æ18.0œ5æ18.0œ6æ60.0œ7æcmœ
-2æimpalcato in legnoœ
-2æsp. [cm]œ4æ3.0œ5æcmœ
-2æpresenza di strati non strutturaliœ
-2æpavimentazioniœ8æmattonelle 20x20œ
-2æsp. [cm]œ4æ2.0œ5æcmœ
-2æaltroœ8æstrato di riempimento non visibileœ
-2æsp. [cm]œ4æ35.0œ5æcmœ
-2æpresenza di divisorie interneœ8ædivisioria vano scalaœ
-2æsp. [cm]œ4æ12.0œ5æcmœ
-0æ4.3.4œ2æsolaio di pianoœ3æ0.0œ
-2ætravi in acciaioœ
-2æsezione b x h, i interasse [cm]œ4æ6.6œ5æ14.0œ6æ85.0œ7æcmœ8æINP 140œ
-2ævoltine in laterizioœ8æpianelle in laterizioœ
-2æsp. [cm]œ4æ3.0œ5æcmœ
-2æpresenza di strati non strutturaliœ
-2æmassettiœ
-2æsp. [cm]œ4æ7.0œ5æcmœ
-2æpavimentazioniœ8æpianelle in laterizioœ
-2æsp. [cm]œ4æ3.0œ5æcmœ
-2æpresenza di vani accessori/funzionaliœ
-2æterrazziœ
-2æpresenza di divisorie interneœ
-2æsp. [cm]œ4æ8.0œ5æcmœ
-0æ4.3.5œ2æsolaio di coperturaœ3æcœ
-2ætravi in legno orditura doppiaœ8æipotizzato/non visibileœ
-1æI ord.œ2æsezione b x h, i interasse [cm]œ4æ-œ5æ-œ6æ-œ7æcmœ
-1æII ord.œ2æsezione b x h, i interasse [cm]œ4æ-œ5æ-œ6æ-œ7æcmœ
-2æimpalcato in legnoœ8æipotizzato/non visibileœ
-2æsp. [cm]œ4æ-œ5æcmœ8æipotizzato/non visibileœ
-2æpresenza di strati non strutturaliœ
-2æmanto di coperturaœ8æcoppiœ
-2æsp. [cm]œ4æ-œ5æcmœ
-2æfalse volte/controsoffittoœ8æcontrosoffitto INP e tavelloniœ
-2æcopertura non spingenteœ
-2ænon spingente leggeraœ
-0æ4.3.6œ2æsolaio di coperturaœ3æcœ
-2ætravi in legno orditura doppiaœ8æipotizzato/non visibileœ
-1æI ord.œ2æsezione b x h, i interasse [cm]œ4æ-œ5æ-œ6æ-œ7æcmœ
-1æII ord.œ2æsezione b x h, i interasse [cm]œ4æ-œ5æ-œ6æ-œ7æcmœ
-2æimpalcato in legnoœ8æipotizzato/non visibileœ
-2æsp. [cm]œ4æ-œ5æcmœ
-2æpresenza di strati non strutturaliœ
-2æmanto di coperturaœ8æcoppiœ
-2æsp. [cm]œ4æ-œ5æcmœ
-2æfalse volte/controsoffittoœ8ævoltine INP e pianelleœ
-2æcopertura non spingenteœ
-2ænon spingente leggeraœ
-0æ04_dati_costrutt_CARENZEœ
-0æedificioœ2æO02œ
-0æ4.0œ2æCARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATOœ
-0æ4.4œ2æCARENZE COSTRUTTIVE ORIZZONTAMENTIœ
-0æ4.4.1œ2æsolaio controterraœ3æctœ
-1æsolaio strutturale assenteœ
-1æCODICE NON ASSEGNATOœ
-0æmaterialiœ1æsolaio privo di impalcato strutturale, probabile presenza di massetto cementizio contro terraœ
-0ægeometriaœ1ænon rilevanteœ
-0æcarenzestrutturaliœ1æassenza di solaio strutturaleœ2æ-œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æstato di conservazœ2æ-œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æ4.4.2œ2æsolaio di pianoœ
-2ælegnoœ3æpianoœ4æ-1.0œ
-1æcollegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)œ
-1æassenza di soletta semirigida di ripartizione dei carichiœ
-1æcarenze manutentive gravi e diffuse su elementi strutturaliœ
-1æB3œ
-0æmaterialiœ1æDoppia orditura e assito in legnoœ
-0ægeometriaœ1æOrditura principale 20cm x 28cm; orditura secondaria 18cm x 18cmœ
-0æcarenzestrutturaliœ1æAssenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.œ2æ3.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æstato di conservazœ1æLeggeri segni di degradoœ2æ2.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æ4.4.3œ2æsolaio di pianoœ
-2ælegnoœ3æpianoœ4æ-1.0œ
-1ædimensione insufficiente degli elementi strutturaliœ
-1æcollegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)œ
-1æassenza di soletta semirigida di ripartizione dei carichiœ
-1æcarenze manutentive gravi e diffuse su elementi strutturaliœ
-1æB3œ
-0æmaterialiœ1æOrdito e assito in legnoœ
-0ægeometriaœ1æOrditura 18cm x 18cmœ
-0æcarenzestrutturaliœ1æAssenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.œ2æ3.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æstato di conservazœ1æScarso, evidenti segni di degrado del materialeœ2æ3.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æ4.4.4œ2æsolaio di pianoœ
-2æacciaioœ3æpianoœ4æ0.0œ
-1ædimensione insufficiente degli elementi strutturaliœ
-1æcollegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)œ
-1æassenza di soletta semirigida di ripartizione dei carichiœ
-1æB1œ
-0æmaterialiœ1æVolte in laterizio su travetti di acciaioœ
-0ægeometriaœ1æTravetti INP 140; L=4,70m  i=0,85mœ
-0æcarenzestrutturaliœ1æAssenza di cordolatura. Assenza di collegamento travi alle murature. Assenza di soletta rigida.œ2æ3.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æstato di conservazœ1æLesioni nell'intonaco all'intradosso del solaioœ2æ2.0œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æ4.4.5œ2æsolaio di coperturaœ3æcœ
-2ælegnoœ
-1æcollegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)œ
-1æassenza di soletta semirigida di ripartizione dei carichiœ
-1æcarenze manutentive gravi e diffuse su elementi strutturaliœ
-1ænote:œ
-1æipotizzato poiché non visibileœ
-1æC2œ
-0æmaterialiœ1æOrdito in legno e assito (ipotizzato)œ
-0ægeometriaœ1æNon rilevataœ
-0æcarenzestrutturaliœ1æNon rilevateœ2æ-œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æstato di conservazœ1æNon rilevatoœ2æ-œ3æ1:ottimoœ4æ2:medioœ5æ3:scarsoœ
-0æ05_valutazione rischio_Mœ
-0æedificioœ1æO02œ
-0æ5.0œ1æVALUTAZIONE DEL RISCHIOœ
-0æ5.1œ1æCARENZE edifici a destinazione prevalente abitativa con struttura in muraturaœ
-1æPresenza di muri portanti a doppio paramento (senza efficaci collegamenti – diatoni tra i due paramenti), ciascuno a 1 testa (o comunque con spessore ≤ 15 cm) per più del 40% dello sviluppo di una parete perimetraleœ3æbœ5æ0.0œ6æ1.0œ
-1æCattiva qualità della tessitura muraria (caotica, sbozzata senza ricorsi e orizzontalità, assenza di diatoni, ...), per uno sviluppo ≥ 40 % della superficie totale resistenteœ2æaœ5æ1.0œ6æ0.0œ
-1æAssenza diffusa o irregolarità di connessioni della muratura alle angolate ed ai martelliœ2æaœ5æ1.0œ6æ0.0œ
-1æCollegamenti  degli  orizzontamenti  alle  strutture  verticali  portanti  inesistenti  o inefficaci in modo diffusoœ2æaœ5æ1.0œ6æ0.0œ
-1æSolai impostati su piani sfalsati con dislivello > 1/3 altezza di interpiano, all’interno della u.s. o di u.s. contigueœ3æbœ5æ0.0œ6æ1.0œ
-5æaœ6æbœ
-5æ3.0œ6æ2.0œ
-1ægrado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6œ
-1ægrado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5œ
-1ægrado di vulnerabilità BASSOse a= 0 ose b < 5œ
-1æDANNI AD ELEMENTI STRUTTURALIœ
-1æestensione del dannoœ2æD4-D5œ5æD2-D3œ8æD1œ
-1æcomponente strutturaleœ2æ> 60%œ3æ30-60%œ4æ< 30%œ5æ> 60%œ6æ30-60%œ7æ< 30%œ8æ> 60%œ9æ30-60%œ10æ< 30%œ
-1æstrutture verticaliœ7æxœ
-1æsolaio di pianoœ10æxœ
-1æDANNI AD ELEMENTI NON STRUTTURALIœ
-1ædistacco intonaci, rivestimenti, controsoffitti, …œ2æxœ
-1æPERICOLO ESTERNO INDOTTO DA ALTROœ
-1æTERRENO E FONDAZIONIœ
-1æmorfologia del sitoœ
-1æpendioœ2æxœ
-1ædissesti alle fondazioniœ
-1æassentiœ2æxœ
-1æSTATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)œ
-1æSTATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'œ
-1æSTATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'œ
-1æSTATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'œ
-1æD1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali.œ
-1æD2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali.œ
-1æD4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collassoœ
-0æ05_valutazione rischio_CAœ
-0æedificioœ3æO02œ
-0æ5.0œ3æVALUTAZIONE DEL RISCHIOœ
-0æ5.1œ3æCARENZE edifici a destinazione prevalente abitativa con struttura in muraturaœ
-5æaœ6æbœ
-5æ0.0œ6æ0.0œ
-2ægrado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6œ
-2ægrado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5œ
-2ægrado di vulnerabilità BASSOse a= 0 ose b < 5œ
-2æDANNI AD ELEMENTI STRUTTURALIœ
-2æestensione del dannoœ3æD4-D5œ6æD2-D3œ8æD1œ
-2æcomponente strutturaleœ3æ> 60%œ4æ30-60%œ5æ< 30%œ6æ> 60%œ7æ30-60%œ8æ< 30%œ9æ> 60%œ10æ30-60%œ11æ< 30%œ
-2æDANNI AD ELEMENTI NON STRUTTURALIœ
-2æPERICOLO ESTERNO INDOTTO DA ALTROœ
-2æTERRENO E FONDAZIONIœ
-2æmorfologia del sitoœ
-2ædissesti alle fondazioniœ
-2æSTATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)œ
-2æSTATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'œ
-2æSTATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'œ
-2æSTATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'œ
-2æD1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali.œ
-2æD2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali.œ
-2æD4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collassoœ
+0|01_id_edificio|
+0|edificio|1|O02|
+0|1.0|1|IDENTIFICAZIONE EDIFICIO|
+1|DATA|
+1|ID. SCHEDA|2|O02|
+1|CODICE EDIFICIO|2|O02|
+1|CODICE AGGREGATO|2|O|
+0|1.1|1|LOCALIZZAZIONE GEOGRAFICA|
+1|REGIONE|2|Abruzzo|
+1|PROVINCIA|2|Chieti|
+1|COMUNE|2|San Giovanni Lipioni|
+1|INDIRIZZO|2|Via Roma, 37|
+1|COORDINATE GEOGRAFICHE|2|41.84247, 14.56213|
+0|1.2|1|DATI CATASTALI|
+1|FOGLIO|
+1|MAPPALE|
+1|SUBALTERNI|
+0|02_descriz_edificio|
+0|edificio|2|O02|
+0|2.0|2|CARATTERISTICHE EDIFICIO|
+2|EDIFICIO IN AGGREGATO|
+2|estremità|
+2|MONOFAMILIARE|
+1|2.0|2|Nr. piani fuori terra|
+1|1.0|2|Nr. piani interrati/seminterrati|3|Piano seminterrato sul lato Nord diventa piano terra sul lato Sud|
+1|1.0|2|Nr. unità abitative|
+2|H media di piano|
+2|< 2.50 m|3|Altezza variabile, dai 215 ai 280 cm|
+2|Sup. media di piano (mq)|
+2|< 50 mq|3|Circa 43 mq per piano terra e 23 mq per piano primo e seminterrato|
+1|6.1|2|H gronda|
+0|2.1|2|EPOCA DI COSTRUZIONE|
+2|1900-1952|
+0|2.2|2|UTILIZZAZIONE|
+2|non utilizzato/in stato d'abbandono (scadente)|3|Evidenti segni di degrado|
+0|2.3|2|DESTINAZIONE D'USO|
+2|abitazione|
+0|2.4|2|TIPO EDILIZIO|
+2|A blocco|
+0|03_dati_metrici_AB|
+0|edificio|1|O02|
+0|3.0|1|CARATTERISTICHE GEOMETRICHE DEL FABBRICATO|
+0|3.1|1|ABITAZIONE|
+1|Abitazione su 3 livelli, piano terra con accesso su via Roma sul prospetto principale. Locali ad uso abitativo non arredati, riconoscibile solo cucina a piano terra. Corpo principale che si estende per 3 piani e locale aggiuntivo a piano terra sul retro.|
+0|3.1.1|1|Vani principali|
+1|Cucina, soggiorno (presunto), camere da letto (presunto)|
+1|nr. vani|2|4.0|
+1|Cucina|2|SU|3|20.32|4|mq|
+1|Soggiorno|2|SU|3|22.85|4|mq|
+1|Camera Doppia|2|SU|3|16.12|4|mq|
+1|Camera Singola|2|SU|3|5.62|4|mq|
+0|SU Superficie Utile|2|64.91000000000001|3|mq|
+0|3.1.2|1|Vani accessori diretti|
+1|Due bagni|
+1|nr. vani|2|2.0|
+1|Bagno PT|2|SU|3|0.78|4|mq|
+0|Bagno P1|1|SU|2|1.08|3|mq|
+0|SU Superficie Utile|2|1.86|3|mq|
+0|3.1.3|1|Vani accessori indiretti|
+1|locale seminterrato ad uso cantina/deposito|
+1|comunicanti|
+1|nr. vani|2|1.0|
+1|Cantina/ingresso|2|SA|3|23.2|4|mq|
+1|SU Superficie Utile|3|0.0|4|mq|
+1|SA Superficie Accessoria|3|23.2|4|mq|
+0|3.1.4|1|Dipendenze|
+1|Balcone al piano 1|
+1|comunicanti|
+1|Balcone P1|2|SA|3|3.29|4|mq|
+1|SA Superficie Accessoria|3|3.29|4|mq|
+0|3.1.5|1|Collegamenti|
+1|Vano scala|2|SA|3|2.29|4|mq|
+1|SA Superficie|3|2.29|4|mq|
+0|3.2|1|VALORI DI SINTESI ABITAZIONE|
+1|Superficie utile totale|2|SU|3|66.77000000000001|4|mq|
+1|Superficie accessoria totale|2|SA|3|28.78|4|mq|
+1|Superficie calpestabile totale|2|SCa|3|95.55000000000001|4|mq|
+1|Superficie complessiva|2|SCO|3|84.03800000000001|4|mq|
+1|Superficie lorda|2|SL|3|117.23|4|mq|
+1|Superficie totale|2|ST|3|146.01|4|mq|
+0|Nr.piani|1|3.0|
+0|piano|1|0.0|
+0|Superficie utile totale|1|SU|2|43.95|3|mq|
+0|Superficie accessoria totale|1|SA|2|2.29|3|mq|
+0|Superficie calpestabile totale|1|SCa|2|46.24|3|mq|
+0|Superficie complessiva|1|SCO|2|45.324000000000005|3|mq|
+0|Superficie lorda|1|SL|2|66.22|3|mq|
+0|Superficie totale di piano|1|ST|2|68.51|3|mq|
+0|Superficie né utile né access.|1|S|2|0.0|3|mq|
+0|piano|1|1.0|
+0|Superficie utile totale|1|SU|2|22.82|3|mq|
+0|Superficie accessoria totale|1|SA|2|3.29|3|mq|
+0|Superficie calpestabile totale|1|SCa|2|26.11|3|mq|
+0|Superficie complessiva|1|SCO|2|24.794|3|mq|
+0|Superficie lorda|1|SL|2|35.46|3|mq|
+0|Superficie totale|1|ST|2|38.75|3|mq|
+0|Superficie né utile né access.|1|S|2|0.0|3|mq|
+0|piano|1|S|
+0|Superficie utile totale|1|SU|2|0.0|3|mq|
+0|Superficie accessoria totale|1|SA|2|23.2|3|mq|
+0|Superficie calpestabile totale|1|SCa|2|23.2|3|mq|
+0|Superficie complessiva|1|SCO|2|13.92|3|mq|
+0|Superficie lorda|1|SL|2|15.55|3|mq|
+0|Superficie totale di piano|1|ST|2|38.75|3|mq|
+0|Superficie né utile né access.|1|S|2|0.0|3|mq|
+0|04_dati_costrutt_VERT|
+0|edificio|1|O02|
+0|4.0|1|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
+0|4.1|1|STRUTTURE PORTANTI VERTICALI|
+1|Edificio intonacato quasi completamente all'interno (fatta eccezione per il piano seminterrato) e parzialmente all'esterno (solo due pareti del corpo principale). Le parti non intonacate rivelano una muratura in pietra disordinata, per cui si ipotizza la stessa struttura per il piano terra e il piano seminterrato. Al secondo piano è presente una parete non intonacata in pietra disordinata, le restanti 3 pareti si ipotizzano in laterizio dato lo spessore notevolmente ridotto.|
+1|diverse|
+0|4.1.1|1|piano|2|-1.0|3|0.0|4|1.0|
+0|codice id. elementi costruttivi strutturali|1|A1|2|A1|3|A1|
+0|codice id. elementi costruttivi finiture - INTERNO|1|-|2|L1|3|L1|
+0|codice id. elementi costruttivi finiture - ESTERNO|1|L3|2|L3|3|L3|
+1|pareti esterne|
+1|pareti interne|
+1|massiva|
+1|muratura in pietra disordinata|
+1|sp. minimo [cm]|2|55.0|3|cm|
+1|sp. massimo [cm]|2|75.0|3|cm|
+1|presenza di strati non strutturali|
+1|intonaci interni|
+1|sp. [cm]|2|1.5|3|cm|6|spessore ipotizzato|
+1|intonaci esterni|
+1|sp. [cm]|2|1.5|3|cm|6|spessore ipotizzato|
+0|4.1.2|1|piano|2|1.0|
+0|codice id. elementi costruttivi strutturali|1|A2|
+0|codice id. elementi costruttivi finiture - INTERNO|1|L1|
+1|codice id. elementi costruttivi finiture - ESTERNO|2|L3|
+1|pareti interne|
+1|massiva|
+1|muratura in laterizio forato|6|Ipotizzato in base allo spessore della muratura|
+1|sp. minimo [cm]|2|20.0|3|cm|
+1|sp. massimo [cm]|2|30.0|3|cm|
+1|presenza di strati non strutturali|
+1|intonaci interni|
+1|sp. [cm]|2|1.5|3|cm|5|spessore ipotizzato|
+1|intonaci esterni|
+1|sp. [cm]|2|1.5|3|cm|6|spessore ipotizzato|
+0|04_dati_costrutt_VERT_IQM|
+0|edificio|2|O02|
+0|4.0|2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
+0|4.2|2|Indice di Qualità Muraria|
+0|4.2.1|2|piano|3|-1.0|4|0.0|5|1.0|6|1.0|
+2|codice id. elementi costruttivi strutturali|3|A1|4|A1|5|A1|6|A1|
+2|codice id. elementi costruttivi finiture - INTERNO|3|-|4|L1|5|L1|6|L1|
+2|codice id. elementi costruttivi finiture - ESTERNO|3|L3|4|L3|5|L3|6|L3|
+2|pareti esterne|
+1|pareti interne|
+2|CATEGORIA|
+0|IQMv|1|1.5|2|-|3|-|4|C|
+0|IQMo,fp|1|1.5|2|-|3|-|4|C|
+0|IQMo,np|1|2.5|2|-|3|-|4|C|
+1|A1|
+0|materiali|1|Pietra sbozzata|
+0|geometria|1|Conci di diverse dimensioni e forma irregolare|2|IQMv|3|IQMo,fp|4|IQMo,np|
+0|IQM|1|Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano.|2|C|3|C|4|C|
+0|stato di conservaz|1|Stato di conservazione complessivamente discreto. Presenza di lievi lesioni verticali al primo e al secondo piano sulle pareti longitudinali e lesioni derivate dalla insufficiente resistenza degli architravi nelle aperture. Parte di muratura del secondo piano molto degradata nella parte interna.|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|4.2.2|2|piano|3|1.0|4|0.0|5|0.0|6|0.0|
+2|codice id. elementi costruttivi strutturali|3|A2|4|0.0|5|0.0|6|0.0|
+2|codice id. elementi costruttivi finiture - INTERNO|3|L1|4|0.0|5|0.0|6|0.0|
+2|codice id. elementi costruttivi finiture - ESTERNO|3|L3|4|0.0|5|0.0|6|0.0|
+2|pareti interne|
+2|CATEGORIA|
+0|IQMv|1|8.5|2|A|3|-|4|-|
+0|IQMo,fp|1|6.5|2|-|3|B|4|-|
+0|IQMo,np|1|7.5|2|A|3|-|4|-|
+1|A2|
+0|materiali|1|Mattone forato|
+0|geometria|1|25x12x5,5 cm|2|IQMv|3|IQMo,fp|4|IQMo,np|
+0|IQM|1|Buona qualità della muratura, probabile assenza di diatoni.|2|A|3|B|4|A|
+0|stato di conservaz|1|Stato di conservazione discreto, presenza di lievi lesioni verticali.|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|04_dati_costrutt_ORIZZ|
+0|edificio|2|O02|
+0|4.0|2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
+0|4.3|2|STRUTTURE PORTANTI ORIZZONTALI|
+0|4.3.1|2|solaio controterra|3|ct|
+2|assenza di solaio strutturale|8|ipotizzato|
+0|4.3.2|2|solaio di piano|3|-1.0|
+2|travi in legno orditura doppia|
+1|I ord.|2|sezione b x h, i interasse [cm]|4|20.0|5|28.0|6|230.0|7|cm|8|ipotizzato/non rilevato|
+1|II ord.|2|sezione b x h, i interasse [cm]|4|18.0|5|18.0|6|87.0|7|cm|8|ipotizzato/non rilevato|
+2|impalcato in legno|
+0|sp. [cm]|2|3.0|3|cm|
+2|presenza di strati non strutturali|
+2|massetti|8|ipotizzato/non visibile|
+2|sp. [cm]|4|4.0|5|cm|
+2|pavimentazioni|8|pianelle in laterizio|
+2|sp. [cm]|4|3.0|5|cm|
+0|4.3.3|2|solaio di piano|3|-1.0|
+2|travi in legno orditura singola|
+2|sezione b x h, i interasse [cm]|4|18.0|5|18.0|6|60.0|7|cm|
+2|impalcato in legno|
+2|sp. [cm]|4|3.0|5|cm|
+2|presenza di strati non strutturali|
+2|pavimentazioni|8|mattonelle 20x20|
+2|sp. [cm]|4|2.0|5|cm|
+2|altro|8|strato di riempimento non visibile|
+2|sp. [cm]|4|35.0|5|cm|
+2|presenza di divisorie interne|8|divisioria vano scala|
+2|sp. [cm]|4|12.0|5|cm|
+0|4.3.4|2|solaio di piano|3|0.0|
+2|travi in acciaio|
+2|sezione b x h, i interasse [cm]|4|6.6|5|14.0|6|85.0|7|cm|8|INP 140|
+2|voltine in laterizio|8|pianelle in laterizio|
+2|sp. [cm]|4|3.0|5|cm|
+2|presenza di strati non strutturali|
+2|massetti|
+2|sp. [cm]|4|7.0|5|cm|
+2|pavimentazioni|8|pianelle in laterizio|
+2|sp. [cm]|4|3.0|5|cm|
+2|presenza di vani accessori/funzionali|
+2|terrazzi|
+2|presenza di divisorie interne|
+2|sp. [cm]|4|8.0|5|cm|
+0|4.3.5|2|solaio di copertura|3|c|
+2|travi in legno orditura doppia|8|ipotizzato/non visibile|
+1|I ord.|2|sezione b x h, i interasse [cm]|4|-|5|-|6|-|7|cm|
+1|II ord.|2|sezione b x h, i interasse [cm]|4|-|5|-|6|-|7|cm|
+2|impalcato in legno|8|ipotizzato/non visibile|
+2|sp. [cm]|4|-|5|cm|8|ipotizzato/non visibile|
+2|presenza di strati non strutturali|
+2|manto di copertura|8|coppi|
+2|sp. [cm]|4|-|5|cm|
+2|false volte/controsoffitto|8|controsoffitto INP e tavelloni|
+2|copertura non spingente|
+2|non spingente leggera|
+0|4.3.6|2|solaio di copertura|3|c|
+2|travi in legno orditura doppia|8|ipotizzato/non visibile|
+1|I ord.|2|sezione b x h, i interasse [cm]|4|-|5|-|6|-|7|cm|
+1|II ord.|2|sezione b x h, i interasse [cm]|4|-|5|-|6|-|7|cm|
+2|impalcato in legno|8|ipotizzato/non visibile|
+2|sp. [cm]|4|-|5|cm|
+2|presenza di strati non strutturali|
+2|manto di copertura|8|coppi|
+2|sp. [cm]|4|-|5|cm|
+2|false volte/controsoffitto|8|voltine INP e pianelle|
+2|copertura non spingente|
+2|non spingente leggera|
+0|04_dati_costrutt_CARENZE|
+0|edificio|2|O02|
+0|4.0|2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
+0|4.4|2|CARENZE COSTRUTTIVE ORIZZONTAMENTI|
+0|4.4.1|2|solaio controterra|3|ct|
+1|solaio strutturale assente|
+1|CODICE NON ASSEGNATO|
+0|materiali|1|solaio privo di impalcato strutturale, probabile presenza di massetto cementizio contro terra|
+0|geometria|1|non rilevante|
+0|carenzestrutturali|1|assenza di solaio strutturale|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
+0|stato di conservaz|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
+0|4.4.2|2|solaio di piano|
+2|legno|3|piano|4|-1.0|
+1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1|assenza di soletta semirigida di ripartizione dei carichi|
+1|carenze manutentive gravi e diffuse su elementi strutturali|
+1|B3|
+0|materiali|1|Doppia orditura e assito in legno|
+0|geometria|1|Orditura principale 20cm x 28cm; orditura secondaria 18cm x 18cm|
+0|carenzestrutturali|1|Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|stato di conservaz|1|Leggeri segni di degrado|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|4.4.3|2|solaio di piano|
+2|legno|3|piano|4|-1.0|
+1|dimensione insufficiente degli elementi strutturali|
+1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1|assenza di soletta semirigida di ripartizione dei carichi|
+1|carenze manutentive gravi e diffuse su elementi strutturali|
+1|B3|
+0|materiali|1|Ordito e assito in legno|
+0|geometria|1|Orditura 18cm x 18cm|
+0|carenzestrutturali|1|Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|stato di conservaz|1|Scarso, evidenti segni di degrado del materiale|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|4.4.4|2|solaio di piano|
+2|acciaio|3|piano|4|0.0|
+1|dimensione insufficiente degli elementi strutturali|
+1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1|assenza di soletta semirigida di ripartizione dei carichi|
+1|B1|
+0|materiali|1|Volte in laterizio su travetti di acciaio|
+0|geometria|1|Travetti INP 140; L=4,70m  i=0,85m|
+0|carenzestrutturali|1|Assenza di cordolatura. Assenza di collegamento travi alle murature. Assenza di soletta rigida.|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|stato di conservaz|1|Lesioni nell'intonaco all'intradosso del solaio|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+0|4.4.5|2|solaio di copertura|3|c|
+2|legno|
+1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1|assenza di soletta semirigida di ripartizione dei carichi|
+1|carenze manutentive gravi e diffuse su elementi strutturali|
+1|note:|
+1|ipotizzato poiché non visibile|
+1|C2|
+0|materiali|1|Ordito in legno e assito (ipotizzato)|
+0|geometria|1|Non rilevata|
+0|carenzestrutturali|1|Non rilevate|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
+0|stato di conservaz|1|Non rilevato|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
+0|05_valutazione rischio_M|
+0|edificio|1|O02|
+0|5.0|1|VALUTAZIONE DEL RISCHIO|
+0|5.1|1|CARENZE edifici a destinazione prevalente abitativa con struttura in muratura|
+1|Presenza di muri portanti a doppio paramento (senza efficaci collegamenti – diatoni tra i due paramenti), ciascuno a 1 testa (o comunque con spessore ≤ 15 cm) per più del 40% dello sviluppo di una parete perimetrale|3|b|5|0.0|6|1.0|
+1|Cattiva qualità della tessitura muraria (caotica, sbozzata senza ricorsi e orizzontalità, assenza di diatoni, ...), per uno sviluppo ≥ 40 % della superficie totale resistente|2|a|5|1.0|6|0.0|
+1|Assenza diffusa o irregolarità di connessioni della muratura alle angolate ed ai martelli|2|a|5|1.0|6|0.0|
+1|Collegamenti  degli  orizzontamenti  alle  strutture  verticali  portanti  inesistenti  o inefficaci in modo diffuso|2|a|5|1.0|6|0.0|
+1|Solai impostati su piani sfalsati con dislivello > 1/3 altezza di interpiano, all’interno della u.s. o di u.s. contigue|3|b|5|0.0|6|1.0|
+5|a|6|b|
+5|3.0|6|2.0|
+1|grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6|
+1|grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5|
+1|grado di vulnerabilità BASSOse a= 0 ose b < 5|
+1|DANNI AD ELEMENTI STRUTTURALI|
+1|estensione del danno|2|D4-D5|5|D2-D3|8|D1|
+1|componente strutturale|2|> 60%|3|30-60%|4|< 30%|5|> 60%|6|30-60%|7|< 30%|8|> 60%|9|30-60%|10|< 30%|
+1|strutture verticali|7|x|
+1|solaio di piano|10|x|
+1|DANNI AD ELEMENTI NON STRUTTURALI|
+1|distacco intonaci, rivestimenti, controsoffitti, …|2|x|
+1|PERICOLO ESTERNO INDOTTO DA ALTRO|
+1|TERRENO E FONDAZIONI|
+1|morfologia del sito|
+1|pendio|2|x|
+1|dissesti alle fondazioni|
+1|assenti|2|x|
+1|STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)|
+1|STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'|
+1|STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'|
+1|STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'|
+1|D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali.|
+1|D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali.|
+1|D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso|
+0|05_valutazione rischio_CA|
+0|edificio|3|O02|
+0|5.0|3|VALUTAZIONE DEL RISCHIO|
+0|5.1|3|CARENZE edifici a destinazione prevalente abitativa con struttura in muratura|
+5|a|6|b|
+5|0.0|6|0.0|
+2|grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6|
+2|grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5|
+2|grado di vulnerabilità BASSOse a= 0 ose b < 5|
+2|DANNI AD ELEMENTI STRUTTURALI|
+2|estensione del danno|3|D4-D5|6|D2-D3|8|D1|
+2|componente strutturale|3|> 60%|4|30-60%|5|< 30%|6|> 60%|7|30-60%|8|< 30%|9|> 60%|10|30-60%|11|< 30%|
+2|DANNI AD ELEMENTI NON STRUTTURALI|
+2|PERICOLO ESTERNO INDOTTO DA ALTRO|
+2|TERRENO E FONDAZIONI|
+2|morfologia del sito|
+2|dissesti alle fondazioni|
+2|STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)|
+2|STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'|
+2|STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'|
+2|STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'|
+2|D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali.|
+2|D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali.|
+2|D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso|
