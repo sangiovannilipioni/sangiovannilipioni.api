@@ -48,26 +48,24 @@ public class App {
                         Iterator<Cell> cellIterator = currentRow.iterator();
 
                         boolean printLine = false;
-                        Integer col = 0;
                         while (cellIterator.hasNext()) {
 
                             Cell currentCell = cellIterator.next();
                             CellType cellType = currentCell.getCellType();
-                            if (!cellType.equals(CellType.BLANK)) {
-                                /* UN-COMMENT TO MAP CELLTYPES */
-                                /*
-                                 * cellTypes.put(cellType.name(), cellType); writer.print(cellType);
-                                 */
-                                if (currentCell.getCellType() == STRING) {
-                                    String str = nolfnodoublequotetrim(currentCell.getStringCellValue());
-                                    writer.print(col.toString() + "|" + str + "|");
-                                    printLine = true;
-                                } else if (currentCell.getCellType() == NUMERIC) {
-                                    writer.print(col.toString() + "|" + currentCell.getNumericCellValue() + "|");
-                                    printLine = true;
-                                }
+                            /* UN-COMMENT TO MAP CELLTYPES */
+                            /*
+                            * cellTypes.put(cellType.name(), cellType); writer.print(cellType);
+                            */
+                                
+                            if (currentCell.getCellType() == STRING) {
+                                String str = nolfnodoublequotetrim(currentCell.getStringCellValue());
+                                writer.print(currentCell.getColumnIndex() + "|" + str + "|");
+                                printLine = true;
+                            } else if (currentCell.getCellType() == NUMERIC) {
+                                writer.print(currentCell.getColumnIndex()  + "|" + currentCell.getNumericCellValue() + "|");
+                                printLine = true;
+                            } else if (!cellType.equals(CellType.BLANK)) {
                             }
-                            col++;
                         }
                         if (printLine) {
                             writer.println();

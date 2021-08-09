@@ -57,13 +57,13 @@
 1|Soggiorno|2|SU|3|22.85|4|mq|
 1|Camera Doppia|2|SU|3|16.12|4|mq|
 1|Camera Singola|2|SU|3|5.62|4|mq|
-0|SU Superficie Utile|2|64.91000000000001|3|mq|
+1|SU Superficie Utile|3|64.91000000000001|4|mq|
 0|3.1.2|1|Vani accessori diretti|
 1|Due bagni|
 1|nr. vani|2|2.0|
 1|Bagno PT|2|SU|3|0.78|4|mq|
-0|Bagno P1|1|SU|2|1.08|3|mq|
-0|SU Superficie Utile|2|1.86|3|mq|
+1|Bagno P1|2|SU|3|1.08|4|mq|
+1|SU Superficie Utile|3|1.86|4|mq|
 0|3.1.3|1|Vani accessori indiretti|
 1|locale seminterrato ad uso cantina/deposito|
 1|comunicanti|
@@ -86,33 +86,33 @@
 1|Superficie complessiva|2|SCO|3|84.03800000000001|4|mq|
 1|Superficie lorda|2|SL|3|117.23|4|mq|
 1|Superficie totale|2|ST|3|146.01|4|mq|
-0|Nr.piani|1|3.0|
-0|piano|1|0.0|
-0|Superficie utile totale|1|SU|2|43.95|3|mq|
-0|Superficie accessoria totale|1|SA|2|2.29|3|mq|
-0|Superficie calpestabile totale|1|SCa|2|46.24|3|mq|
-0|Superficie complessiva|1|SCO|2|45.324000000000005|3|mq|
-0|Superficie lorda|1|SL|2|66.22|3|mq|
-0|Superficie totale di piano|1|ST|2|68.51|3|mq|
-0|Superficie né utile né access.|1|S|2|0.0|3|mq|
-0|piano|1|1.0|
-0|Superficie utile totale|1|SU|2|22.82|3|mq|
-0|Superficie accessoria totale|1|SA|2|3.29|3|mq|
-0|Superficie calpestabile totale|1|SCa|2|26.11|3|mq|
-0|Superficie complessiva|1|SCO|2|24.794|3|mq|
-0|Superficie lorda|1|SL|2|35.46|3|mq|
-0|Superficie totale|1|ST|2|38.75|3|mq|
-0|Superficie né utile né access.|1|S|2|0.0|3|mq|
-0|piano|1|S|
-0|Superficie utile totale|1|SU|2|0.0|3|mq|
-0|Superficie accessoria totale|1|SA|2|23.2|3|mq|
-0|Superficie calpestabile totale|1|SCa|2|23.2|3|mq|
-0|Superficie complessiva|1|SCO|2|13.92|3|mq|
-0|Superficie lorda|1|SL|2|15.55|3|mq|
-0|Superficie totale di piano|1|ST|2|38.75|3|mq|
-0|Superficie né utile né access.|1|S|2|0.0|3|mq|
-0||
-0||
+1|Nr.piani|2|3.0|
+1|piano|2|0.0|
+1|Superficie utile totale|2|SU|3|43.95|4|mq|
+1|Superficie accessoria totale|2|SA|3|2.29|4|mq|
+1|Superficie calpestabile totale|2|SCa|3|46.24|4|mq|
+1|Superficie complessiva|2|SCO|3|45.324000000000005|4|mq|
+1|Superficie lorda|2|SL|3|66.22|4|mq|
+1|Superficie totale di piano|2|ST|3|68.51|4|mq|
+1|Superficie né utile né access.|2|S|3|0.0|4|mq|
+1|piano|2|1.0|
+1|Superficie utile totale|2|SU|3|22.82|4|mq|
+1|Superficie accessoria totale|2|SA|3|3.29|4|mq|
+1|Superficie calpestabile totale|2|SCa|3|26.11|4|mq|
+1|Superficie complessiva|2|SCO|3|24.794|4|mq|
+1|Superficie lorda|2|SL|3|35.46|4|mq|
+1|Superficie totale|2|ST|3|38.75|4|mq|
+1|Superficie né utile né access.|2|S|3|0.0|4|mq|
+1|piano|2|S|
+1|Superficie utile totale|2|SU|3|0.0|4|mq|
+1|Superficie accessoria totale|2|SA|3|23.2|4|mq|
+1|Superficie calpestabile totale|2|SCa|3|23.2|4|mq|
+1|Superficie complessiva|2|SCO|3|13.92|4|mq|
+1|Superficie lorda|2|SL|3|15.55|4|mq|
+1|Superficie totale di piano|2|ST|3|38.75|4|mq|
+1|Superficie né utile né access.|2|S|3|0.0|4|mq|
+1||
+1||
 -1|04_dati_costrutt_VERT|
 0|edificio|1|O02|
 0|4.0|1|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
@@ -120,9 +120,9 @@
 1|Edificio intonacato quasi completamente all'interno (fatta eccezione per il piano seminterrato) e parzialmente all'esterno (solo due pareti del corpo principale). Le parti non intonacate rivelano una muratura in pietra disordinata, per cui si ipotizza la stessa struttura per il piano terra e il piano seminterrato. Al secondo piano è presente una parete non intonacata in pietra disordinata, le restanti 3 pareti si ipotizzano in laterizio dato lo spessore notevolmente ridotto.|
 1|diverse|
 0|4.1.1|1|piano|2|-1.0|3|0.0|4|1.0|
-0|codice id. elementi costruttivi strutturali|1|A1|2|A1|3|A1|
-0|codice id. elementi costruttivi finiture - INTERNO|1|-|2|L1|3|L1|
-0|codice id. elementi costruttivi finiture - ESTERNO|1|L3|2|L3|3|L3|
+1|codice id. elementi costruttivi strutturali|2|A1|3|A1|4|A1|
+1|codice id. elementi costruttivi finiture - INTERNO|2|-|3|L1|4|L1|
+1|codice id. elementi costruttivi finiture - ESTERNO|2|L3|3|L3|4|L3|
 1|pareti esterne|
 1|pareti interne|
 0||1|massiva|
@@ -135,8 +135,8 @@
 1|intonaci esterni|6||
 1|sp. [cm]|2|1.5|3|cm|6|spessore ipotizzato|
 0|4.1.2|1|piano|2|1.0|
-0|codice id. elementi costruttivi strutturali|1|A2|
-0|codice id. elementi costruttivi finiture - INTERNO|1|L1|
+1|codice id. elementi costruttivi strutturali|2|A2|
+1|codice id. elementi costruttivi finiture - INTERNO|2|L1|
 1|codice id. elementi costruttivi finiture - ESTERNO|2|L3|
 1|pareti interne|
 0||1|massiva|
@@ -145,12 +145,12 @@
 1|sp. massimo [cm]|2|30.0|3|cm|6||
 0||1|presenza di strati non strutturali|
 1|intonaci interni|6||
-1|sp. [cm]|2|1.5|3|cm|5|spessore ipotizzato|
+1|sp. [cm]|2|1.5|3|cm|6|spessore ipotizzato|
 1|intonaci esterni|6||
 1|sp. [cm]|2|1.5|3|cm|6|spessore ipotizzato|
 -1|04_dati_costrutt_VERT_IQM|
 0|edificio|1||2|O02|
-0||
+1||
 0|4.0|1||2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.2|1||2|Indice di Qualità Muraria|
 1||
@@ -159,30 +159,30 @@
 1||2|codice id. elementi costruttivi finiture - INTERNO|3|-|4|L1|5|L1|6|L1|
 1||2|codice id. elementi costruttivi finiture - ESTERNO|3|L3|4|L3|5|L3|6|L3|
 1||2|pareti esterne|
-0||1|pareti interne|
-2|CATEGORIA|
-0|IQMv|1|1.5|2|-|3|-|4|C|
-0|IQMo,fp|1|1.5|2|-|3|-|4|C|
-0|IQMo,np|1|2.5|2|-|3|-|4|C|
-1|A1|
-0|materiali|1|Pietra sbozzata|
-0|geometria|1|Conci di diverse dimensioni e forma irregolare|2|IQMv|3|IQMo,fp|4|IQMo,np|
-0|IQM|1|Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano.|2|C|3|C|4|C|
-0|stato di conservaz|1|Stato di conservazione complessivamente discreto. Presenza di lievi lesioni verticali al primo e al secondo piano sulle pareti longitudinali e lesioni derivate dalla insufficiente resistenza degli architravi nelle aperture. Parte di muratura del secondo piano molto degradata nella parte interna.|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+1||2|pareti interne|
+3|CATEGORIA|
+1|IQMv|2|1.5|3|-|4|-|5|C|
+1|IQMo,fp|2|1.5|3|-|4|-|5|C|
+1|IQMo,np|2|2.5|3|-|4|-|5|C|
+2|A1|
+1|materiali|2|Pietra sbozzata|
+1|geometria|2|Conci di diverse dimensioni e forma irregolare|3|IQMv|4|IQMo,fp|5|IQMo,np|
+1|IQM|2|Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano.|3|C|4|C|5|C|
+1|stato di conservaz|2|Stato di conservazione complessivamente discreto. Presenza di lievi lesioni verticali al primo e al secondo piano sulle pareti longitudinali e lesioni derivate dalla insufficiente resistenza degli architravi nelle aperture. Parte di muratura del secondo piano molto degradata nella parte interna.|3|2.0|4|1:ottimo|5|2:medio|6|3:scarso|
 0|4.2.2|1||2|piano|3|1.0|4|0.0|5|0.0|6|0.0|
 1||2|codice id. elementi costruttivi strutturali|3|A2|4|0.0|5|0.0|6|0.0|
 1||2|codice id. elementi costruttivi finiture - INTERNO|3|L1|4|0.0|5|0.0|6|0.0|
 1||2|codice id. elementi costruttivi finiture - ESTERNO|3|L3|4|0.0|5|0.0|6|0.0|
 1||2|pareti interne|
-2|CATEGORIA|
-0|IQMv|1|8.5|2|A|3|-|4|-|
-0|IQMo,fp|1|6.5|2|-|3|B|4|-|
-0|IQMo,np|1|7.5|2|A|3|-|4|-|
-1|A2|
-0|materiali|1|Mattone forato|
-0|geometria|1|25x12x5,5 cm|2|IQMv|3|IQMo,fp|4|IQMo,np|
-0|IQM|1|Buona qualità della muratura, probabile assenza di diatoni.|2|A|3|B|4|A|
-0|stato di conservaz|1|Stato di conservazione discreto, presenza di lievi lesioni verticali.|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+3|CATEGORIA|
+1|IQMv|2|8.5|3|A|4|-|5|-|
+1|IQMo,fp|2|6.5|3|-|4|B|5|-|
+1|IQMo,np|2|7.5|3|A|4|-|5|-|
+2|A2|
+1|materiali|2|Mattone forato|
+1|geometria|2|25x12x5,5 cm|3|IQMv|4|IQMo,fp|5|IQMo,np|
+1|IQM|2|Buona qualità della muratura, probabile assenza di diatoni.|3|A|4|B|5|A|
+1|stato di conservaz|2|Stato di conservazione discreto, presenza di lievi lesioni verticali.|3|2.0|4|1:ottimo|5|2:medio|6|3:scarso|
 -1|04_dati_costrutt_ORIZZ|
 0|edificio|1||2|O02|
 1||
@@ -195,7 +195,7 @@
 1|I ord.|2|sezione b x h, i interasse [cm]|4|20.0|5|28.0|6|230.0|7|cm|8|ipotizzato/non rilevato|
 1|II ord.|2|sezione b x h, i interasse [cm]|4|18.0|5|18.0|6|87.0|7|cm|8|ipotizzato/non rilevato|
 2|impalcato in legno|8||
-0|sp. [cm]|2|3.0|3|cm|6||
+2|sp. [cm]|4|3.0|5|cm|8||
 0||1||2|presenza di strati non strutturali|8||
 2|massetti|8|ipotizzato/non visibile|
 2|sp. [cm]|4|4.0|5|cm|8||
@@ -253,60 +253,60 @@
 2|non spingente leggera|8||
 -1|04_dati_costrutt_CARENZE|
 0|edificio|1||2|O02|
-0||
+1||
 0|4.0|1||2|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.4|1||2|CARENZE COSTRUTTIVE ORIZZONTAMENTI|
-0||
+1||
 0|4.4.1|1||2|solaio controterra|3|ct|
-1|solaio strutturale assente|
-1|CODICE NON ASSEGNATO|
-0|materiali|1|solaio privo di impalcato strutturale, probabile presenza di massetto cementizio contro terra|
-0|geometria|1|non rilevante|
-0|carenzestrutturali|1|assenza di solaio strutturale|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
-0|stato di conservaz|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
+2|solaio strutturale assente|
+2|CODICE NON ASSEGNATO|
+1|materiali|2|solaio privo di impalcato strutturale, probabile presenza di massetto cementizio contro terra|
+1|geometria|2|non rilevante|
+1|carenzestrutturali|2|assenza di solaio strutturale|3|-|4|1:ottimo|5|2:medio|6|3:scarso|
+1|stato di conservaz|3|-|4|1:ottimo|5|2:medio|6|3:scarso|
 0|4.4.2|1||2|solaio di piano|
 2|legno|3|piano|4|-1.0|
-0||1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
-0||1|assenza di soletta semirigida di ripartizione dei carichi|
-1|carenze manutentive gravi e diffuse su elementi strutturali|
-1|B3|
-0|materiali|1|Doppia orditura e assito in legno|
-0|geometria|1|Orditura principale 20cm x 28cm; orditura secondaria 18cm x 18cm|
-0|carenzestrutturali|1|Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
-0|stato di conservaz|1|Leggeri segni di degrado|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+1||2|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1||2|assenza di soletta semirigida di ripartizione dei carichi|
+2|carenze manutentive gravi e diffuse su elementi strutturali|
+2|B3|
+1|materiali|2|Doppia orditura e assito in legno|
+1|geometria|2|Orditura principale 20cm x 28cm; orditura secondaria 18cm x 18cm|
+1|carenzestrutturali|2|Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.|3|3.0|4|1:ottimo|5|2:medio|6|3:scarso|
+1|stato di conservaz|2|Leggeri segni di degrado|3|2.0|4|1:ottimo|5|2:medio|6|3:scarso|
 0|4.4.3|1||2|solaio di piano|
 2|legno|3|piano|4|-1.0|
-0||1|dimensione insufficiente degli elementi strutturali|
-0||1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
-0||1|assenza di soletta semirigida di ripartizione dei carichi|
-1|carenze manutentive gravi e diffuse su elementi strutturali|
-1|B3|
-0|materiali|1|Ordito e assito in legno|
-0|geometria|1|Orditura 18cm x 18cm|
-0|carenzestrutturali|1|Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
-0|stato di conservaz|1|Scarso, evidenti segni di degrado del materiale|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
+1||2|dimensione insufficiente degli elementi strutturali|
+1||2|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1||2|assenza di soletta semirigida di ripartizione dei carichi|
+2|carenze manutentive gravi e diffuse su elementi strutturali|
+2|B3|
+1|materiali|2|Ordito e assito in legno|
+1|geometria|2|Orditura 18cm x 18cm|
+1|carenzestrutturali|2|Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida.|3|3.0|4|1:ottimo|5|2:medio|6|3:scarso|
+1|stato di conservaz|2|Scarso, evidenti segni di degrado del materiale|3|3.0|4|1:ottimo|5|2:medio|6|3:scarso|
 0|4.4.4|1||2|solaio di piano|
 2|acciaio|3|piano|4|0.0|
-0||1|dimensione insufficiente degli elementi strutturali|
-0||1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
-0||1|assenza di soletta semirigida di ripartizione dei carichi|
-1|B1|
-0|materiali|1|Volte in laterizio su travetti di acciaio|
-0|geometria|1|Travetti INP 140; L=4,70m  i=0,85m|
-0|carenzestrutturali|1|Assenza di cordolatura. Assenza di collegamento travi alle murature. Assenza di soletta rigida.|2|3.0|3|1:ottimo|4|2:medio|5|3:scarso|
-0|stato di conservaz|1|Lesioni nell'intonaco all'intradosso del solaio|2|2.0|3|1:ottimo|4|2:medio|5|3:scarso|
+1||2|dimensione insufficiente degli elementi strutturali|
+1||2|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1||2|assenza di soletta semirigida di ripartizione dei carichi|
+2|B1|
+1|materiali|2|Volte in laterizio su travetti di acciaio|
+1|geometria|2|Travetti INP 140; L=4,70m  i=0,85m|
+1|carenzestrutturali|2|Assenza di cordolatura. Assenza di collegamento travi alle murature. Assenza di soletta rigida.|3|3.0|4|1:ottimo|5|2:medio|6|3:scarso|
+1|stato di conservaz|2|Lesioni nell'intonaco all'intradosso del solaio|3|2.0|4|1:ottimo|5|2:medio|6|3:scarso|
 0|4.4.5|1||2|solaio di copertura|3|c|
 2|legno|
-0||1|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
-0||1|assenza di soletta semirigida di ripartizione dei carichi|
-1|carenze manutentive gravi e diffuse su elementi strutturali|
-1|note:|
-1|ipotizzato poiché non visibile|
-1|C2|
-0|materiali|1|Ordito in legno e assito (ipotizzato)|
-0|geometria|1|Non rilevata|
-0|carenzestrutturali|1|Non rilevate|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
-0|stato di conservaz|1|Non rilevato|2|-|3|1:ottimo|4|2:medio|5|3:scarso|
+1||2|collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)|
+1||2|assenza di soletta semirigida di ripartizione dei carichi|
+2|carenze manutentive gravi e diffuse su elementi strutturali|
+2|note:|
+2|ipotizzato poiché non visibile|
+2|C2|
+1|materiali|2|Ordito in legno e assito (ipotizzato)|
+1|geometria|2|Non rilevata|
+1|carenzestrutturali|2|Non rilevate|3|-|4|1:ottimo|5|2:medio|6|3:scarso|
+1|stato di conservaz|2|Non rilevato|3|-|4|1:ottimo|5|2:medio|6|3:scarso|
 -1|05_valutazione rischio_M|
 0|edificio|1|O02|
 0|5.0|1|VALUTAZIONE DEL RISCHIO|
@@ -343,30 +343,30 @@
 1|D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso|
 -1|05_valutazione rischio_CA|
 0|edificio|1||2||3|O02|
-0||1||
+1||2||
 0|5.0|1||2||3|VALUTAZIONE DEL RISCHIO|
 0|5.1|1||2||3|CARENZE edifici a destinazione prevalente abitativa con struttura in muratura|
-0||1||
-0||5|a|6|b|
-0||5|0.0|6|0.0|
-0||1||2|grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6|
-0||1||2|grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5|
-0||1||2|grado di vulnerabilità BASSOse a= 0 ose b < 5|
-0||
-0||2|DANNI AD ELEMENTI STRUTTURALI|
-0||2|estensione del danno|3|D4-D5|6|D2-D3|8|D1|
-0||2|componente strutturale|3|> 60%|4|30-60%|5|< 30%|6|> 60%|7|30-60%|8|< 30%|9|> 60%|10|30-60%|11|< 30%|
-0||2|DANNI AD ELEMENTI NON STRUTTURALI|
-0||2|PERICOLO ESTERNO INDOTTO DA ALTRO|
-0||2|TERRENO E FONDAZIONI|
-0||2|morfologia del sito|
-0||2|dissesti alle fondazioni|
-0||
-0||2|STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)|
-0||2|STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'|
-0||2|STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'|
-0||2|STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'|
-0||1||
-0||1||2|D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali.|
-0||1||2|D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali.|
-0||1||2|D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso|
+1||2||
+1||7|a|8|b|
+1||7|0.0|8|0.0|
+1||2||3|grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6|
+1||2||3|grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5|
+1||2||3|grado di vulnerabilità BASSOse a= 0 ose b < 5|
+1||
+1||3|DANNI AD ELEMENTI STRUTTURALI|
+1||3|estensione del danno|4|D4-D5|7|D2-D3|10|D1|
+1||3|componente strutturale|4|> 60%|5|30-60%|6|< 30%|7|> 60%|8|30-60%|9|< 30%|10|> 60%|11|30-60%|12|< 30%|
+1||3|DANNI AD ELEMENTI NON STRUTTURALI|
+1||3|PERICOLO ESTERNO INDOTTO DA ALTRO|
+1||3|TERRENO E FONDAZIONI|
+1||3|morfologia del sito|
+1||3|dissesti alle fondazioni|
+1||
+1||3|STATO DI DANNO 1D1 Leggerodanno ≤ 'danno lieve' (leggero)|
+1||3|STATO DI DANNO 2D2 Medio Grave  'danno lieve' < danno ≤ 'danno grave'|
+1||3|STATO DI DANNO 3D3 Medio Grave 'danno grave' < danno ≤  'danno gravissimo'|
+1||3|STATO DI DANNO 4D4-D5 Gravissimo  danno >  'danno gravissimo'|
+1||2||
+1||2||3|D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali.|
+1||2||3|D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali.|
+1||2||3|D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso|
