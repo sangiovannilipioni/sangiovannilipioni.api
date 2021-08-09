@@ -9,8 +9,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
+/* UN-COMMENT TO MAP CELLTYPES */
 // import java.util.HashMap;
 import java.util.Iterator;
+/* UN-COMMENT TO MAP CELLTYPES */
 // import java.util.Map;
 
 import org.apache.poi.ss.usermodel.Cell;
@@ -20,17 +22,14 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
         String dir = "../files/";
         String filename = "Sintesi O2";
         FileInputStream excelFile = new FileInputStream(new File(dir + filename + ".xlsx"));
 
-        /* Map<String, CellType> cellTypes = new HashMap<String, CellType>(); */
+        /* UN-COMMENT TO MAP CELLTYPES (in case something else than NUMERIC or STRING or BLANK comes in) */
+        // Map<String, CellType> cellTypes = new HashMap<String, CellType>(); 
         try (PrintWriter writer = new PrintWriter(dir + filename + ".txt", "UTF-8")) {
             try (Workbook workbook = new XSSFWorkbook(excelFile)) {
 
@@ -55,15 +54,14 @@ public class App {
                             Cell currentCell = cellIterator.next();
                             CellType cellType = currentCell.getCellType();
                             if (!cellType.equals(CellType.BLANK)) {
+                                /* UN-COMMENT TO MAP CELLTYPES */
                                 /*
                                  * cellTypes.put(cellType.name(), cellType); writer.print(cellType);
                                  */
                                 if (currentCell.getCellType() == STRING) {
                                     String str = nolfnodoublequotetrim(currentCell.getStringCellValue());
-                                    if (str.length() > 0) {
-                                        writer.print(col.toString() + "|" + str + "|");
-                                        printLine = true;
-                                    }
+                                    writer.print(col.toString() + "|" + str + "|");
+                                    printLine = true;
                                 } else if (currentCell.getCellType() == NUMERIC) {
                                     writer.print(col.toString() + "|" + currentCell.getNumericCellValue() + "|");
                                     printLine = true;
@@ -77,6 +75,7 @@ public class App {
                     }
                 }
             }
+            /* UN-COMMENT TO MAP CELLTYPES */
             /*
              * for (Map.Entry<String, CellType> entry : cellTypes.entrySet()) {
              * System.out.println(entry.getKey() + "/" + entry.getValue()); }
