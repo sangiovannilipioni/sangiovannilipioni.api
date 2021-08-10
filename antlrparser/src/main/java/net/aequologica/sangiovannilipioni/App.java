@@ -4,6 +4,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Reader;
+import java.io.StringWriter;
+import java.io.Writer;
+
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonParser;
 
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
@@ -17,6 +22,7 @@ class Main {
     static String dir = "../files/";
     static String filename = "Sintesi O2";
 
+    /* (see here : https://stackoverflow.com/a/49117903/1070215 for a more generic solution) */
     public static void main(String[] args) throws IOException {
         try (Reader reader = new FileReader(dir + filename + ".txt")) {
             CharStream inputStream = CharStreams.fromReader(reader);
@@ -24,9 +30,16 @@ class Main {
             CommonTokenStream commonTokenStream = new CommonTokenStream(sglLexer);
             SGL2Parser sglParser = new SGL2Parser(commonTokenStream);
 
+            Writer sw = new StringWriter();
+            PrintWriter p = new PrintWriter(sw);
+            SGLVisitor visitor = new SGLVisitor(p);
+            visitor.visitTotal(sglParser.total());
+            String unformattedJSON = sw.toString();
+
+            String prettyJSON = new GsonBuilder().setPrettyPrinting().create().toJson(JsonParser.parseString(unformattedJSON));
+
             try (PrintWriter w = new PrintWriter(dir + filename + ".json", "UTF-8")) {
-                SGLVisitor visitor = new SGLVisitor(w);
-                visitor.visitTotal(sglParser.total());
+                w.print(prettyJSON);
             }
         }
     }
@@ -39,54 +52,65 @@ class Main {
         boolean prevCell = false;
         int max = 0;
 
+        final String OPENARRAY   = "[";
+        final String CLOSEARRAY  = "]";
+        final String OPENOBJECT  = "{";
+        final String CLOSEOBJECT = "}";
+        final String COLON       = ":";
+        final String COMMA       = ",";
+        final String QUOTE       = "\"";
+
         SGLVisitor(PrintWriter w) {
             this.w = w;
         }
 
         @Override
         public Integer visitTotal(SGL2Parser.TotalContext ctx) {
-            w.println("[");
-            prevSheet = false;
-            max = 0;
+            w.print(OPENARRAY);
+            this.prevSheet = false;
+            this.max = 0;
             Integer ret = super.visitTotal(ctx);
-            w.println("]");
+            w.print(CLOSEARRAY);
             return ret;
         }
 
         @Override
         public Integer visitSheet(SGL2Parser.SheetContext ctx) {
-            if (prevSheet) {
-                w.println("\t,{");
-            } else {
-                w.println("\t{");
+            if (this.prevSheet) {
+                w.print(COMMA);
             }
+            w.print(OPENOBJECT);
             Integer ret = super.visitSheet(ctx);
-            w.println("\n\t\t], \n\t\t\"cols\":"+max+"");
-            w.println("\t}");
-            prevSheet = true;
+            w.print(CLOSEARRAY);
+            w.print(COMMA);
+            writeKey(w, "cols", Integer.toString(this.max));
+            w.print(CLOSEOBJECT);
+            this.prevSheet = true;
             return ret;
         }
 
         @Override
         public Integer visitSheetid(SGL2Parser.SheetidContext ctx) {
             String con = ctx.CONTENT().getText();
-            w.println("\t\t\"sheet\": \""+ cleanString(con) + "\", \n\t\t\"rows\": [");
-            prevRow = false;
+            writeKey(w, "sheet", con);
+            w.print(COMMA);
+            writeKey(w, "rows", null);
+            w.print(OPENARRAY);
+            this.prevRow = false;
             Integer ret = super.visitSheetid(ctx);
             return ret;
         }
 
         @Override
         public Integer visitRow(SGL2Parser.RowContext ctx) {
-            if (prevRow) {
-                w.print("\t\t\t,[\n");
-            } else {
-                w.print("\t\t\t[\n");
+            if (this.prevRow) {
+                w.print(COMMA);
             }
-            prevCell = false;
+            w.print(OPENARRAY);
+            this.prevCell = false;
             Integer ret = super.visitRow(ctx);
-            prevRow = true;
-            w.println("\t\t\t]");
+            this.prevRow = true;
+            w.print(CLOSEARRAY);
             return ret;
         }
 
@@ -94,25 +118,39 @@ class Main {
         public Integer visitCell(SGL2Parser.CellContext ctx) {
             String col = ctx.DIGITS().getText();
             String con = ctx.CONTENT().getText();
-            if (prevCell) {
-                w.print("\t\t\t\t,{");
-            } else {
-                w.print("\t\t\t\t{");
+            if (this.prevCell) {
+                w.print(COMMA);
             }
-            max = Math.max(max, Integer.parseInt(col));
-            w.print("\"col\": " + col + ", \"text\": \""+ cleanString(con) + "\"");
+            w.print(OPENOBJECT);
+            this.max = Math.max(max, Integer.parseInt(col));
+            writeKey(w, "col", col);
+            w.print(COMMA);
+            writeKey(w, "text", con);
             Integer ret = super.visitCell(ctx);
-            w.println(" }");
-            prevCell = true;
+            w.print(CLOSEOBJECT);
+            this.prevCell = true;
             return ret;
+        }
+
+        void writeKey(PrintWriter w, String key, String value) {
+            w.print(QUOTE);
+            w.print(key);
+            w.print(QUOTE);
+            w.print(COLON);
+            if (value != null) {
+                w.print(QUOTE);
+                w.print(cleanString(value));
+                w.print(QUOTE);
+            }
         }
     }
 
-    public static String cleanString(String qwe) {
-        if (qwe.startsWith("|") && qwe.endsWith("|")) {
-            qwe = qwe.substring(1, qwe.length() - 1);
+
+    public static String cleanString(String str) {
+        if (str.startsWith("|") && str.endsWith("|")) {
+            return str.substring(1, str.length() - 1);
         }
-        return qwe;
+        return str;
     }
 
 }
