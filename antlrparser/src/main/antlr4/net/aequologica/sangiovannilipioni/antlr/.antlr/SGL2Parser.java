@@ -18,10 +18,10 @@ public class SGL2Parser extends Parser {
 	public static final int
 		T__0=1, NEWLINE=2, DIGITS=3, CONTENT=4;
 	public static final int
-		RULE_total = 0, RULE_sheet = 1, RULE_sheetid = 2, RULE_row = 3, RULE_cell = 4;
+		RULE_book = 0, RULE_sheet = 1, RULE_sheetid = 2, RULE_row = 3, RULE_cell = 4;
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"total", "sheet", "sheetid", "row", "cell"
+			"book", "sheet", "sheetid", "row", "cell"
 		};
 	}
 	public static final String[] ruleNames = makeRuleNames();
@@ -88,22 +88,22 @@ public class SGL2Parser extends Parser {
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
-	public static class TotalContext extends ParserRuleContext {
+	public static class BookContext extends ParserRuleContext {
 		public List<SheetContext> sheet() {
 			return getRuleContexts(SheetContext.class);
 		}
 		public SheetContext sheet(int i) {
 			return getRuleContext(SheetContext.class,i);
 		}
-		public TotalContext(ParserRuleContext parent, int invokingState) {
+		public BookContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
-		@Override public int getRuleIndex() { return RULE_total; }
+		@Override public int getRuleIndex() { return RULE_book; }
 	}
 
-	public final TotalContext total() throws RecognitionException {
-		TotalContext _localctx = new TotalContext(_ctx, getState());
-		enterRule(_localctx, 0, RULE_total);
+	public final BookContext book() throws RecognitionException {
+		BookContext _localctx = new BookContext(_ctx, getState());
+		enterRule(_localctx, 0, RULE_book);
 		int _la;
 		try {
 			enterOuterAlt(_localctx, 1);

@@ -16,13 +16,13 @@ public class SGL2BaseListener implements SGL2Listener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterTotal(SGL2Parser.TotalContext ctx) { }
+	@Override public void enterBook(SGL2Parser.BookContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitTotal(SGL2Parser.TotalContext ctx) { }
+	@Override public void exitBook(SGL2Parser.BookContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

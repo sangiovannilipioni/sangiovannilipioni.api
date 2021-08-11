@@ -17,7 +17,7 @@ public class SGL2BaseVisitor<T> extends AbstractParseTreeVisitor<T> implements S
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
-	@Override public T visitTotal(SGL2Parser.TotalContext ctx) { return visitChildren(ctx); }
+	@Override public T visitBook(SGL2Parser.BookContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *

@@ -8,15 +8,15 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  */
 public interface SGL2Listener extends ParseTreeListener {
 	/**
-	 * Enter a parse tree produced by {@link SGL2Parser#total}.
+	 * Enter a parse tree produced by {@link SGL2Parser#book}.
 	 * @param ctx the parse tree
 	 */
-	void enterTotal(SGL2Parser.TotalContext ctx);
+	void enterBook(SGL2Parser.BookContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link SGL2Parser#total}.
+	 * Exit a parse tree produced by {@link SGL2Parser#book}.
 	 * @param ctx the parse tree
 	 */
-	void exitTotal(SGL2Parser.TotalContext ctx);
+	void exitBook(SGL2Parser.BookContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link SGL2Parser#sheet}.
 	 * @param ctx the parse tree

@@ -19,10 +19,10 @@ public class SGL2Parser extends Parser {
 	public static final int
 		T__0=1, NEWLINE=2, DIGITS=3, CONTENT=4;
 	public static final int
-		RULE_total = 0, RULE_sheet = 1, RULE_sheetid = 2, RULE_row = 3, RULE_cell = 4;
+		RULE_book = 0, RULE_sheet = 1, RULE_sheetid = 2, RULE_row = 3, RULE_cell = 4;
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"total", "sheet", "sheetid", "row", "cell"
+			"book", "sheet", "sheetid", "row", "cell"
 		};
 	}
 	public static final String[] ruleNames = makeRuleNames();
@@ -89,35 +89,35 @@ public class SGL2Parser extends Parser {
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
-	public static class TotalContext extends ParserRuleContext {
+	public static class BookContext extends ParserRuleContext {
 		public List<SheetContext> sheet() {
 			return getRuleContexts(SheetContext.class);
 		}
 		public SheetContext sheet(int i) {
 			return getRuleContext(SheetContext.class,i);
 		}
-		public TotalContext(ParserRuleContext parent, int invokingState) {
+		public BookContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
-		@Override public int getRuleIndex() { return RULE_total; }
+		@Override public int getRuleIndex() { return RULE_book; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SGL2Listener ) ((SGL2Listener)listener).enterTotal(this);
+			if ( listener instanceof SGL2Listener ) ((SGL2Listener)listener).enterBook(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SGL2Listener ) ((SGL2Listener)listener).exitTotal(this);
+			if ( listener instanceof SGL2Listener ) ((SGL2Listener)listener).exitBook(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SGL2Visitor ) return ((SGL2Visitor<? extends T>)visitor).visitTotal(this);
+			if ( visitor instanceof SGL2Visitor ) return ((SGL2Visitor<? extends T>)visitor).visitBook(this);
 			else return visitor.visitChildren(this);
 		}
 	}
 
-	public final TotalContext total() throws RecognitionException {
-		TotalContext _localctx = new TotalContext(_ctx, getState());
-		enterRule(_localctx, 0, RULE_total);
+	public final BookContext book() throws RecognitionException {
+		BookContext _localctx = new BookContext(_ctx, getState());
+		enterRule(_localctx, 0, RULE_book);
 		int _la;
 		try {
 			enterOuterAlt(_localctx, 1);

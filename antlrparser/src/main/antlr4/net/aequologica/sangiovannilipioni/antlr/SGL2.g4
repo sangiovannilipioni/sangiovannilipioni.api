@@ -1,6 +1,6 @@
 grammar SGL2;
 
-total   : sheet+;
+book    : sheet+;
 sheet   : sheetid row+;
 sheetid : '-1' CONTENT NEWLINE;
 row     : cell+ NEWLINE;

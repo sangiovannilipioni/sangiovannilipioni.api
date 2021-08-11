@@ -33,7 +33,7 @@ class Main {
             Writer sw = new StringWriter();
             PrintWriter p = new PrintWriter(sw);
             SGLVisitor visitor = new SGLVisitor(p);
-            visitor.visitTotal(sglParser.total());
+            visitor.visitBook(sglParser.book());
             String unformattedJSON = sw.toString();
 
             String prettyJSON = new GsonBuilder().setPrettyPrinting().create().toJson(JsonParser.parseString(unformattedJSON));
@@ -65,11 +65,11 @@ class Main {
         }
 
         @Override
-        public Integer visitTotal(SGL2Parser.TotalContext ctx) {
+        public Integer visitBook(SGL2Parser.BookContext ctx) {
             w.print(OPENARRAY);
             this.prevSheet = false;
             this.max = 0;
-            Integer ret = super.visitTotal(ctx);
+            Integer ret = super.visitBook(ctx);
             w.print(CLOSEARRAY);
             return ret;
         }

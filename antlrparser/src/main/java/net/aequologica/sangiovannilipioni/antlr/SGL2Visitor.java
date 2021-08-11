@@ -11,11 +11,11 @@ import org.antlr.v4.runtime.tree.ParseTreeVisitor;
  */
 public interface SGL2Visitor<T> extends ParseTreeVisitor<T> {
 	/**
-	 * Visit a parse tree produced by {@link SGL2Parser#total}.
+	 * Visit a parse tree produced by {@link SGL2Parser#book}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
-	T visitTotal(SGL2Parser.TotalContext ctx);
+	T visitBook(SGL2Parser.BookContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link SGL2Parser#sheet}.
 	 * @param ctx the parse tree
