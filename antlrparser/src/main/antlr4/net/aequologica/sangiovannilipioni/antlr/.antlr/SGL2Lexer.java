@@ -1,5 +1,4 @@
-// Generated from net/SGL2.g4 by ANTLR 4.9.2
-package net;
+// Generated from /Users/christophe.thiebaud/github.com/sangiovannilipioni/sangiovannilipioni.api/antlrparser/src/main/antlr4/net/aequologica/sangiovannilipioni/antlr/SGL2.g4 by ANTLR 4.8
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -11,7 +10,7 @@ import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
 public class SGL2Lexer extends Lexer {
-	static { RuntimeMetaData.checkVersion("4.9.2", RuntimeMetaData.VERSION); }
+	static { RuntimeMetaData.checkVersion("4.8", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =

@@ -1,5 +1,5 @@
-// Generated from net/SGL2.g4 by ANTLR 4.9.2
-package net;
+// Generated from net/aequologica/sangiovannilipioni/antlr/SGL2.g4 by ANTLR 4.9.2
+package net.aequologica.sangiovannilipioni.antlr;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**

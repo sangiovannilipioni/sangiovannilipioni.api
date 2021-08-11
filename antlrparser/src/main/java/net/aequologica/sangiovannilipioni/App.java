@@ -14,9 +14,9 @@ import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 
-import net.SGL2BaseVisitor;
-import net.SGL2Lexer;
-import net.SGL2Parser;
+import net.aequologica.sangiovannilipioni.antlr.SGL2BaseVisitor;
+import net.aequologica.sangiovannilipioni.antlr.SGL2Lexer;
+import net.aequologica.sangiovannilipioni.antlr.SGL2Parser;
 
 class Main {
     static String dir = "../files/";

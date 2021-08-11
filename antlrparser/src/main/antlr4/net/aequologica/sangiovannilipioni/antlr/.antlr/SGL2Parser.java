@@ -1,4 +1,4 @@
-// Generated from /Users/christophe.thiebaud/github.com/sangiovannilipioni/sangiovannilipioni.api/antlrparser/src/main/antlr4/net/SGL2.g4 by ANTLR 4.8
+// Generated from /Users/christophe.thiebaud/github.com/sangiovannilipioni/sangiovannilipioni.api/antlrparser/src/main/antlr4/net/aequologica/sangiovannilipioni/antlr/SGL2.g4 by ANTLR 4.8
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;

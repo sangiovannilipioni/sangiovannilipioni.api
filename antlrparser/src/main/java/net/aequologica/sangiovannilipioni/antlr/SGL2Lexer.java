@@ -1,4 +1,5 @@
-// Generated from /Users/christophe.thiebaud/github.com/sangiovannilipioni/sangiovannilipioni.api/antlrparser/SGL.g4 by ANTLR 4.8
+// Generated from net/aequologica/sangiovannilipioni/antlr/SGL2.g4 by ANTLR 4.9.2
+package net.aequologica.sangiovannilipioni.antlr;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -9,14 +10,14 @@ import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
 
 @SuppressWarnings({"all", "warnings", "unchecked", "unused", "cast"})
-public class SGLLexer extends Lexer {
-	static { RuntimeMetaData.checkVersion("4.8", RuntimeMetaData.VERSION); }
+public class SGL2Lexer extends Lexer {
+	static { RuntimeMetaData.checkVersion("4.9.2", RuntimeMetaData.VERSION); }
 
 	protected static final DFA[] _decisionToDFA;
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
-		NEWLINE=1, DIGITS=2, CONTENT=3;
+		T__0=1, NEWLINE=2, DIGITS=3, CONTENT=4;
 	public static String[] channelNames = {
 		"DEFAULT_TOKEN_CHANNEL", "HIDDEN"
 	};
@@ -27,19 +28,20 @@ public class SGLLexer extends Lexer {
 
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"NEWLINE", "DIGITS", "CONTENT"
+			"T__0", "NEWLINE", "DIGITS", "CONTENT"
 		};
 	}
 	public static final String[] ruleNames = makeRuleNames();
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
+			null, "'-1'"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
 	private static String[] makeSymbolicNames() {
 		return new String[] {
-			null, "NEWLINE", "DIGITS", "CONTENT"
+			null, null, "NEWLINE", "DIGITS", "CONTENT"
 		};
 	}
 	private static final String[] _SYMBOLIC_NAMES = makeSymbolicNames();
@@ -77,13 +79,13 @@ public class SGLLexer extends Lexer {
 	}
 
 
-	public SGLLexer(CharStream input) {
+	public SGL2Lexer(CharStream input) {
 		super(input);
 		_interp = new LexerATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
 
 	@Override
-	public String getGrammarFileName() { return "SGL.g4"; }
+	public String getGrammarFileName() { return "SGL2.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }
@@ -101,15 +103,17 @@ public class SGLLexer extends Lexer {
 	public ATN getATN() { return _ATN; }
 
 	public static final String _serializedATN =
-		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\2\5\34\b\1\4\2\t\2"+
-		"\4\3\t\3\4\4\t\4\3\2\6\2\13\n\2\r\2\16\2\f\3\3\6\3\20\n\3\r\3\16\3\21"+
-		"\3\4\3\4\7\4\26\n\4\f\4\16\4\31\13\4\3\4\3\4\3\27\2\5\3\3\5\4\7\5\3\2"+
-		"\4\4\2\f\f\17\17\3\2\62;\2\36\2\3\3\2\2\2\2\5\3\2\2\2\2\7\3\2\2\2\3\n"+
-		"\3\2\2\2\5\17\3\2\2\2\7\23\3\2\2\2\t\13\t\2\2\2\n\t\3\2\2\2\13\f\3\2\2"+
-		"\2\f\n\3\2\2\2\f\r\3\2\2\2\r\4\3\2\2\2\16\20\t\3\2\2\17\16\3\2\2\2\20"+
-		"\21\3\2\2\2\21\17\3\2\2\2\21\22\3\2\2\2\22\6\3\2\2\2\23\27\7~\2\2\24\26"+
-		"\13\2\2\2\25\24\3\2\2\2\26\31\3\2\2\2\27\30\3\2\2\2\27\25\3\2\2\2\30\32"+
-		"\3\2\2\2\31\27\3\2\2\2\32\33\7~\2\2\33\b\3\2\2\2\6\2\f\21\27\2";
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\2\6!\b\1\4\2\t\2\4"+
+		"\3\t\3\4\4\t\4\4\5\t\5\3\2\3\2\3\2\3\3\6\3\20\n\3\r\3\16\3\21\3\4\6\4"+
+		"\25\n\4\r\4\16\4\26\3\5\3\5\7\5\33\n\5\f\5\16\5\36\13\5\3\5\3\5\3\34\2"+
+		"\6\3\3\5\4\7\5\t\6\3\2\4\4\2\f\f\17\17\3\2\62;\2#\2\3\3\2\2\2\2\5\3\2"+
+		"\2\2\2\7\3\2\2\2\2\t\3\2\2\2\3\13\3\2\2\2\5\17\3\2\2\2\7\24\3\2\2\2\t"+
+		"\30\3\2\2\2\13\f\7/\2\2\f\r\7\63\2\2\r\4\3\2\2\2\16\20\t\2\2\2\17\16\3"+
+		"\2\2\2\20\21\3\2\2\2\21\17\3\2\2\2\21\22\3\2\2\2\22\6\3\2\2\2\23\25\t"+
+		"\3\2\2\24\23\3\2\2\2\25\26\3\2\2\2\26\24\3\2\2\2\26\27\3\2\2\2\27\b\3"+
+		"\2\2\2\30\34\7~\2\2\31\33\13\2\2\2\32\31\3\2\2\2\33\36\3\2\2\2\34\35\3"+
+		"\2\2\2\34\32\3\2\2\2\35\37\3\2\2\2\36\34\3\2\2\2\37 \7~\2\2 \n\3\2\2\2"+
+		"\6\2\21\26\34\2";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {
