@@ -16,6 +16,7 @@ import java.util.Iterator;
 // import java.util.Map;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -23,69 +24,77 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
+    public static void main(String[] args) throws IOException, FileNotFoundException, UnsupportedEncodingException {
         String dir = "../files/";
         String filename = "Sintesi O2";
-        FileInputStream excelFile = new FileInputStream(new File(dir + filename + ".xlsx"));
 
-        /* UN-COMMENT TO MAP CELLTYPES (in case something else than NUMERIC or STRING or BLANK comes in) */
-        // Map<String, CellType> cellTypes = new HashMap<String, CellType>(); 
-        try (PrintWriter writer = new PrintWriter(dir + filename + ".txt", "UTF-8")) {
-            try (Workbook workbook = new XSSFWorkbook(excelFile)) {
+        File fileIn = new File(dir, filename + ".xlsx");
+        File fileOut = new File(dir, filename + ".txt");
 
-                Iterator<Sheet> sheetIterator = workbook.iterator();
+        final String SEP = "|";
 
-                while (sheetIterator.hasNext()) {
-                    Sheet currentSheet = sheetIterator.next();
-                    writer.print("-1|");
-                    writer.print(currentSheet.getSheetName());
-                    writer.println("|");
-                    Iterator<Row> rowIterator = currentSheet.iterator();
+        /*
+         * UN-COMMENT TO MAP CELLTYPES (in case something else than NUMERIC or STRING or
+         * BLANK comes in)
+         */
+        // Map<String, CellType> cellTypes = new HashMap<String, CellType>();
+        try (FileInputStream excelFile = new FileInputStream(fileIn)) {
+            try (PrintWriter out = new PrintWriter(fileOut, "UTF-8")) {
+                try (Workbook book = new XSSFWorkbook(excelFile)) {
 
-                    while (rowIterator.hasNext()) {
+                    Iterator<Sheet> sheetIterator = book.iterator();
 
-                        Row currentRow = rowIterator.next();
-                        Iterator<Cell> cellIterator = currentRow.iterator();
+                    while (sheetIterator.hasNext()) {
+                        Sheet sheet = sheetIterator.next();
+                        out.print("-1|");
+                        out.print(sheet.getSheetName());
+                        out.println("|");
+                        Iterator<Row> rowIterator = sheet.iterator();
 
-                        boolean printLine = false;
-                        while (cellIterator.hasNext()) {
+                        while (rowIterator.hasNext()) {
 
-                            Cell currentCell = cellIterator.next();
-                            CellType cellType = currentCell.getCellType();
-                            /* UN-COMMENT TO MAP CELLTYPES */
-                            /*
-                            * cellTypes.put(cellType.name(), cellType); writer.print(cellType);
-                            */
-                                
-                            if (currentCell.getCellType() == STRING) {
-                                String str = nolfnodoublequotetrim(currentCell.getStringCellValue());
-                                writer.print(currentCell.getColumnIndex() + "|" + str + "|");
-                                printLine = true;
-                            } else if (currentCell.getCellType() == NUMERIC) {
-                                writer.print(currentCell.getColumnIndex()  + "|" + currentCell.getNumericCellValue() + "|");
-                                printLine = true;
-                            } else if (!cellType.equals(CellType.BLANK)) {
+                            Row row = rowIterator.next();
+                            Iterator<Cell> cellIterator = row.iterator();
+
+                            boolean printLine = false;
+                            while (cellIterator.hasNext()) {
+
+                                Cell cell = cellIterator.next();
+                                CellType type = cell.getCellType();
+                                /* UN-COMMENT TO MAP CELLTYPES */
+                                // cellTypes.put(type.name(), type); writer.print(type);
+
+                                if (cell.getCellType() == STRING) {
+                                    String str = nolinefeed_nodoublequote_trim(cell.getStringCellValue());
+                                    if (str.length() > 0) {
+                                        out.print(cell.getColumnIndex() + SEP + str + SEP);
+                                        printLine = true;
+                                    }
+                                } else if (cell.getCellType() == NUMERIC) {
+                                    double number = cell.getNumericCellValue();
+                                    out.print(cell.getColumnIndex() + SEP + number + SEP);
+                                    printLine = true;
+                                } else if (type.equals(CellType.BLANK)) {
+                                }
                             }
-                        }
-                        if (printLine) {
-                            writer.println();
+                            if (printLine) {
+                                out.println();
+                            }
                         }
                     }
                 }
+                /* UN-COMMENT TO MAP CELLTYPES */
+                // for (Map.Entry<String, CellType> entry : cellTypes.entrySet()) {
+                // System.out.println(entry.getKey() + " : " + entry.getValue());
+                // }
+
             }
-            /* UN-COMMENT TO MAP CELLTYPES */
-            /*
-             * for (Map.Entry<String, CellType> entry : cellTypes.entrySet()) {
-             * System.out.println(entry.getKey() + "/" + entry.getValue()); }
-             */
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 
-    static String nolfnodoublequotetrim(String in) {
-        return in.replace("\n", "").replace("\"", "'").replace("\r", "").trim();
+    static String nolinefeed_nodoublequote_trim(String str) {
+        return str.replace("\n", "").replace("\r", "") // no line feed
+                .replace("\"", "'") // no double quote
+                .trim();
     }
 }

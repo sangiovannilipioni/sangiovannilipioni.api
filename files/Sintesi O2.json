@@ -14,12 +14,6 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "1.0"
         },
@@ -62,12 +56,6 @@
         {
           "col": "2",
           "text": "O"
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
         }
       ],
       [
@@ -132,12 +120,6 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "1.2"
         },
@@ -176,18 +158,8 @@
           "text": "edificio"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "O02"
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
         }
       ],
       [
@@ -196,54 +168,26 @@
           "text": "2.0"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "CARATTERISTICHE EDIFICIO"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "EDIFICIO IN AGGREGATO"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "estremità"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "MONOFAMILIARE"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
@@ -254,10 +198,6 @@
         {
           "col": "2",
           "text": "Nr. piani fuori terra"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
@@ -282,31 +222,15 @@
         {
           "col": "2",
           "text": "Nr. unità abitative"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "H media di piano"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "\u003c 2.50 m"
@@ -318,23 +242,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "Sup. media di piano (mq)"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "\u003c 50 mq"
@@ -352,16 +264,6 @@
         {
           "col": "2",
           "text": "H gronda"
-        },
-        {
-          "col": "3",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
         }
       ],
       [
@@ -370,36 +272,14 @@
           "text": "2.1"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "EPOCA DI COSTRUZIONE"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "1900-1952"
-        },
-        {
-          "col": "3",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
@@ -408,23 +288,11 @@
           "text": "2.2"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "UTILIZZAZIONE"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "non utilizzato/in stato d\u0027abbandono (scadente)"
@@ -436,18 +304,8 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "2.3"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -456,22 +314,8 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "abitazione"
-        },
-        {
-          "col": "3",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
         }
       ],
       [
@@ -480,26 +324,14 @@
           "text": "2.4"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "TIPO EDILIZIO"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "A blocco"
-        },
-        {
-          "col": "3",
-          "text": ""
         }
       ]
     ],
@@ -1441,18 +1273,6 @@
           "col": "4",
           "text": "mq"
         }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
-        }
       ]
     ],
     "cols": "4"
@@ -1592,10 +1412,6 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
           "col": "1",
           "text": "massiva"
         }
@@ -1604,10 +1420,6 @@
         {
           "col": "1",
           "text": "muratura in pietra disordinata"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
@@ -1622,10 +1434,6 @@
         {
           "col": "3",
           "text": "cm"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
@@ -1640,17 +1448,9 @@
         {
           "col": "3",
           "text": "cm"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "0",
-          "text": ""
-        },
         {
           "col": "1",
           "text": "presenza di strati non strutturali"
@@ -1660,10 +1460,6 @@
         {
           "col": "1",
           "text": "intonaci interni"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
@@ -1688,10 +1484,6 @@
         {
           "col": "1",
           "text": "intonaci esterni"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
@@ -1764,10 +1556,6 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
           "col": "1",
           "text": "massiva"
         }
@@ -1794,10 +1582,6 @@
         {
           "col": "3",
           "text": "cm"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
@@ -1812,17 +1596,9 @@
         {
           "col": "3",
           "text": "cm"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "0",
-          "text": ""
-        },
         {
           "col": "1",
           "text": "presenza di strati non strutturali"
@@ -1832,10 +1608,6 @@
         {
           "col": "1",
           "text": "intonaci interni"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
@@ -1860,10 +1632,6 @@
         {
           "col": "1",
           "text": "intonaci esterni"
-        },
-        {
-          "col": "6",
-          "text": ""
         }
       ],
       [
@@ -1896,28 +1664,14 @@
           "text": "edificio"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "O02"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "4.0"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -1930,28 +1684,14 @@
           "text": "4.2"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "Indice di Qualità Muraria"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "4.2.1"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -1976,10 +1716,6 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "codice id. elementi costruttivi strutturali"
         },
@@ -2001,10 +1737,6 @@
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "codice id. elementi costruttivi finiture - INTERNO"
@@ -2028,10 +1760,6 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "codice id. elementi costruttivi finiture - ESTERNO"
         },
@@ -2054,19 +1782,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "pareti esterne"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "pareti interne"
@@ -2236,10 +1956,6 @@
           "text": "4.2.2"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "piano"
         },
@@ -2261,10 +1977,6 @@
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "codice id. elementi costruttivi strutturali"
@@ -2288,10 +2000,6 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "codice id. elementi costruttivi finiture - INTERNO"
         },
@@ -2314,10 +2022,6 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "codice id. elementi costruttivi finiture - ESTERNO"
         },
@@ -2339,10 +2043,6 @@
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "pareti interne"
@@ -2518,28 +2218,14 @@
           "text": "edificio"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "O02"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "4.0"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -2552,10 +2238,6 @@
           "text": "4.3"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "STRUTTURE PORTANTI ORIZZONTALI"
         }
@@ -2564,10 +2246,6 @@
         {
           "col": "0",
           "text": "4.3.1"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -2579,14 +2257,6 @@
         }
       ],
       [
-        {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "assenza di solaio strutturale"
@@ -2602,10 +2272,6 @@
           "text": "4.3.2"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "solaio di piano"
         },
@@ -2616,20 +2282,8 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "travi in legno orditura doppia"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2696,10 +2350,6 @@
         {
           "col": "2",
           "text": "impalcato in legno"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2714,28 +2364,12 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "presenza di strati non strutturali"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2760,10 +2394,6 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2788,20 +2418,12 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "0",
           "text": "4.3.3"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -2814,20 +2436,8 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "travi in legno orditura singola"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2850,20 +2460,12 @@
         {
           "col": "7",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "2",
           "text": "impalcato in legno"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2878,28 +2480,12 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "presenza di strati non strutturali"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2924,10 +2510,6 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -2952,21 +2534,9 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
-        {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "presenza di divisorie interne"
@@ -2988,20 +2558,12 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "0",
           "text": "4.3.4"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -3014,20 +2576,8 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "travi in acciaio"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3082,30 +2632,14 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "presenza di strati non strutturali"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "2",
           "text": "massetti"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3120,10 +2654,6 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3148,10 +2678,6 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3164,28 +2690,12 @@
         {
           "col": "2",
           "text": "terrazzi"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "presenza di divisorie interne"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3200,20 +2710,12 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "0",
           "text": "4.3.5"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -3225,14 +2727,6 @@
         }
       ],
       [
-        {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "travi in legno orditura doppia"
@@ -3266,10 +2760,6 @@
         {
           "col": "7",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3296,10 +2786,6 @@
         {
           "col": "7",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3332,20 +2818,8 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "presenza di strati non strutturali"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3370,10 +2844,6 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3388,40 +2858,20 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "copertura non spingente"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "2",
           "text": "non spingente leggera"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "0",
           "text": "4.3.6"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -3433,14 +2883,6 @@
         }
       ],
       [
-        {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "travi in legno orditura doppia"
@@ -3474,10 +2916,6 @@
         {
           "col": "7",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3504,10 +2942,6 @@
         {
           "col": "7",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3532,28 +2966,12 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "presenza di strati non strutturali"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3578,10 +2996,6 @@
         {
           "col": "5",
           "text": "cm"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
@@ -3596,30 +3010,14 @@
       ],
       [
         {
-          "col": "0",
-          "text": ""
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "copertura non spingente"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ],
       [
         {
           "col": "2",
           "text": "non spingente leggera"
-        },
-        {
-          "col": "8",
-          "text": ""
         }
       ]
     ],
@@ -3634,28 +3032,14 @@
           "text": "edificio"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "O02"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "4.0"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -3668,28 +3052,14 @@
           "text": "4.4"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "CARENZE COSTRUTTIVE ORIZZONTAMENTI"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "4.4.1"
-        },
-        {
-          "col": "1",
-          "text": ""
         },
         {
           "col": "2",
@@ -3786,10 +3156,6 @@
           "text": "4.4.2"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "solaio di piano"
         }
@@ -3810,19 +3176,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "assenza di soletta semirigida di ripartizione dei carichi"
@@ -3918,10 +3276,6 @@
           "text": "4.4.3"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "solaio di piano"
         }
@@ -3942,29 +3296,17 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "dimensione insufficiente degli elementi strutturali"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "assenza di soletta semirigida di ripartizione dei carichi"
@@ -4060,10 +3402,6 @@
           "text": "4.4.4"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "solaio di piano"
         }
@@ -4084,29 +3422,17 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "dimensione insufficiente degli elementi strutturali"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "assenza di soletta semirigida di ripartizione dei carichi"
@@ -4196,10 +3522,6 @@
           "text": "4.4.5"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "solaio di copertura"
         },
@@ -4216,19 +3538,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "2",
           "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "2",
           "text": "assenza di soletta semirigida di ripartizione dei carichi"
@@ -4694,40 +4008,14 @@
           "text": "edificio"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "O02"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        }
-      ],
-      [
-        {
           "col": "0",
           "text": "5.0"
-        },
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
         },
         {
           "col": "3",
@@ -4740,33 +4028,11 @@
           "text": "5.1"
         },
         {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "CARENZE edifici a destinazione prevalente abitativa con struttura in muratura"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "7",
           "text": "a"
@@ -4778,10 +4044,6 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "7",
           "text": "0.0"
         },
@@ -4792,27 +4054,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "grado di vulnerabilità ALTOse a≥ 2 ose (a+b) ≥ 6"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "grado di vulnerabilità SIGNIFICATIVOse a≥ 1 ose b ≥ 5"
@@ -4820,39 +4066,17 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "grado di vulnerabilità BASSOse a\u003d 0 ose b \u003c 5"
         }
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "DANNI AD ELEMENTI STRUTTURALI"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "estensione del danno"
@@ -4871,10 +4095,6 @@
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "componente strutturale"
@@ -4918,19 +4138,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "DANNI AD ELEMENTI NON STRUTTURALI"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "PERICOLO ESTERNO INDOTTO DA ALTRO"
@@ -4938,19 +4150,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "TERRENO E FONDAZIONI"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "morfologia del sito"
@@ -4958,25 +4162,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "dissesti alle fondazioni"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "STATO DI DANNO 1D1 Leggerodanno ≤ \u0027danno lieve\u0027 (leggero)"
@@ -4984,19 +4174,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "STATO DI DANNO 2D2 Medio Grave  \u0027danno lieve\u0027 \u003c danno ≤ \u0027danno grave\u0027"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "STATO DI DANNO 3D3 Medio Grave \u0027danno grave\u0027 \u003c danno ≤  \u0027danno gravissimo\u0027"
@@ -5004,33 +4186,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "STATO DI DANNO 4D4-D5 Gravissimo  danno \u003e  \u0027danno gravissimo\u0027"
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        }
-      ],
-      [
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "D1 DANNO LEGGERO: è un danno che non cambia in modo significativo la resistenza della struttura e non pregiudica la sicurezza degli occupanti a causa di cadute di elementi non strutturali."
@@ -5038,27 +4198,11 @@
       ],
       [
         {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
-        {
           "col": "3",
           "text": "D2-D3 DANNO MEDIO - GRAVE: è un danno che potrebbe anche cambiare in modo significativo la resistenza della struttura senza che venga avvicinato palesemente il limite del crollo parziale di elementi strutturali principali."
         }
       ],
       [
-        {
-          "col": "1",
-          "text": ""
-        },
-        {
-          "col": "2",
-          "text": ""
-        },
         {
           "col": "3",
           "text": "D4-D5 DANNO GRAVISSIMO: è un danno che modifica in modo evidente la resistenza della struttura portandola vicino al limite del crollo parziale o totale di elementi strutturali principali. Stato descritto da danni superiori ai precedenti, incluso il collasso"
