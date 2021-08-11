@@ -12,9 +12,9 @@
         },
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "Launch Main",
             "request": "launch",
-            "mainClass": "net.aequologica.sangiovannilipioni.App",
+            "mainClass": "net.aequologica.sangiovannilipioni.Main",
             "projectName": "excelreader"
         }
     ]
