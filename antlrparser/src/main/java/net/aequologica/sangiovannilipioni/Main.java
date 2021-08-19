@@ -18,11 +18,11 @@ import net.aequologica.sangiovannilipioni.antlr.SGL2BaseVisitor;
 import net.aequologica.sangiovannilipioni.antlr.SGL2Lexer;
 import net.aequologica.sangiovannilipioni.antlr.SGL2Parser;
 
+/* (see here : https://stackoverflow.com/a/49117903/1070215 for a more generic solution) */
 class Main {
     static String dir = "../files/";
     static String filename = "Sintesi O2";
 
-    /* (see here : https://stackoverflow.com/a/49117903/1070215 for a more generic solution) */
     public static void main(String[] args) throws IOException {
         try (Reader reader = new FileReader(dir + filename + ".txt")) {
             CharStream inputStream = CharStreams.fromReader(reader);
@@ -36,9 +36,10 @@ class Main {
             visitor.visitBook(sglParser.book());
             String unformattedJSON = sw.toString();
 
-            String prettyJSON = new GsonBuilder().setPrettyPrinting().create().toJson(JsonParser.parseString(unformattedJSON));
+            String prettyJSON = new GsonBuilder().setPrettyPrinting().create()
+                    .toJson(JsonParser.parseString(unformattedJSON));
 
-            try (PrintWriter w = new PrintWriter(dir + filename + ".json", "UTF-8")) {
+            try (PrintWriter w = new PrintWriter(dir + filename.replace(" ", "") + ".json", "UTF-8")) {
                 w.print(prettyJSON);
             }
         }
@@ -52,13 +53,13 @@ class Main {
         boolean prevCell = false;
         int max = 0;
 
-        final String OPENARRAY   = "[";
-        final String CLOSEARRAY  = "]";
-        final String OPENOBJECT  = "{";
+        final String OPENARRAY = "[";
+        final String CLOSEARRAY = "]";
+        final String OPENOBJECT = "{";
         final String CLOSEOBJECT = "}";
-        final String COLON       = ":";
-        final String COMMA       = ",";
-        final String QUOTE       = "\"";
+        final String COLON = ":";
+        final String COMMA = ",";
+        final String QUOTE = "\"";
 
         SGLVisitor(PrintWriter w) {
             this.w = w;
@@ -144,7 +145,6 @@ class Main {
             }
         }
     }
-
 
     public static String cleanString(String str) {
         if (str.startsWith("|") && str.endsWith("|")) {
