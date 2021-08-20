@@ -84,7 +84,7 @@ class Main {
             Integer ret = super.visitSheet(ctx);
             w.print(CLOSEARRAY);
             w.print(COMMA);
-            writeKey(w, "cols", Integer.toString(this.max));
+            writeKey(w, "columnCount", Integer.toString(1+this.max));
             w.print(CLOSEOBJECT);
             this.prevSheet = true;
             return ret;

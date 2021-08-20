@@ -147,7 +147,7 @@
         }
       ]
     ],
-    "cols": "2"
+    "columnCount": "3"
   },
   {
     "sheet": "02_descriz_edificio",
@@ -335,7 +335,7 @@
         }
       ]
     ],
-    "cols": "3"
+    "columnCount": "4"
   },
   {
     "sheet": "03_dati_metrici_AB",
@@ -1275,7 +1275,7 @@
         }
       ]
     ],
-    "cols": "4"
+    "columnCount": "5"
   },
   {
     "sheet": "04_dati_costrutt_VERT",
@@ -1653,7 +1653,7 @@
         }
       ]
     ],
-    "cols": "6"
+    "columnCount": "7"
   },
   {
     "sheet": "04_dati_costrutt_VERT_IQM",
@@ -2207,7 +2207,7 @@
         }
       ]
     ],
-    "cols": "6"
+    "columnCount": "7"
   },
   {
     "sheet": "04_dati_costrutt_ORIZZ",
@@ -3021,7 +3021,7 @@
         }
       ]
     ],
-    "cols": "8"
+    "columnCount": "9"
   },
   {
     "sheet": "04_dati_costrutt_CARENZE",
@@ -3645,7 +3645,7 @@
         }
       ]
     ],
-    "cols": "8"
+    "columnCount": "9"
   },
   {
     "sheet": "05_valutazione rischio_M",
@@ -3997,7 +3997,7 @@
         }
       ]
     ],
-    "cols": "10"
+    "columnCount": "11"
   },
   {
     "sheet": "05_valutazione rischio_CA",
@@ -4209,6 +4209,6 @@
         }
       ]
     ],
-    "cols": "12"
+    "columnCount": "13"
   }
 ]
