@@ -92,8 +92,8 @@ class Main {
 
         @Override
         public Integer visitSheetid(SGL2Parser.SheetidContext ctx) {
-            String con = ctx.CONTENT().getText();
-            writeKey(w, "sheet", con);
+            String sheetName = ctx.CONTENT().getText();
+            writeKey(w, "name", sheetName);
             w.print(COMMA);
             writeKey(w, "rows", null);
             w.print(OPENARRAY);
@@ -121,7 +121,7 @@ class Main {
         @Override
         public Integer visitCell(SGL2Parser.CellContext ctx) {
             String col = ctx.DIGITS().getText();
-            String con = ctx.CONTENT().getText();
+            String text = ctx.CONTENT().getText();
             if (this.prevCell) {
                 w.print(COMMA);
             }
@@ -129,7 +129,7 @@ class Main {
             this.max = Math.max(max, Integer.parseInt(col));
             writeKey(w, "col", col);
             w.print(COMMA);
-            writeKey(w, "text", con);
+            writeKey(w, "text", text);
             Integer ret = super.visitCell(ctx);
             w.print(CLOSEOBJECT);
             this.prevCell = true;

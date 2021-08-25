@@ -1,6 +1,6 @@
 [
   {
-    "sheet": "01_id_edificio",
+    "name": "01_id_edificio",
     "rows": [
       {
         "cells": [
@@ -182,7 +182,7 @@
     "columnCount": "4"
   },
   {
-    "sheet": "02_descriz_edificio",
+    "name": "02_descriz_edificio",
     "rows": [
       {
         "cells": [
@@ -412,7 +412,7 @@
     "columnCount": "5"
   },
   {
-    "sheet": "03_dati_metrici_AB",
+    "name": "03_dati_metrici_AB",
     "rows": [
       {
         "cells": [
@@ -1230,7 +1230,7 @@
     "columnCount": "6"
   },
   {
-    "sheet": "04_dati_costrutt_VERT_IQM",
+    "name": "04_dati_costrutt_VERT_IQM",
     "rows": [
       {
         "cells": [
@@ -1840,7 +1840,7 @@
     "columnCount": "8"
   },
   {
-    "sheet": "04_dati_costrutt_CARENZE",
+    "name": "04_dati_costrutt_CARENZE",
     "rows": [
       {
         "cells": [
