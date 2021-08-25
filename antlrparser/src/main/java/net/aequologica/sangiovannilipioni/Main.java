@@ -21,7 +21,7 @@ import net.aequologica.sangiovannilipioni.antlr.SGL2Parser;
 /* (see here : https://stackoverflow.com/a/49117903/1070215 for a more generic solution) */
 class Main {
     static String dir = "../files/";
-    static String filename = "Sintesi O2";
+    static String filename = "Sintesi_O2_v2";
 
     public static void main(String[] args) throws IOException {
         try (Reader reader = new FileReader(dir + filename + ".txt")) {
@@ -107,11 +107,14 @@ class Main {
             if (this.prevRow) {
                 w.print(COMMA);
             }
+            w.print(OPENOBJECT);
+            writeKey(w, "cells", null);
             w.print(OPENARRAY);
             this.prevCell = false;
             Integer ret = super.visitRow(ctx);
             this.prevRow = true;
             w.print(CLOSEARRAY);
+            w.print(CLOSEOBJECT);
             return ret;
         }
 
