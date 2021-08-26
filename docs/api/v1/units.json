@@ -48,6 +48,14 @@
     "slides":[
     ]
   },
+  "ANOTHER TEST":{
+    "hasData":false,
+    "imgs":[],
+    "position": { "lat": 41.80, "lng": 14.50 },
+    "title": "ANOTHER TEST",
+    "slides":[
+    ]
+  },
   "G01":{
     "hasData":false,
     "imgs":["X2.jpg"],
