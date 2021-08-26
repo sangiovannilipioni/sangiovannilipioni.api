@@ -1,0 +1,51 @@
+{
+  "O02":{
+    "hasData":true,
+    "imgs":["GOPR1232_light_2.jpg"],
+    "position": { "lat": 41.84247, "lng": 14.56213 },
+    "title":"Via Roma, 37",
+    "video":"https://youtu.be/pmgZcSv4Huk",
+    "slides":[
+      {
+        "img":"PianoTerra.jpg",
+        "title":"Piano Terra "
+      },
+      {
+        "img":"PianoPrimo.jpg",
+        "title":"Piano Primo "
+      },
+      {
+        "img":"PianoSeminterrato.jpg",
+        "title":"Piano Seminterrato"
+      },
+      {
+        "img":"ProspettoNord.jpg",
+        "title":"Prospetto Nord "
+      },
+      {
+        "img":"ProspettoOvestEst.jpg",
+        "title":"Prospetto Ovest Est"
+      },
+      {
+        "img":"ProspettoSud.jpg",
+        "title":"Prospetto Sud "
+      },
+      {
+        "img":"SezioneA.jpg",
+        "title":"Sezione A "
+      },
+      {
+        "img":"SezioneB.jpg",
+        "title":"Sezione B "
+      }
+    ]
+  },
+  "G01":{
+    "hasData":false,
+    "imgs":["X2.jpg"],
+    "position": { "lat": 41.84821126881966, "lng": 14.562941327400237 },
+    "title": "Via Vicenne, 4",
+    "slides":[
+    ]
+  }
+}
