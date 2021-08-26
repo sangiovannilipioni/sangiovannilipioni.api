@@ -25,7 +25,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class Main {
     public static void main(String[] args) throws IOException, FileNotFoundException, UnsupportedEncodingException {
         String dir = "../files/";
-        String filename = "Sintesi_O2_v2";
+        String filename = "Sintesi_O02";
 
         File fileIn = new File(dir, filename + ".xlsx");
         File fileOut = new File(dir, filename + ".txt");
