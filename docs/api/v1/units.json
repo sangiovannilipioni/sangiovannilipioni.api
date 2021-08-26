@@ -40,6 +40,14 @@
       }
     ]
   },
+  "TEST":{
+    "hasData":false,
+    "imgs":[],
+    "position": { "lat": 41.84821126881966, "lng": 14.562941327400237 },
+    "title": "TEST",
+    "slides":[
+    ]
+  },
   "G01":{
     "hasData":false,
     "imgs":["X2.jpg"],
