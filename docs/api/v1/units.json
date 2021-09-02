@@ -56,8 +56,8 @@
     "slides":[
     ]
   },
-  "G01":{
-    "hasData":false,
+  "X2":{
+    "hasData":true,
     "imgs":["X2.jpg"],
     "position": { "lat": 41.84821126881966, "lng": 14.562941327400237 },
     "title": "Via Vicenne, 4",

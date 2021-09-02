@@ -1,0 +1,151 @@
+-1|01_id_edificio|
+0|edificio|2|X02|
+0|1.0|2|IDENTIFICAZIONE EDIFICIO|
+2|DATA|3|44335.0|
+2|ID. SCHEDA|3|X02|
+2|CODICE EDIFICIO|3|X02|
+2|CODICE AGGREGATO|3|X|
+0|1.1|2|LOCALIZZAZIONE GEOGRAFICA|
+2|REGIONE|3|Abruzzo|
+2|PROVINCIA|3|Chieti|
+2|COMUNE|3|San Giovanni Lipioni|
+2|INDIRIZZO|3|via Vicenne, 4|
+2|COORDINATE GEOGRAFICHE|3|41.848202, 14.562981|
+0|1.2|2|DATI CATASTALI|
+2|FOGLIO|
+2|MAPPALE|
+2|SUBALTERNI|
+-1|02_descriz_edificio|
+0|edificio|3|X02|
+0|2.0|3|CARATTERISTICHE EDIFICIO|
+3|EDIFICIO IN AGGREGATO|
+3|estremità|
+3|MONOFAMILIARE|
+2|1.0|3|Nr. piani fuori terra|
+2|1.0|3|Nr. piani interrati/seminterrati|
+2|1.0|3|Nr. unità abitative|
+3|H media di piano|
+3|2.50 - 3.49 m|4|2,64  m|
+3|Sup. media di piano (mq)|
+3|< 50 mq|4|sup. media, circa 27mq|
+2|4.8|3|H gronda|
+0|2.1|3|EPOCA DI COSTRUZIONE|
+3|1900-1952|
+0|2.2|3|UTILIZZAZIONE|
+3|non utilizzato/in stato d'abbandono (scadente)|4|grezzo|
+0|2.3|3|DESTINAZIONE D'USO|
+3|magazzino|
+0|2.4|3|TIPO EDILIZIO|
+3|A blocco|
+-1|03_dati_metrici_AB|
+0|edificio|2|X02|
+0|3.0|2|CARATTERISTICHE GEOMETRICHE DEL FABBRICATO|
+0|3.1|2|ABITAZIONE|
+2|Edificio su due livelli, piano seminterrato adibito a cantina/deposito, mentre il piano fuoriterra|
+2|risulta lasciato completamente al grezzo.|
+0|3.1.1|2|Vani principali|
+2|Ambiente al piano fuoriterra|
+2|nr. vani|3|1.0|
+2|Vano 1|3|SU|4|25.78|5|mq|
+2|SU Superficie Utile|4|25.78|5|mq|
+0|3.1.3|2|Vani accessori indiretti|
+2|Cantina al piano seminterrato|
+2|non comunicanti|
+2|nr. vani|3|1.0|
+2|Cantina|3|SA|4|27.8|5|mq|
+2|SU Superficie Utile|4|0.0|5|mq|
+2|SA Superficie Accessoria|4|27.8|5|mq|
+0|3.2|2|VALORI DI SINTESI ABITAZIONE|
+2|Superficie utile totale|3|SU|4|25.78|5|mq|
+2|Superficie accessoria totale|3|SA|4|27.8|5|mq|
+2|Superficie calpestabile totale|3|SCa|4|53.58|5|mq|
+2|Superficie complessiva|3|SCO|4|42.46|5|mq|
+2|Superficie lorda|3|SL|4|72.58|5|mq|
+2|Superficie totale|3|ST|4|100.38|5|mq|
+2|Nr.piani|3|2.0|
+2|piano|3|0.0|
+2|Superficie utile totale|3|SU|4|0.0|5|mq|
+2|Superficie accessoria totale|3|SA|4|27.8|5|mq|
+2|Superficie calpestabile totale|3|SCa|4|27.8|5|mq|
+2|Superficie complessiva|3|SCO|4|16.68|5|mq|
+2|Superficie lorda|3|SL|4|5.66|5|mq|
+2|Superficie totale di piano|3|ST|4|33.46|5|mq|
+2|Superficie né utile né access.|3|S|4|0.0|5|mq|
+2|piano|3|1.0|
+2|Superficie utile totale|3|SU|4|25.78|5|mq|
+2|Superficie accessoria totale|3|SA|4|0.0|5|mq|
+2|Superficie calpestabile totale|3|SCa|4|25.78|5|mq|
+2|Superficie complessiva|3|SCO|4|25.78|5|mq|
+2|Superficie lorda|3|SL|4|33.46|5|mq|
+2|Superficie totale|3|ST|4|33.46|5|mq|
+2|Superficie né utile né access.|3|S|4|0.0|5|mq|
+-1|04_dati_costrutt_VERT_IQM|
+0|edificio|3|R01|
+0|4.0|3|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
+0|4.2|3|Indice di Qualità Muraria|
+0|4.2.1|3|piano|4|0.0|5|1.0|6|2.0|
+3|codice id. elementi costruttivi strutturali|4|A1|5|A1|6|A1|
+3|codice id. elementi costruttivi finiture - INTERNO|4|L4|5|L1|6|L1|
+3|codice id. elementi costruttivi finiture - ESTERNO|4|-|5|L3|6|L3|
+3|pareti esterne|
+4|CATEGORIA|
+2|IQMv|3|1.0|4|-|5|-|6|C|
+2|IQMo,fp|3|1.0|4|-|5|-|6|C|
+2|IQMo,np|3|1.5|4|-|5|-|6|C|
+3|A1|
+2|materiali|3|Pietra sbozzata|
+2|geometria|3|Conci di diverse dimensioni e forma irregolare|4|IQMv,o|5|IQMo,fp|6|IQMo,np|
+2|IQM|3|Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano.|4|C|5|C|6|C|
+2|stato di conservazione|3|Stato di conservazione scarso; la muratura presenta profonde lesioni verticali in maniera diffusas su tutti i paramenti, con distacchi e scostamenti di pitture e intonaci.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
+0|4.2.2|3|piano|4|2.0|
+3|codice id. elementi costruttivi strutturali|4|A2|5|0.0|6|0.0|7|0.0|8|0.0|
+3|codice id. elementi costruttivi finiture - INTERNO|4|L1|5|0.0|6|0.0|7|0.0|8|0.0|
+3|codice id. elementi costruttivi finiture - ESTERNO|4|-|5|0.0|6|0.0|7|0.0|8|0.0|
+3|pareti interne|
+4|CATEGORIA|
+2|IQMv|3|4.8999999999999995|4|-|5|B|6|-|
+2|IQMo,fp|3|4.199999999999999|4|-|5|B|6|-|
+2|IQMo,np|3|4.199999999999999|4|-|5|B|6|-|
+3|A2|
+2|materiali|3|Laterizio pieno|
+2|geometria|3|Blocchi pieni 25x12x5,5 cm|4|IQMv,o|5|IQMo,fp|6|IQMo,np|
+2|IQM|3|Spessore della muratura troppo ridotto, alta propensione all'instabilizzaione fuori dal piano e al supermaneto delle capacità resistenti nel proprio piano|4|B|5|B|6|B|
+2|stato di conservazione|3|Presenza di lesioni profonde e diffuse su tutto il paramento.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
+3|pareti interne|
+4|CATEGORIA|
+2|IQMv|3|4.5|4|-|5|B|6|-|
+2|IQMo,fp|3|6.5|4|-|5|B|6|-|
+2|IQMo,np|3|4.8999999999999995|4|-|5|B|6|-|
+3|0.0|
+2|materiali|3|Mattone pieno|
+2|geometria|3|25x12x5,5 cm|4|IQMv|5|IQMo,fp|6|IQMo,np|
+2|IQM|3|Buona qualità della muratura|4|B|5|B|6|B|
+2|stato di conservaz|3|Buono stato conservativo|4|1.0|5|1:ottimo|6|2:medio|7|3:scarso|
+-1|04_dati_costrutt_CARENZE|
+0|edificio|3|X02|
+0|4.0|3|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
+0|4.4|3|CARENZE COSTRUTTIVE ORIZZONTAMENTI|
+0|4.4.1|3|solaio controterra|5|ct|
+3|solaio strutturale assente|
+3|CODICE NON ASSEGNATO|
+2|materiali|3|solaio privo di impalcato strutturale, presenza di massetto cementizio contro terra|
+2|geometria|3|non rilevante|
+2|carenzestrutturali|3|assenza di solaio strutturale|4|-|5|1:ottimo|6|2:medio|7|3:scarso|
+2|stato di conservaz|3|non si evidenziano segni di degrado|4|2.0|5|1:ottimo|6|2:medio|7|3:scarso|
+0|4.4.2|3|solaio di piano|5|0.0|
+3|acciaio|
+3|B1|
+2|materiali|3|Volte in laterizio su travetti di acciaio|
+2|geometria|3|Travetti INP 140 ; L=6,00m ; i=0,90m|
+2|carenzestrutturali|3|Assenza cordolatura. Assenza collegamento travi alle murature. Assenza soletta rigida.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|stato di conservaz|3|Ossidazione metallo all'intradosso del solaio, presenza di lesioni poco profonde nelle voltine.|4|2.0|5|1:ottimo|6|2:medio|7|3:scarso|
+0|4.4.5|3|solaio di copertura|5|c|
+3|legno|
+3|C2|
+2|materiali|3|Legno|
+2|geometria|3|Travi principali a sezione stondata 18x20cm L=5m, i=1,00m; tavolato in legno s=3cm|
+2|carenzestrutturali|3|Scarsa rigidezza della struttura coin mancanza di cordolatura perimetrale e assenza di strati di ripartizione al disopra del tavoilato.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|stato di conservaz|3|Buono stato di conservazione del tavolato e delle travi principali.|4|2.0|5|1:ottimo|6|2:medio|7|3:scarso|
+3|acciaio|
+3|assenza di soletta semirigida di ripartizione dei carichi|
+0|4.4.5|3|solaio di copertura|4|c|
