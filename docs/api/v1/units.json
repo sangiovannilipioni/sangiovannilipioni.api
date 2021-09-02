@@ -40,28 +40,36 @@
       }
     ]
   },
-  "TEST":{
-    "hasData":false,
-    "imgs":[],
-    "position": { "lat": 41.84821126881966, "lng": 14.562941327400237 },
-    "title": "TEST",
-    "slides":[
-    ]
-  },
-  "ANOTHER TEST":{
-    "hasData":false,
-    "imgs":[],
-    "position": { "lat": 41.80, "lng": 14.50 },
-    "title": "ANOTHER TEST",
-    "slides":[
-    ]
-  },
   "X2":{
     "hasData":true,
     "imgs":["X2.jpg"],
-    "position": { "lat": 41.84821126881966, "lng": 14.562941327400237 },
+    "position": { "lat": 41.848202, "lng":  14.562981 },
     "title": "Via Vicenne, 4",
     "slides":[
+      {
+        "img":"X2_Pianta_piano_interrato.jpg",
+        "title":"Piano Interrato"
+      },
+      {
+        "img":"X2_Pianta_piano_terra.jpg",
+        "title":"Piano Terra"
+      },
+      {
+        "img":"X2_Prospetto_nord_est.jpg",
+        "title":"Prospetto Nord Est"
+      },
+      {
+        "img":"X2_Prospetto_nord_ovest.jpg",
+        "title":"Prospetto Nord Ovest"
+      },
+      {
+        "img":"X2_Prospetto_Sud_est.jpg",
+        "title":"Prospetto Sud Est"
+      },
+      {
+        "img":"X2_Sezione_BB.jpg",
+        "title":"Sezione BB"
+      }
     ]
   }
 }
