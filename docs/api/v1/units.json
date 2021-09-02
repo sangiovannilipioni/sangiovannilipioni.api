@@ -38,7 +38,14 @@
         "img":"SezioneB.jpg",
         "title":"Sezione B "
       }
-    ]
+    ],
+    "inserts": {
+      "4.2.1": "pietra_sbozzata.jpg",
+      "4.2.2": "mattone_forato.jpg",
+      "4.4.2": "assito_legno.jpg",
+      "4.4.3": "assito_legno.jpg",
+      "4.4.4": "travetti_acciaio.jpg"
+    }
   },
   "X2":{
     "hasData":true,
@@ -70,6 +77,12 @@
         "img":"X2_Sezione_BB.jpg",
         "title":"Sezione BB"
       }
-    ]
+    ],
+    "inserts": {
+      "4.2.1": "pietra_sbozzata.jpg",
+      "4.2.2": "mattone_forato.jpg",
+      "4.4.2": "travetti_acciaio.jpg",
+      "4.4.5": "4.4.5.jpg"
+    }
   }
 }
