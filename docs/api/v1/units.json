@@ -1,42 +1,42 @@
 {
-  "O02":{
-    "hasData":true,
-    "imgs":["GOPR1232_light_2.jpg"],
+  "O02": {
+    "hasData": true,
+    "imgs": ["GOPR1232_light_2.jpg"],
     "position": { "lat": 41.84247, "lng": 14.56213 },
-    "title":"Via Roma, 37",
-    "video":"https://youtu.be/pmgZcSv4Huk",
-    "slides":[
+    "title": "Via Roma, 37",
+    "video": "https://youtu.be/pmgZcSv4Huk",
+    "slides": [
       {
-        "img":"PianoTerra.jpg",
-        "title":"Piano Terra "
+        "img": "PianoTerra.jpg",
+        "title": "Piano Terra "
       },
       {
-        "img":"PianoPrimo.jpg",
-        "title":"Piano Primo "
+        "img": "PianoPrimo.jpg",
+        "title": "Piano Primo "
       },
       {
-        "img":"PianoSeminterrato.jpg",
-        "title":"Piano Seminterrato"
+        "img": "PianoSeminterrato.jpg",
+        "title": "Piano Seminterrato"
       },
       {
-        "img":"ProspettoNord.jpg",
-        "title":"Prospetto Nord "
+        "img": "ProspettoNord.jpg",
+        "title": "Prospetto Nord "
       },
       {
-        "img":"ProspettoOvestEst.jpg",
-        "title":"Prospetto Ovest Est"
+        "img": "ProspettoOvestEst.jpg",
+        "title": "Prospetto Ovest Est"
       },
       {
-        "img":"ProspettoSud.jpg",
-        "title":"Prospetto Sud "
+        "img": "ProspettoSud.jpg",
+        "title": "Prospetto Sud "
       },
       {
-        "img":"SezioneA.jpg",
-        "title":"Sezione A "
+        "img": "SezioneA.jpg",
+        "title": "Sezione A "
       },
       {
-        "img":"SezioneB.jpg",
-        "title":"Sezione B "
+        "img": "SezioneB.jpg",
+        "title": "Sezione B "
       }
     ],
     "inserts": {
@@ -47,35 +47,36 @@
       "4.4.4": "travetti_acciaio.jpg"
     }
   },
-  "X2":{
-    "hasData":true,
-    "imgs":["X2.jpg"],
-    "position": { "lat": 41.848202, "lng":  14.562981 },
+  "X2": {
+    "hasData": true,
+    "imgs": ["X2.jpg"],
+    "position": { "lat": 41.848202, "lng": 14.562981 },
     "title": "Via Vicenne, 4",
-    "slides":[
+    "video": "https://youtu.be/E0g68xHWM_Q",
+    "slides": [
       {
-        "img":"X2_Pianta_piano_interrato.jpg",
-        "title":"Piano Interrato"
+        "img": "X2_Pianta_piano_interrato.jpg",
+        "title": "Piano Interrato"
       },
       {
-        "img":"X2_Pianta_piano_terra.jpg",
-        "title":"Piano Terra"
+        "img": "X2_Pianta_piano_terra.jpg",
+        "title": "Piano Terra"
       },
       {
-        "img":"X2_Prospetto_nord_est.jpg",
-        "title":"Prospetto Nord Est"
+        "img": "X2_Prospetto_nord_est.jpg",
+        "title": "Prospetto Nord Est"
       },
       {
-        "img":"X2_Prospetto_nord_ovest.jpg",
-        "title":"Prospetto Nord Ovest"
+        "img": "X2_Prospetto_nord_ovest.jpg",
+        "title": "Prospetto Nord Ovest"
       },
       {
-        "img":"X2_Prospetto_Sud_est.jpg",
-        "title":"Prospetto Sud Est"
+        "img": "X2_Prospetto_Sud_est.jpg",
+        "title": "Prospetto Sud Est"
       },
       {
-        "img":"X2_Sezione_BB.jpg",
-        "title":"Sezione BB"
+        "img": "X2_Sezione_BB.jpg",
+        "title": "Sezione BB"
       }
     ],
     "inserts": {
