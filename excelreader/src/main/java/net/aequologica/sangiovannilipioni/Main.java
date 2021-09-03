@@ -53,6 +53,9 @@ public class Main {
                         while (rowIterator.hasNext()) {
 
                             Row row = rowIterator.next();
+                            if (row.getZeroHeight() == true) {
+                                continue;
+                            }
                             Iterator<Cell> cellIterator = row.iterator();
 
                             boolean printLine = false;
