@@ -25,71 +25,77 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class Main {
     public static void main(String[] args) throws IOException, FileNotFoundException, UnsupportedEncodingException {
         String dir = "../files/";
-        String filename = "Sintesi_X2";
+        String[] filenames = new String[] { "Sintesi_X2", "Sintesi_O02"};
 
-        File fileIn = new File(dir, filename + ".xlsx");
-        File fileOut = new File(dir, filename + ".txt");
+        for (int f = 0; f < filenames.length; f++) {
+            String filename = filenames[f];
 
-        final String SEP = "|";
+            File fileIn = new File(dir, filename + ".xlsx");
+            File fileOut = new File(dir, filename + ".txt");
 
-        /*
-         * UN-COMMENT TO MAP CELLTYPES (in case something else than NUMERIC or STRING or
-         * BLANK comes in)
-         */
-        // Map<String, CellType> cellTypes = new HashMap<String, CellType>();
-        try (FileInputStream excelFile = new FileInputStream(fileIn)) {
-            try (PrintWriter out = new PrintWriter(fileOut, "UTF-8")) {
-                try (Workbook book = new XSSFWorkbook(excelFile)) {
+            final String SEP = "|";
 
-                    Iterator<Sheet> sheetIterator = book.iterator();
+            /*
+             * UN-COMMENT TO MAP CELLTYPES (in case something else than NUMERIC or STRING or
+             * BLANK comes in)
+             */
+            // Map<String, CellType> cellTypes = new HashMap<String, CellType>();
+            try (FileInputStream excelFile = new FileInputStream(fileIn)) {
+                try (PrintWriter out = new PrintWriter(fileOut, "UTF-8")) {
+                    try (Workbook book = new XSSFWorkbook(excelFile)) {
 
-                    while (sheetIterator.hasNext()) {
-                        Sheet sheet = sheetIterator.next();
-                        out.print("-1|");
-                        out.print(sheet.getSheetName());
-                        out.println("|");
-                        Iterator<Row> rowIterator = sheet.iterator();
+                        Iterator<Sheet> sheetIterator = book.iterator();
 
-                        while (rowIterator.hasNext()) {
+                        while (sheetIterator.hasNext()) {
+                            Sheet sheet = sheetIterator.next();
+                            out.print("-1|");
+                            out.print(sheet.getSheetName());
+                            out.println("|");
+                            Iterator<Row> rowIterator = sheet.iterator();
 
-                            Row row = rowIterator.next();
-                            if (row.getZeroHeight() == true) {
-                                continue;
-                            }
-                            Iterator<Cell> cellIterator = row.iterator();
+                            while (rowIterator.hasNext()) {
 
-                            boolean printLine = false;
-                            while (cellIterator.hasNext()) {
-
-                                Cell cell = cellIterator.next();
-                                CellType type = cell.getCellType();
-                                /* UN-COMMENT TO MAP CELLTYPES */
-                                // cellTypes.put(type.name(), type); writer.print(type);
-
-                                if (cell.getCellType() == STRING) {
-                                    String str = nolinefeed_nodoublequote_trim(cell.getStringCellValue());
-                                    if (str.length() > 0) {
-                                        out.print(cell.getColumnIndex() + SEP + str + SEP);
-                                        printLine = true;
-                                    }
-                                } else if (cell.getCellType() == NUMERIC) {
-                                    double number = cell.getNumericCellValue();
-                                    out.print(cell.getColumnIndex() + SEP + number + SEP);
-                                    printLine = true;
-                                } else if (type.equals(CellType.BLANK)) {
+                                Row row = rowIterator.next();
+                                if (row.getZeroHeight() == true) {
+                                    continue;
                                 }
-                            }
-                            if (printLine) {
-                                out.println();
+                                Iterator<Cell> cellIterator = row.iterator();
+
+                                boolean printLine = false;
+                                while (cellIterator.hasNext()) {
+
+                                    Cell cell = cellIterator.next();
+                                    CellType type = cell.getCellType();
+                                    /* UN-COMMENT TO MAP CELLTYPES */
+                                    // cellTypes.put(type.name(), type); writer.print(type);
+
+                                    if (cell.getCellType() == STRING) {
+                                        String str = nolinefeed_nodoublequote_trim(cell.getStringCellValue());
+                                        if (str.length() > 0
+                                                && !(str.equalsIgnoreCase("1:ottimo") || str.equalsIgnoreCase("2:medio")
+                                                        || str.equalsIgnoreCase("3:scarso"))) {
+                                            out.print(cell.getColumnIndex() + SEP + str + SEP);
+                                            printLine = true;
+                                        }
+                                    } else if (cell.getCellType() == NUMERIC) {
+                                        double number = cell.getNumericCellValue();
+                                        out.print(cell.getColumnIndex() + SEP + number + SEP);
+                                        printLine = true;
+                                    } else if (type.equals(CellType.BLANK)) {
+                                    }
+                                }
+                                if (printLine) {
+                                    out.println();
+                                }
                             }
                         }
                     }
-                }
-                /* UN-COMMENT TO MAP CELLTYPES */
-                // for (Map.Entry<String, CellType> entry : cellTypes.entrySet()) {
-                // System.out.println(entry.getKey() + " : " + entry.getValue());
-                // }
+                    /* UN-COMMENT TO MAP CELLTYPES */
+                    // for (Map.Entry<String, CellType> entry : cellTypes.entrySet()) {
+                    // System.out.println(entry.getKey() + " : " + entry.getValue());
+                    // }
 
+                }
             }
         }
     }

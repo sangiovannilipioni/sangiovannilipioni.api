@@ -84,20 +84,20 @@
 2|materiali|3|Pietra sbozzata|
 2|geometria|3|Conci di diverse dimensioni e forma irregolare|4|IQMv,o|5|IQMo,fp|6|IQMo,np|
 2|IQM|3|Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano.|4|C|5|C|6|C|
-2|stato di conservazione|3|Stato di conservazione scarso; la muratura presenta profonde lesioni verticali in maniera diffusas su tutti i paramenti, con distacchi e scostamenti di pitture e intonaci.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|stato di conservazione|3|Stato di conservazione scarso; la muratura presenta profonde lesioni verticali in maniera diffusas su tutti i paramenti, con distacchi e scostamenti di pitture e intonaci.|4|3.0|
 0|4.2.2|3|piano|4|2.0|
 3|pareti interne|
 3|A2|
 2|materiali|3|Laterizio pieno|
 2|geometria|3|Blocchi pieni 25x12x5,5 cm|4|IQMv,o|5|IQMo,fp|6|IQMo,np|
 2|IQM|3|Spessore della muratura troppo ridotto, alta propensione all'instabilizzaione fuori dal piano e al supermaneto delle capacità resistenti nel proprio piano|4|B|5|B|6|B|
-2|stato di conservazione|3|Presenza di lesioni profonde e diffuse su tutto il paramento.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|stato di conservazione|3|Presenza di lesioni profonde e diffuse su tutto il paramento.|4|3.0|
 3|pareti interne|
 3|0.0|
 2|materiali|3|Mattone pieno|
 2|geometria|3|25x12x5,5 cm|4|IQMv|5|IQMo,fp|6|IQMo,np|
 2|IQM|3|Buona qualità della muratura|4|B|5|B|6|B|
-2|stato di conservaz|3|Buono stato conservativo|4|1.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|stato di conservaz|3|Buono stato conservativo|4|1.0|
 -1|04_dati_costrutt_CARENZE|
 0|edificio|3|X02|
 0|4.0|3|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
@@ -107,22 +107,22 @@
 3|CODICE NON ASSEGNATO|
 2|materiali|3|solaio privo di impalcato strutturale, presenza di massetto cementizio contro terra|
 2|geometria|3|non rilevante|
-2|carenzestrutturali|3|assenza di solaio strutturale|4|-|5|1:ottimo|6|2:medio|7|3:scarso|
-2|stato di conservaz|3|non si evidenziano segni di degrado|4|2.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|carenzestrutturali|3|assenza di solaio strutturale|4|-|
+2|stato di conservaz|3|non si evidenziano segni di degrado|4|2.0|
 0|4.4.2|3|solaio di piano|5|0.0|
 3|acciaio|
 3|B1|
 2|materiali|3|Volte in laterizio su travetti di acciaio|
 2|geometria|3|Travetti INP 140 ; L=6,00m ; i=0,90m|
-2|carenzestrutturali|3|Assenza cordolatura. Assenza collegamento travi alle murature. Assenza soletta rigida.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
-2|stato di conservaz|3|Ossidazione metallo all'intradosso del solaio, presenza di lesioni poco profonde nelle voltine.|4|2.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|carenzestrutturali|3|Assenza cordolatura. Assenza collegamento travi alle murature. Assenza soletta rigida.|4|3.0|
+2|stato di conservaz|3|Ossidazione metallo all'intradosso del solaio, presenza di lesioni poco profonde nelle voltine.|4|2.0|
 0|4.4.5|3|solaio di copertura|5|c|
 3|legno|
 3|C2|
 2|materiali|3|Legno|
 2|geometria|3|Travi principali a sezione stondata 18x20cm L=5m, i=1,00m; tavolato in legno s=3cm|
-2|carenzestrutturali|3|Scarsa rigidezza della struttura coin mancanza di cordolatura perimetrale e assenza di strati di ripartizione al disopra del tavoilato.|4|3.0|5|1:ottimo|6|2:medio|7|3:scarso|
-2|stato di conservaz|3|Buono stato di conservazione del tavolato e delle travi principali.|4|2.0|5|1:ottimo|6|2:medio|7|3:scarso|
+2|carenzestrutturali|3|Scarsa rigidezza della struttura coin mancanza di cordolatura perimetrale e assenza di strati di ripartizione al disopra del tavoilato.|4|3.0|
+2|stato di conservaz|3|Buono stato di conservazione del tavolato e delle travi principali.|4|2.0|
 3|acciaio|
 3|assenza di soletta semirigida di ripartizione dei carichi|
 0|4.4.5|3|solaio di copertura|4|c|

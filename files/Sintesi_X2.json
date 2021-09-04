@@ -1141,18 +1141,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1261,18 +1249,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1365,23 +1341,11 @@
           {
             "col": "4",
             "text": "1.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       }
     ],
-    "columnCount": "8"
+    "columnCount": "7"
   },
   {
     "name": "04_dati_costrutt_CARENZE",
@@ -1491,18 +1455,6 @@
           {
             "col": "4",
             "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1519,18 +1471,6 @@
           {
             "col": "4",
             "text": "2.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1603,18 +1543,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1631,18 +1559,6 @@
           {
             "col": "4",
             "text": "2.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1715,18 +1631,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1743,18 +1647,6 @@
           {
             "col": "4",
             "text": "2.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1791,6 +1683,6 @@
         ]
       }
     ],
-    "columnCount": "8"
+    "columnCount": "7"
   }
 ]

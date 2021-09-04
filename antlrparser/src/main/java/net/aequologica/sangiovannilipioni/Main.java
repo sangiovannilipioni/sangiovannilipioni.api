@@ -21,26 +21,30 @@ import net.aequologica.sangiovannilipioni.antlr.SGL2Parser;
 /* (see here : https://stackoverflow.com/a/49117903/1070215 for a more generic solution) */
 class Main {
     static String dir = "../files/";
-    static String filename = "Sintesi_X2";
+    static String[] filenames = new String[] { "Sintesi_X2", "Sintesi_O02"};
 
     public static void main(String[] args) throws IOException {
-        try (Reader reader = new FileReader(dir + filename + ".txt")) {
-            CharStream inputStream = CharStreams.fromReader(reader);
-            SGL2Lexer sglLexer = new SGL2Lexer(inputStream);
-            CommonTokenStream commonTokenStream = new CommonTokenStream(sglLexer);
-            SGL2Parser sglParser = new SGL2Parser(commonTokenStream);
 
-            Writer sw = new StringWriter();
-            PrintWriter p = new PrintWriter(sw);
-            SGLVisitor visitor = new SGLVisitor(p);
-            visitor.visitBook(sglParser.book());
-            String unformattedJSON = sw.toString();
+        for (int f = 0; f < filenames.length; f++) {
+            String filename = filenames[f];
+            try (Reader reader = new FileReader(dir + filename + ".txt")) {
+                CharStream inputStream = CharStreams.fromReader(reader);
+                SGL2Lexer sglLexer = new SGL2Lexer(inputStream);
+                CommonTokenStream commonTokenStream = new CommonTokenStream(sglLexer);
+                SGL2Parser sglParser = new SGL2Parser(commonTokenStream);
 
-            String prettyJSON = new GsonBuilder().setPrettyPrinting().create()
-                    .toJson(JsonParser.parseString(unformattedJSON));
+                Writer sw = new StringWriter();
+                PrintWriter p = new PrintWriter(sw);
+                SGLVisitor visitor = new SGLVisitor(p);
+                visitor.visitBook(sglParser.book());
+                String unformattedJSON = sw.toString();
 
-            try (PrintWriter w = new PrintWriter(dir + filename.replace(" ", "") + ".json", "UTF-8")) {
-                w.print(prettyJSON);
+                String prettyJSON = new GsonBuilder().setPrettyPrinting().create()
+                        .toJson(JsonParser.parseString(unformattedJSON));
+
+                try (PrintWriter w = new PrintWriter(dir + filename.replace(" ", "") + ".json", "UTF-8")) {
+                    w.print(prettyJSON);
+                }
             }
         }
     }

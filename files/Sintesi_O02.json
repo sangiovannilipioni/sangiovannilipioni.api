@@ -1300,78 +1300,6 @@
         "cells": [
           {
             "col": "3",
-            "text": "codice id. elementi costruttivi strutturali"
-          },
-          {
-            "col": "4",
-            "text": "A1"
-          },
-          {
-            "col": "5",
-            "text": "A1"
-          },
-          {
-            "col": "6",
-            "text": "A1"
-          },
-          {
-            "col": "7",
-            "text": "A1"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "codice id. elementi costruttivi finiture - INTERNO"
-          },
-          {
-            "col": "4",
-            "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "L1"
-          },
-          {
-            "col": "6",
-            "text": "L1"
-          },
-          {
-            "col": "7",
-            "text": "L1"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "codice id. elementi costruttivi finiture - ESTERNO"
-          },
-          {
-            "col": "4",
-            "text": "L3"
-          },
-          {
-            "col": "5",
-            "text": "L3"
-          },
-          {
-            "col": "6",
-            "text": "L3"
-          },
-          {
-            "col": "7",
-            "text": "L3"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
             "text": "pareti esterne"
           }
         ]
@@ -1381,86 +1309,6 @@
           {
             "col": "3",
             "text": "pareti interne"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "4",
-            "text": "CATEGORIA"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "2",
-            "text": "IQMv"
-          },
-          {
-            "col": "3",
-            "text": "1.5"
-          },
-          {
-            "col": "4",
-            "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "-"
-          },
-          {
-            "col": "6",
-            "text": "C"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "2",
-            "text": "IQMo,fp"
-          },
-          {
-            "col": "3",
-            "text": "1.5"
-          },
-          {
-            "col": "4",
-            "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "-"
-          },
-          {
-            "col": "6",
-            "text": "C"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "2",
-            "text": "IQMo,np"
-          },
-          {
-            "col": "3",
-            "text": "2.5"
-          },
-          {
-            "col": "4",
-            "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "-"
-          },
-          {
-            "col": "6",
-            "text": "C"
           }
         ]
       },
@@ -1545,18 +1393,6 @@
           {
             "col": "4",
             "text": "2.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1584,159 +1420,7 @@
         "cells": [
           {
             "col": "3",
-            "text": "codice id. elementi costruttivi strutturali"
-          },
-          {
-            "col": "4",
-            "text": "A2"
-          },
-          {
-            "col": "5",
-            "text": "0.0"
-          },
-          {
-            "col": "6",
-            "text": "0.0"
-          },
-          {
-            "col": "7",
-            "text": "0.0"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "codice id. elementi costruttivi finiture - INTERNO"
-          },
-          {
-            "col": "4",
-            "text": "L1"
-          },
-          {
-            "col": "5",
-            "text": "0.0"
-          },
-          {
-            "col": "6",
-            "text": "0.0"
-          },
-          {
-            "col": "7",
-            "text": "0.0"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "codice id. elementi costruttivi finiture - ESTERNO"
-          },
-          {
-            "col": "4",
-            "text": "L3"
-          },
-          {
-            "col": "5",
-            "text": "0.0"
-          },
-          {
-            "col": "6",
-            "text": "0.0"
-          },
-          {
-            "col": "7",
-            "text": "0.0"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
             "text": "pareti interne"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "4",
-            "text": "CATEGORIA"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "2",
-            "text": "IQMv"
-          },
-          {
-            "col": "3",
-            "text": "8.5"
-          },
-          {
-            "col": "4",
-            "text": "A"
-          },
-          {
-            "col": "5",
-            "text": "-"
-          },
-          {
-            "col": "6",
-            "text": "-"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "2",
-            "text": "IQMo,fp"
-          },
-          {
-            "col": "3",
-            "text": "6.5"
-          },
-          {
-            "col": "4",
-            "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "B"
-          },
-          {
-            "col": "6",
-            "text": "-"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "2",
-            "text": "IQMo,np"
-          },
-          {
-            "col": "3",
-            "text": "7.5"
-          },
-          {
-            "col": "4",
-            "text": "A"
-          },
-          {
-            "col": "5",
-            "text": "-"
-          },
-          {
-            "col": "6",
-            "text": "-"
           }
         ]
       },
@@ -1821,18 +1505,6 @@
           {
             "col": "4",
             "text": "2.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       }
@@ -1947,18 +1619,6 @@
           {
             "col": "4",
             "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -1971,18 +1631,6 @@
           {
             "col": "4",
             "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2007,30 +1655,6 @@
           {
             "col": "3",
             "text": "legno"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "assenza di soletta semirigida di ripartizione dei carichi"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "carenze manutentive gravi e diffuse su elementi strutturali"
           }
         ]
       },
@@ -2079,18 +1703,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2107,18 +1719,6 @@
           {
             "col": "4",
             "text": "2.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2143,38 +1743,6 @@
           {
             "col": "3",
             "text": "legno"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "dimensione insufficiente degli elementi strutturali"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "assenza di soletta semirigida di ripartizione dei carichi"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "carenze manutentive gravi e diffuse su elementi strutturali"
           }
         ]
       },
@@ -2223,18 +1791,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2251,18 +1807,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2287,30 +1831,6 @@
           {
             "col": "3",
             "text": "acciaio"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "dimensione insufficiente degli elementi strutturali"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "assenza di soletta semirigida di ripartizione dei carichi"
           }
         ]
       },
@@ -2359,18 +1879,6 @@
           {
             "col": "4",
             "text": "3.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2387,18 +1895,6 @@
           {
             "col": "4",
             "text": "2.0"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2423,46 +1919,6 @@
           {
             "col": "3",
             "text": "non rilevabile"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "collegamenti degli orizzontamenti alle strutture verticali portanti inesistenti o inefficaci in modo diffuso (cordoli inesistenti o inefficaci)"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "assenza di soletta semirigida di ripartizione dei carichi"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "carenze manutentive gravi e diffuse su elementi strutturali"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "note:"
-          }
-        ]
-      },
-      {
-        "cells": [
-          {
-            "col": "3",
-            "text": "ipotizzato poiché non visibile"
           }
         ]
       },
@@ -2511,18 +1967,6 @@
           {
             "col": "4",
             "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       },
@@ -2539,18 +1983,6 @@
           {
             "col": "4",
             "text": "-"
-          },
-          {
-            "col": "5",
-            "text": "1:ottimo"
-          },
-          {
-            "col": "6",
-            "text": "2:medio"
-          },
-          {
-            "col": "7",
-            "text": "3:scarso"
           }
         ]
       }
