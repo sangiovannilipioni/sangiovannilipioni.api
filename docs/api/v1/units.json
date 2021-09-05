@@ -1,6 +1,5 @@
 {
   "O02": {
-    "id": "O02",
     "hasData": true,
     "imgs": ["GOPR1232_light_2.jpg"],
     "position": { "lat": 41.84247, "lng": 14.56213 },
@@ -49,7 +48,6 @@
     }
   },
   "X2": {
-    "id": "X2",
     "hasData": true,
     "imgs": ["X2.jpg"],
     "position": { "lat": 41.848202, "lng": 14.562981 },
