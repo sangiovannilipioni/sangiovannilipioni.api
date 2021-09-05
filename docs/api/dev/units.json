@@ -55,12 +55,12 @@
     "video": "https://youtu.be/E0g68xHWM_Q",
     "slides": [
       {
-        "img": "X2_Pianta_piano_interrato.jpg",
-        "title": "Piano Interrato"
-      },
-      {
         "img": "X2_Pianta_piano_terra.jpg",
         "title": "Piano Terra"
+      },
+      {
+        "img": "X2_Pianta_piano_interrato.jpg",
+        "title": "Piano Interrato"
       },
       {
         "img": "X2_Prospetto_nord_est.jpg",
