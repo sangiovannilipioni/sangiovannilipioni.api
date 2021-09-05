@@ -21,7 +21,7 @@ import net.aequologica.sangiovannilipioni.antlr.SGL2Parser;
 /* (see here : https://stackoverflow.com/a/49117903/1070215 for a more generic solution) */
 class Main {
     static String dir = "../files/";
-    static String[] filenames = new String[] { "Sintesi_X2", "Sintesi_O02"};
+    static String[] filenames = new String[] { "Sintesi_X2", "Sintesi_O2"};
 
     public static void main(String[] args) throws IOException {
 

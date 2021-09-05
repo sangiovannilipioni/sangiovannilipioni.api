@@ -25,7 +25,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class Main {
     public static void main(String[] args) throws IOException, FileNotFoundException, UnsupportedEncodingException {
         String dir = "../files/";
-        String[] filenames = new String[] { "Sintesi_X2", "Sintesi_O02"};
+        String[] filenames = new String[] { "Sintesi_X2", "Sintesi_O2"};
 
         for (int f = 0; f < filenames.length; f++) {
             String filename = filenames[f];
@@ -71,6 +71,9 @@ public class Main {
 
                                     if (cell.getCellType() == STRING) {
                                         String str = nolinefeed_nodoublequote_trim(cell.getStringCellValue());
+                                        if (str.equalsIgnoreCase("O02")) {
+                                            str = "O2";
+                                        }
                                         if (str.length() > 0
                                                 && !(str.equalsIgnoreCase("1:ottimo") || str.equalsIgnoreCase("2:medio")
                                                         || str.equalsIgnoreCase("3:scarso"))) {

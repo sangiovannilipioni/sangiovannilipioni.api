@@ -1,9 +1,9 @@
 -1|01_id_edificio|
-0|edificio|2|O02|
+0|edificio|2|O2|
 0|1.0|2|IDENTIFICAZIONE EDIFICIO|
 2|DATA|
-2|ID. SCHEDA|3|O02|
-2|CODICE EDIFICIO|3|O02|
+2|ID. SCHEDA|3|O2|
+2|CODICE EDIFICIO|3|O2|
 2|CODICE AGGREGATO|3|O|
 0|1.1|2|LOCALIZZAZIONE GEOGRAFICA|
 2|REGIONE|3|Abruzzo|
@@ -16,7 +16,7 @@
 2|MAPPALE|
 2|SUBALTERNI|
 -1|02_descriz_edificio|
-0|edificio|3|O02|
+0|edificio|3|O2|
 0|2.0|3|CARATTERISTICHE EDIFICIO|
 3|EDIFICIO IN AGGREGATO|
 3|estremità|
@@ -38,7 +38,7 @@
 0|2.4|3|TIPO EDILIZIO|
 3|A blocco|
 -1|03_dati_metrici_AB|
-0|edificio|2|O02|
+0|edificio|2|O2|
 0|3.0|2|CARATTERISTICHE GEOMETRICHE DEL FABBRICATO|
 0|3.1|2|ABITAZIONE|
 2|Abitazione su 3 livelli, piano terra con accesso su via Roma sul prospetto principale. Locali ad uso|
@@ -92,7 +92,7 @@
 2|Superficie totale di piano|3|ST|4|38.75|5|mq|
 2|Superficie né utile né access.|3|S|4|0.0|5|mq|
 -1|04_dati_costrutt_VERT_IQM|
-0|edificio|3|O02|
+0|edificio|3|O2|
 0|4.0|3|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.2|3|Indice di Qualità Muraria|
 0|4.2.1|3|piano|4|-1.0|5|0.0|6|1.0|7|1.0|
@@ -111,7 +111,7 @@
 2|IQM|3|Buona qualità della muratura, probabile assenza di diatoni.|4|A|5|B|6|A|
 2|stato di conservazione|3|Stato di conservazione discreto, presenza di lievi lesioni verticali.|4|2.0|
 -1|04_dati_costrutt_CARENZE|
-0|edificio|3|O02|
+0|edificio|3|O2|
 0|4.0|3|CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO|
 0|4.4|3|CARENZE COSTRUTTIVE ORIZZONTAMENTI|
 0|4.4.1|3|solaio controterra|5|ct|
