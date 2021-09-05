@@ -40,11 +40,11 @@
       }
     ],
     "inserts": {
-      "4.2.1": "pietra_sbozzata.jpg",
-      "4.2.2": "mattone_forato.jpg",
+      "4.2.1": "muratura_in_pietra_disordinata.jpg",
+      "4.2.2": "muratura_in_laterizio_forato.jpg",
       "4.4.2": "assito_legno.jpg",
       "4.4.3": "assito_legno.jpg",
-      "4.4.4": "travetti_acciaio.jpg"
+      "4.4.4": "travi_NP_e_voltine.jpg"
     }
   },
   "X2": {
@@ -80,10 +80,10 @@
       }
     ],
     "inserts": {
-      "4.2.1": "pietra_sbozzata.jpg",
-      "4.2.2": "mattone_forato.jpg",
-      "4.4.2": "travetti_acciaio.jpg",
-      "4.4.5": "4.4.5.jpg"
+      "4.2.1": "muratura_in_pietra_disordinata.jpg",
+      "4.2.2": "muratura_in_laterizio_forato.jpg",
+      "4.4.2": "travi_NP_e_voltine.jpg",
+      "4.4.5": "copertura_in_ordito_ligneo_e_assito.jpg"
     }
   },
   "LEER": {
