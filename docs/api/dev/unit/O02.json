@@ -1,0 +1,1997 @@
+[
+  {
+    "name": "01_id_edificio",
+    "rows": [
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "edificio"
+          },
+          {
+            "col": "2",
+            "text": "O02"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "1.0"
+          },
+          {
+            "col": "2",
+            "text": "IDENTIFICAZIONE EDIFICIO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "DATA"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "ID. SCHEDA"
+          },
+          {
+            "col": "3",
+            "text": "O02"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "CODICE EDIFICIO"
+          },
+          {
+            "col": "3",
+            "text": "O02"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "CODICE AGGREGATO"
+          },
+          {
+            "col": "3",
+            "text": "O"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "1.1"
+          },
+          {
+            "col": "2",
+            "text": "LOCALIZZAZIONE GEOGRAFICA"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "REGIONE"
+          },
+          {
+            "col": "3",
+            "text": "Abruzzo"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "PROVINCIA"
+          },
+          {
+            "col": "3",
+            "text": "Chieti"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "COMUNE"
+          },
+          {
+            "col": "3",
+            "text": "San Giovanni Lipioni"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "INDIRIZZO"
+          },
+          {
+            "col": "3",
+            "text": "Via Roma, 37"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "COORDINATE GEOGRAFICHE"
+          },
+          {
+            "col": "3",
+            "text": "41.84247, 14.56213"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "1.2"
+          },
+          {
+            "col": "2",
+            "text": "DATI CATASTALI"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "FOGLIO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "MAPPALE"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "SUBALTERNI"
+          }
+        ]
+      }
+    ],
+    "columnCount": "4"
+  },
+  {
+    "name": "02_descriz_edificio",
+    "rows": [
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "edificio"
+          },
+          {
+            "col": "3",
+            "text": "O02"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "2.0"
+          },
+          {
+            "col": "3",
+            "text": "CARATTERISTICHE EDIFICIO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "EDIFICIO IN AGGREGATO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "estremità"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "MONOFAMILIARE"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "2.0"
+          },
+          {
+            "col": "3",
+            "text": "Nr. piani fuori terra"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "1.0"
+          },
+          {
+            "col": "3",
+            "text": "Nr. piani interrati/seminterrati"
+          },
+          {
+            "col": "4",
+            "text": "Piano seminterrato sul lato Nord diventa piano terra sul lato Sud"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "1.0"
+          },
+          {
+            "col": "3",
+            "text": "Nr. unità abitative"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "H media di piano"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "\u003c 2.50 m"
+          },
+          {
+            "col": "4",
+            "text": "Altezza variabile, dai 215 ai 280 cm"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "Sup. media di piano (mq)"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "\u003c 50 mq"
+          },
+          {
+            "col": "4",
+            "text": "Circa 43 mq per piano terra e 23 mq per piano primo e seminterrato"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "6.1"
+          },
+          {
+            "col": "3",
+            "text": "H gronda"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "2.1"
+          },
+          {
+            "col": "3",
+            "text": "EPOCA DI COSTRUZIONE"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "1900-1952"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "2.2"
+          },
+          {
+            "col": "3",
+            "text": "UTILIZZAZIONE"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "non utilizzato/in stato d\u0027abbandono (scadente)"
+          },
+          {
+            "col": "4",
+            "text": "Evidenti segni di degrado"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "2.3"
+          },
+          {
+            "col": "3",
+            "text": "DESTINAZIONE D\u0027USO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "abitazione"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "2.4"
+          },
+          {
+            "col": "3",
+            "text": "TIPO EDILIZIO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "A blocco"
+          }
+        ]
+      }
+    ],
+    "columnCount": "5"
+  },
+  {
+    "name": "03_dati_metrici_AB",
+    "rows": [
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "edificio"
+          },
+          {
+            "col": "2",
+            "text": "O02"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.0"
+          },
+          {
+            "col": "2",
+            "text": "CARATTERISTICHE GEOMETRICHE DEL FABBRICATO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.1"
+          },
+          {
+            "col": "2",
+            "text": "ABITAZIONE"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Abitazione su 3 livelli, piano terra con accesso su via Roma sul prospetto principale. Locali ad uso"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "abitativo non arredati, riconoscibile solo cucina a piano terra. Corpo principale che si estende per"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "3 piani e locale aggiuntivo a piano terra sul retro."
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.1.1"
+          },
+          {
+            "col": "2",
+            "text": "Vani principali"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Cucina, soggiorno (presunto), camere da letto (presunto)"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "nr. vani"
+          },
+          {
+            "col": "3",
+            "text": "4.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.1.2"
+          },
+          {
+            "col": "2",
+            "text": "Vani accessori diretti"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Due bagni"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "nr. vani"
+          },
+          {
+            "col": "3",
+            "text": "2.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.1.3"
+          },
+          {
+            "col": "2",
+            "text": "Vani accessori indiretti"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "locale seminterrato ad uso cantina/deposito"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "comunicanti"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "nr. vani"
+          },
+          {
+            "col": "3",
+            "text": "1.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.1.4"
+          },
+          {
+            "col": "2",
+            "text": "Dipendenze"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Balcone al piano 1"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "comunicanti"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.1.5"
+          },
+          {
+            "col": "2",
+            "text": "Collegamenti"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Vano scala interno"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "3.2"
+          },
+          {
+            "col": "2",
+            "text": "VALORI DI SINTESI ABITAZIONE"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie utile totale"
+          },
+          {
+            "col": "3",
+            "text": "SU"
+          },
+          {
+            "col": "4",
+            "text": "66.77000000000001"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie accessoria totale"
+          },
+          {
+            "col": "3",
+            "text": "SA"
+          },
+          {
+            "col": "4",
+            "text": "28.78"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie calpestabile totale"
+          },
+          {
+            "col": "3",
+            "text": "SCa"
+          },
+          {
+            "col": "4",
+            "text": "95.55000000000001"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie complessiva"
+          },
+          {
+            "col": "3",
+            "text": "SCO"
+          },
+          {
+            "col": "4",
+            "text": "84.03800000000001"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie lorda"
+          },
+          {
+            "col": "3",
+            "text": "SL"
+          },
+          {
+            "col": "4",
+            "text": "117.23"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie totale"
+          },
+          {
+            "col": "3",
+            "text": "ST"
+          },
+          {
+            "col": "4",
+            "text": "146.01"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Nr.piani"
+          },
+          {
+            "col": "3",
+            "text": "3.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "piano"
+          },
+          {
+            "col": "3",
+            "text": "0.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie utile totale"
+          },
+          {
+            "col": "3",
+            "text": "SU"
+          },
+          {
+            "col": "4",
+            "text": "43.95"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie accessoria totale"
+          },
+          {
+            "col": "3",
+            "text": "SA"
+          },
+          {
+            "col": "4",
+            "text": "2.29"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie calpestabile totale"
+          },
+          {
+            "col": "3",
+            "text": "SCa"
+          },
+          {
+            "col": "4",
+            "text": "46.24"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie complessiva"
+          },
+          {
+            "col": "3",
+            "text": "SCO"
+          },
+          {
+            "col": "4",
+            "text": "45.324000000000005"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie lorda"
+          },
+          {
+            "col": "3",
+            "text": "SL"
+          },
+          {
+            "col": "4",
+            "text": "66.22"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie totale di piano"
+          },
+          {
+            "col": "3",
+            "text": "ST"
+          },
+          {
+            "col": "4",
+            "text": "68.51"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie né utile né access."
+          },
+          {
+            "col": "3",
+            "text": "S"
+          },
+          {
+            "col": "4",
+            "text": "0.0"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "piano"
+          },
+          {
+            "col": "3",
+            "text": "1.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie utile totale"
+          },
+          {
+            "col": "3",
+            "text": "SU"
+          },
+          {
+            "col": "4",
+            "text": "22.82"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie accessoria totale"
+          },
+          {
+            "col": "3",
+            "text": "SA"
+          },
+          {
+            "col": "4",
+            "text": "3.29"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie calpestabile totale"
+          },
+          {
+            "col": "3",
+            "text": "SCa"
+          },
+          {
+            "col": "4",
+            "text": "26.11"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie complessiva"
+          },
+          {
+            "col": "3",
+            "text": "SCO"
+          },
+          {
+            "col": "4",
+            "text": "24.794"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie lorda"
+          },
+          {
+            "col": "3",
+            "text": "SL"
+          },
+          {
+            "col": "4",
+            "text": "35.46"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie totale"
+          },
+          {
+            "col": "3",
+            "text": "ST"
+          },
+          {
+            "col": "4",
+            "text": "38.75"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie né utile né access."
+          },
+          {
+            "col": "3",
+            "text": "S"
+          },
+          {
+            "col": "4",
+            "text": "0.0"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "piano"
+          },
+          {
+            "col": "3",
+            "text": "S"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie utile totale"
+          },
+          {
+            "col": "3",
+            "text": "SU"
+          },
+          {
+            "col": "4",
+            "text": "0.0"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie accessoria totale"
+          },
+          {
+            "col": "3",
+            "text": "SA"
+          },
+          {
+            "col": "4",
+            "text": "23.2"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie calpestabile totale"
+          },
+          {
+            "col": "3",
+            "text": "SCa"
+          },
+          {
+            "col": "4",
+            "text": "23.2"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie complessiva"
+          },
+          {
+            "col": "3",
+            "text": "SCO"
+          },
+          {
+            "col": "4",
+            "text": "13.92"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie lorda"
+          },
+          {
+            "col": "3",
+            "text": "SL"
+          },
+          {
+            "col": "4",
+            "text": "15.55"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie totale di piano"
+          },
+          {
+            "col": "3",
+            "text": "ST"
+          },
+          {
+            "col": "4",
+            "text": "38.75"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "Superficie né utile né access."
+          },
+          {
+            "col": "3",
+            "text": "S"
+          },
+          {
+            "col": "4",
+            "text": "0.0"
+          },
+          {
+            "col": "5",
+            "text": "mq"
+          }
+        ]
+      }
+    ],
+    "columnCount": "6"
+  },
+  {
+    "name": "04_dati_costrutt_VERT_IQM",
+    "rows": [
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "edificio"
+          },
+          {
+            "col": "3",
+            "text": "O02"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.0"
+          },
+          {
+            "col": "3",
+            "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.2"
+          },
+          {
+            "col": "3",
+            "text": "Indice di Qualità Muraria"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.2.1"
+          },
+          {
+            "col": "3",
+            "text": "piano"
+          },
+          {
+            "col": "4",
+            "text": "-1.0"
+          },
+          {
+            "col": "5",
+            "text": "0.0"
+          },
+          {
+            "col": "6",
+            "text": "1.0"
+          },
+          {
+            "col": "7",
+            "text": "1.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "pareti esterne"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "pareti interne"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "A1"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "materiali"
+          },
+          {
+            "col": "3",
+            "text": "Pietra sbozzata"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "geometria"
+          },
+          {
+            "col": "3",
+            "text": "Conci di diverse dimensioni e forma irregolare"
+          },
+          {
+            "col": "4",
+            "text": "IQMv, o"
+          },
+          {
+            "col": "5",
+            "text": "IQMo,fp"
+          },
+          {
+            "col": "6",
+            "text": "IQMo,np"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "IQM"
+          },
+          {
+            "col": "3",
+            "text": "Muratura di scarsa qualità. Elevata probabilità di subire lesioni e instabilizzarsi per azioni verticali, di collasso furi dal piano in caso di sisma e di subire lesioni nel caso di azioni nel piano."
+          },
+          {
+            "col": "4",
+            "text": "C"
+          },
+          {
+            "col": "5",
+            "text": "C"
+          },
+          {
+            "col": "6",
+            "text": "C"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "stato di conservazione"
+          },
+          {
+            "col": "3",
+            "text": "Stato di conservazione complessivamente discreto. Presenza di lievi lesioni verticali al primo e al secondo piano sulle pareti longitudinali e lesioni derivate dalla insufficiente resistenza degli architravi nelle aperture. Parte di muratura del secondo piano molto degradata nella parte interna."
+          },
+          {
+            "col": "4",
+            "text": "2.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.2.2"
+          },
+          {
+            "col": "3",
+            "text": "piano"
+          },
+          {
+            "col": "4",
+            "text": "1.0"
+          },
+          {
+            "col": "7",
+            "text": "0.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "pareti interne"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "A2"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "materiali"
+          },
+          {
+            "col": "3",
+            "text": "Mattone forato"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "geometria"
+          },
+          {
+            "col": "3",
+            "text": "25x12x5,5 cm"
+          },
+          {
+            "col": "4",
+            "text": "IQMv, o np"
+          },
+          {
+            "col": "5",
+            "text": "IQMo,fp"
+          },
+          {
+            "col": "6",
+            "text": "IQMo,np"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "IQM"
+          },
+          {
+            "col": "3",
+            "text": "Buona qualità della muratura, probabile assenza di diatoni."
+          },
+          {
+            "col": "4",
+            "text": "A"
+          },
+          {
+            "col": "5",
+            "text": "B"
+          },
+          {
+            "col": "6",
+            "text": "A"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "stato di conservazione"
+          },
+          {
+            "col": "3",
+            "text": "Stato di conservazione discreto, presenza di lievi lesioni verticali."
+          },
+          {
+            "col": "4",
+            "text": "2.0"
+          }
+        ]
+      }
+    ],
+    "columnCount": "8"
+  },
+  {
+    "name": "04_dati_costrutt_CARENZE",
+    "rows": [
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "edificio"
+          },
+          {
+            "col": "3",
+            "text": "O02"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.0"
+          },
+          {
+            "col": "3",
+            "text": "CARATTERISTICHE COSTRUTTIVE E DI CONSERVAZIONE DEL FABBRICATO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.4"
+          },
+          {
+            "col": "3",
+            "text": "CARENZE COSTRUTTIVE ORIZZONTAMENTI"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.4.1"
+          },
+          {
+            "col": "3",
+            "text": "solaio controterra"
+          },
+          {
+            "col": "5",
+            "text": "ct"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "solaio strutturale assente"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "CODICE NON ASSEGNATO"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "materiali"
+          },
+          {
+            "col": "3",
+            "text": "solaio privo di impalcato strutturale, probabile presenza di massetto cementizio contro terra"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "geometria"
+          },
+          {
+            "col": "3",
+            "text": "non rilevante"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "carenzestrutturali"
+          },
+          {
+            "col": "3",
+            "text": "assenza di solaio strutturale"
+          },
+          {
+            "col": "4",
+            "text": "-"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "stato di conservazione"
+          },
+          {
+            "col": "3",
+            "text": "",
+            "html": "&nbsp;"
+          },
+          {
+            "col": "4",
+            "text": "-"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.4.2"
+          },
+          {
+            "col": "3",
+            "text": "solaio di piano"
+          },
+          {
+            "col": "5",
+            "text": "-1.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "legno"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "B3"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "materiali"
+          },
+          {
+            "col": "3",
+            "text": "Doppia orditura e assito in legno"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "geometria"
+          },
+          {
+            "col": "3",
+            "text": "Orditura principale 20cm x 28cm; orditura secondaria 18cm x 18cm"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "carenzestrutturali"
+          },
+          {
+            "col": "3",
+            "text": "Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida."
+          },
+          {
+            "col": "4",
+            "text": "3.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "stato di conservazione"
+          },
+          {
+            "col": "3",
+            "text": "Leggeri segni di degrado"
+          },
+          {
+            "col": "4",
+            "text": "2.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.4.3"
+          },
+          {
+            "col": "3",
+            "text": "solaio di piano"
+          },
+          {
+            "col": "5",
+            "text": "-1.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "legno"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "B3"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "materiali"
+          },
+          {
+            "col": "3",
+            "text": "Ordito e assito in legno"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "geometria"
+          },
+          {
+            "col": "3",
+            "text": "Orditura 18cm x 18cm"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "carenzestrutturali"
+          },
+          {
+            "col": "3",
+            "text": "Assenza di cordolatura. Assenza di collegamento rigido tra travi e muratura. Assenza di soletta rigida."
+          },
+          {
+            "col": "4",
+            "text": "3.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "stato di conservazione"
+          },
+          {
+            "col": "3",
+            "text": "Scarso, evidenti segni di degrado del materiale"
+          },
+          {
+            "col": "4",
+            "text": "3.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.4.4"
+          },
+          {
+            "col": "3",
+            "text": "solaio di piano"
+          },
+          {
+            "col": "5",
+            "text": "0.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "acciaio"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "B1"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "materiali"
+          },
+          {
+            "col": "3",
+            "text": "Volte in laterizio su travetti di acciaio"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "geometria"
+          },
+          {
+            "col": "3",
+            "text": "Travetti INP 140; L\u003d4,70m  i\u003d0,85m"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "carenzestrutturali"
+          },
+          {
+            "col": "3",
+            "text": "Assenza di cordolatura. Assenza di collegamento travi alle murature. Assenza di soletta rigida."
+          },
+          {
+            "col": "4",
+            "text": "3.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "stato di conservazione"
+          },
+          {
+            "col": "3",
+            "text": "Lesioni nell\u0027intonaco all\u0027intradosso del solaio"
+          },
+          {
+            "col": "4",
+            "text": "2.0"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "0",
+            "text": "4.4.5"
+          },
+          {
+            "col": "3",
+            "text": "solaio di copertura"
+          },
+          {
+            "col": "5",
+            "text": "c"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "non rilevabile"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "3",
+            "text": "C2"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "materiali"
+          },
+          {
+            "col": "3",
+            "text": "Ordito in legno e assito (ipotizzato)"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "geometria"
+          },
+          {
+            "col": "3",
+            "text": "Non rilevata"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "carenzestrutturali"
+          },
+          {
+            "col": "3",
+            "text": "Non rilevate"
+          },
+          {
+            "col": "4",
+            "text": "-"
+          }
+        ]
+      },
+      {
+        "cells": [
+          {
+            "col": "2",
+            "text": "stato di conservazione"
+          },
+          {
+            "col": "3",
+            "text": "Non rilevato"
+          },
+          {
+            "col": "4",
+            "text": "-"
+          }
+        ]
+      }
+    ],
+    "columnCount": "8"
+  }
+]
