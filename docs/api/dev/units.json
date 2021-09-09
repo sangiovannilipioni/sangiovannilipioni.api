@@ -89,10 +89,18 @@
   "LEER": {
   },
   "ONLY_TITLE": {
-    "title": "Only Title"
+    "title": "Only Title",
+    "hasData": true
   },
   "TITLE_POSITION": {
     "title": "Bar Il Lupacchiotto",
-    "position": { "lat": 41.842478, "lng": 14.5624304 }
+    "hasData": true,
+    "position": { "lat": 41.8442543, "lng": 14.5619358 }
+  },
+  "TITLE_POSITION_PHOTO": {
+    "title": "Cappella di Santa Liberata",
+    "imgs": ["deFace.jpg"],
+    "hasData": true,
+    "position": { "lat": 41.8472138, "lng": 14.5606838 }
   }
 }
